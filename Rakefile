@@ -52,6 +52,11 @@ task :deploy => [:generate] do
   puts "\n## Deleting gh-pages branch"
   status = system("git branch -D gh-pages")
   puts status ? "Success" : "Failed"
+
+  puts "\n## Deleting remote gh-pages branch"
+  status = system("git origin :gh-pages")
+  puts status ? "Success" : "Failed"
+
   puts "\n## Creating new gh-pages branch and switching to it"
   status = system("git checkout -b gh-pages")
   puts status ? "Success" : "Failed"
