@@ -32,3 +32,4 @@ namespace :site do
       system "git push origin master:gh-pages --force"
     end
   end
+end
