@@ -1,44 +1,44 @@
 inc:
   # Blog Information
   title:        "LabHack"
-  subtitle:     "The Air Force Hackathon"
+  subtitle:     "October 25 - 26, 2014"
   cover_image:  blog-cover.jpg
-  logo:         logo.png
-  
+  logo:        cfa_logo.png 
+
   # Company information
-  company:      LabHack 
-  url:          http://www.labhack.org/
+  company:     LabHack 
+  url:         http://www.labhack.org/
   facebook:    airforcehackathon 
-  twitter:     afrlhack 
+  twitter:     aflabhack
   gplus:        ''
-  about_link:   http://www.labhack.org/about/
-  
+  about_link:   about
+
   # Product Information
   product_link: http://www.eventbrite.com/e/labhack-tickets-11292755937 
   tagline:      "Sign up today!"
-  
+
   # Comments
   disqus:
     # Eg. "exampleblog" Set to false to disable comments
-    shortname:  false
-  
+    shortname:  labhack
+
   # Sharing settings
   sharing:
-    twitter:   true 
-    facebook:  true 
-    gplus:     true 
-    hn:         false
-    
-  
+    twitter:   false 
+    facebook:  false 
+    gplus:     false 
+    hn:        false
+
+
  # Analytics     
   analytics:
     google: false # Add tracking code in _includes/_google-analytics.html
-      
-      
+
+
   # Google Fonts
   # eg. 'Droid+Sans:400,700|Droid+Serif:400,700'
   google_font: 'Droid+Sans:400,700'
-  
+
   # Setup your fonts, colors etc at _assets/stylesheets/main.scss
 
 url:        http://www.labhack.org 
