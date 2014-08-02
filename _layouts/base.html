@@ -27,13 +27,24 @@
     <meta name="description" content="{{ page.excerpt }}"/>
     {% endif %}
     <meta property="og:site_name" content="{{ site.inc.title }}">     
+
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
+<!--[if lte IE 8]>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-old-ie-min.css">
+<![endif]-->
+<!--[if gt IE 8]><!-->
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-min.css">
+<!--<![endif]-->
+
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css">
+
 </head>
 <body>
     
 <section class="site-nav">
     <header>
         <nav id="navigation">
-            <a class="brand" href="/">
+            <a class="brand" href="{{ site.inc.url }}">
                 <img src="/images/{{ site.inc.logo }}" alt="Inc">
             </a>
             <a href="/prizes" class="home">Prizes</a>

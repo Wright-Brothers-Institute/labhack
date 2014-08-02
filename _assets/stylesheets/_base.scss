@@ -90,7 +90,7 @@ a {
 
 .blog-cover {
     @extend .article-cover;
-    height: 320px;
+    height: 400px;
     background-color:#111;
     background-size:cover;
     background-position:center center;
@@ -165,7 +165,7 @@ a {
         font-size:1.3em;
     }
     
-    h1, h3 {
+    h1, h2, h3 {
         color:#fff;
         margin:0;
         font-weight:600;

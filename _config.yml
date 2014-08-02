@@ -6,8 +6,8 @@ inc:
   logo:        cfa_logo.png 
 
   # Company information
-  company:     LabHack 
-  url:         http://www.labhack.org/
+  company:     Code For Dayton
+  url:         http://codefordayton.org
   facebook:    airforcehackathon 
   twitter:     aflabhack
   gplus:        ''
@@ -15,7 +15,7 @@ inc:
 
   # Product Information
   product_link: http://www.eventbrite.com/e/labhack-tickets-11292755937 
-  tagline:      "Sign up today!"
+  tagline:      "The Air Force Hackathon"
 
   # Comments
   disqus:
