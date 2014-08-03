@@ -3,11 +3,11 @@ inc:
   title:        "LabHack"
   subtitle:     "October 25 - 26, 2014"
   cover_image:  blog-cover.jpg
-  logo:        cfa_logo.png 
+  logo:        afrl_logo.png 
 
   # Company information
-  company:     Code For Dayton
-  url:         http://codefordayton.org
+  company:     Air Force Research Laboratory
+  url:         http://www.wpafb.af.mil/AFRL/ 
   facebook:    airforcehackathon 
   twitter:     aflabhack
   gplus:        ''
