@@ -1,9 +1,9 @@
 source 'https://rubygems.org'
 
-gem 'jekyll'
+gem 'jekyll', '~> 2.2.0'
 gem 'jekyll-assets'
 gem 'maruku'
 gem 'rake'
 gem 'sass'
 gem 'uglifier'
-gem 'github-pages'
+gem 'github-pages', '~> 22'
