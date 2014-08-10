@@ -1,0 +1,16 @@
+---
+layout: base
+---
+<article class="container">
+    {% for faq in site.faq %}
+    <section>
+            <h2 class="title"><a href="{{ faq.url }}">{{ faq.question }}</a>
+            </h2>
+            <div class="excerpt">
+                {{ faq.content | markdownify | strip_html | truncatewords:20}}
+                <a href="{{ faq.url }}">read more</a>
+            </div>
+        <hr>
+    </section>
+    {% endfor %}
+</article>

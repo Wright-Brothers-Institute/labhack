@@ -130,3 +130,5 @@ assets:
 collections:
   prizes:
     output: true
+  faq:
+    output: true

@@ -1,0 +1,34 @@
+---
+layout: base
+---
+<article>
+
+    <div class="container">
+        <header>
+            <div class="meta">
+                <time pubdate datetime="{{ page.date | date: "%Y-%d-%B" }}" title="{{ page.date | date: "%B %d, %Y" }}">{{ page.date | date: "%B %d, %Y" }}</time>
+            </div>
+            <h1 class="title">{{ page.question }}</h1>
+        </header>
+
+        <section>
+            {{ content }}
+            {% include _social.html %}
+        </section>
+
+                <footer>
+            <address>
+                <p>Origin response by <strong>{{ page.answered.by }}</strong><br>
+                <span class="muted">{{ page.answered.on }}</span>
+                </p>
+            </address>
+
+        </footer>
+
+        {% if site.inc.disqus.shortname %}
+        <section>
+            {% include _disqus.html %}
+        </section>
+        {% endif %}
+    </div>
+</article>

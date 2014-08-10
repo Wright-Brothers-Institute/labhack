@@ -79,6 +79,11 @@ a {
     .title {
         margin:0em 0 0.6em;
     }
+
+    .question {
+        margin:0em 0 0.6em;
+        font-style: italic;
+    }
     
     .avatar {
         float:left;
@@ -299,4 +304,9 @@ div.prize-icon img {
     max-height: 150px;
     max-width: 150px;
     padding-right: 1em; 
+}
+
+.rule-short {
+    font-size: 1.5em;
+    color: red;
 }
