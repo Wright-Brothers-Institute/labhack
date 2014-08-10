@@ -1,14 +1,12 @@
 ---
-layout: post
+layout: prize 
 
 title: $600, $300 and $150 for Top Solutions to Air Force Problems
 
 sponsor:
-  name: Air Force Research Laboratory
+  name: The Air Force Research Laboratory
   url: http://www.wpafb.af.mil/AFRL/
-  twitter: something
-  facebook: something
-  logo: ks.png
+  icon: afrl_prize_icon.png
 ---
 #Challenge
 Develop an innovative solution to a current Air Force problem using data-driven decision making. Data may include real, publicly-available data or simulated datasets, the source of which should be disclosed in your project.

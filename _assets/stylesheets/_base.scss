@@ -289,3 +289,14 @@ a {
         background:none;
     }
 }
+
+div.prize-icon {
+    float: left;
+}
+
+div.prize-icon img {
+    margin: 0px;
+    max-height: 150px;
+    max-width: 150px;
+    padding-right: 1em; 
+}

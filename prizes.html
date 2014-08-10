@@ -2,15 +2,26 @@
 layout: base
 ---
 <article class="container">
-{% for prize in site.prizes %}
+    {% for prize in site.prizes %}
     <section class="index">
-        <div>
-            <h2 class="title"><a href="{{ prize.url }}" rel="prefetch">{{ prize.title }}</a></h2>
-            <p>{{ prize.excerpt }}</p>
-            <div class="meta">
-                Sponsored by <address><a href="{{prize.sponsor.url}}" target="_blank">{{ prize.sponsor.name }}</a></address>
+            <div class="prize-icon">
+                <a href="{{prize.url}}">
+                    <img src="/images/{{prize.sponsor.icon}}" alt="{{prize.sponsor.name}} Icon" />
+                </a>
             </div>
-        </div>
+            <h2 class="title"><a href="{{ prize.url }}" rel="prefetch">{{ prize.title }}</a>
+            </h2>
+            {% if false %}
+            <div class="sponsor">
+                Sponsored by
+                <address><a href="{{prize.sponsor.url}}" target="_blank">{{ prize.sponsor.name }}</a>
+                </address>
+            </div>
+            {% endif %}
+            <div class="excerpt">
+                {{ prize.content | markdownify | strip_html | truncatewords:20}}
+                <a href="{{ prize.url }}">read more</a>
+            </div>
         <hr>
     </section>
     {% endfor %}
