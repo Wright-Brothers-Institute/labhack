@@ -16,7 +16,7 @@ author:
 ---
 
 <div id="angry_birds_testvid">
-<iframe src="http://player.vimeo.com/video/103054365" frameborder=0></iframe>
+<iframe src="http://player.vimeo.com/video/103054365" frameborder="0"></iframe>
 </div>
 
 <small>Angry Birds<sup>TM</sup> by Rovio Studios</small>
