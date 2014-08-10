@@ -132,3 +132,5 @@ collections:
     output: true
   faq:
     output: true
+  volunteers:
+    output: true
