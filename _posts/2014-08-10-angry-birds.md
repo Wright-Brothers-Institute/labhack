@@ -5,7 +5,7 @@ title: Angry Birds
 subtitle: "Yeah, we've got that"
 cover_image: angrybirds_background.jpg
 
-excerpt: "Come try your hand at our life-sized Angry Bird(TM) game!"
+excerpt: "Come try your hand at our life-sized Angry Birds(TM) game!"
 
 author:
   name: Bob Lee
@@ -14,6 +14,7 @@ author:
   bio: WBI 
   image: ks.png
 ---
+We'll have an adult-sized Angry Birds<sup>TM</sup> game set up, so when the hacking starts to grind, take out some aggression on a few piggies.
 
 <div id="angry_birds_testvid">
 
