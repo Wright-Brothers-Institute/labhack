@@ -18,7 +18,9 @@ The LabHack competition has some basic rules that all participants need to follo
 
 4. <span class="rule-short">Team Size:</span> Teams of two to five humans are allowed. You can also add 1 cyborg, Furby, drone, or Sphero. Part of the intent of this competition is to meet and work with new people. For this reason, __single person teams are not allowed for this competition__
 
-5. <span class="rule-short">Submissions:</span> Projects should be submitted on our hackathon.io page. Submission time is 1pm Sunday.
+4. <span class="rule-short">Remote Participants</span> Teams may have remote participants. However, At least 49% of team members must be physically present during demos and judging.
+
+5. <span class="rule-short">Submissions:</span> Projects should be submitted on our hackathon.io page. Submission time is 2pm Sunday.
 
 6. <span class="rule-short">DEMO your Hack:</span> You must demo your hack in order to present. No slide-decks or power-points will be allowed. Don’t be scared if you didn’t finish… it’s okay long as you tried your best.
 
