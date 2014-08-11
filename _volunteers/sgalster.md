@@ -7,4 +7,7 @@ avatar: http://placepic.me/fatcats/200-200-bw-11
 twitter: 
 roles: judge
 ---
-A long time ago, in a galaxy far, far away...
+
+Got Neuroscience?
+
+<iframe width="640" height="360" src="//www.youtube.com/embed/hGGfK8oMDt0?rel=0&&autoplay=1" frameborder="0" allowfullscreen></iframe>
