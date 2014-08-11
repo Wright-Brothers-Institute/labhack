@@ -14,7 +14,7 @@ rake site:publish
 ```
 
 ## Authors
-Code for Dayton](http://codefordayton.org), a [Code for America Brigade](http://www.codeforamerica.org)
+[Code for Dayton](http://codefordayton.org), a [Code for America Brigade](http://www.codeforamerica.org)
 
 
 ## Copyright and license
