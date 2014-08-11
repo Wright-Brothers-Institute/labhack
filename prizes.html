@@ -20,7 +20,7 @@ layout: base
                 {{ prize.content | markdownify | strip_html | truncatewords:20}}
                 <a href="{{ prize.url }}">read more</a>
             </div>
-        <hr>
     </section>
+    <hr>
     {% endfor %}
 </article>
