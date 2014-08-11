@@ -20,4 +20,4 @@ rake site:publish
 ## Copyright and license
 
 Modifications to this site are released under the Public Domain.
-Original copywrite under 2013 Kippt Inc. under [The MIT License ](LICENSE)
+Original copyright under 2013 Kippt Inc. under [The MIT License ](LICENSE)
