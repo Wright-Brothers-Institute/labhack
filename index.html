@@ -163,7 +163,17 @@ For more questions and answers, see our <a href="/faq">FAQ</a>.
         <a href="{{ volunteer.url }}">
         <h2 style="margin-bottom:0px;">{{ volunteer.name }}</h2>
         <div class="tagline">{{ volunteer.tagline }}</div>
-        <img src="{{ volunteer.avatar }}" class="pure-img" />
+        <img src="
+        {% if volunteer.avatar %}
+            {% if volunteer.avatar contains "http" %}
+                {{ volunteer.avatar }}         
+            {% else %}
+                /images/{{ volunteer.avatar}}
+            {% endif %}
+        {% else %}
+            http://placepic.me/fatcats/200-200-bw
+        {% endif %}
+            "  class="pure-img" />  
         </a>
         </div>
     {% endfor %}
