@@ -2,10 +2,10 @@
 layout: biography
 
 name: Jack Parmer
-tagline: Cofounder, CEO of Plotly
-avatar: http://placepic.me/fatcats/200-200-bw-1
+tagline: The Visualizer
+avatar: jparmer_small.jpg
 email: jack@plot.ly
 twitter: @plotlygraphs
-roles: 
+roles: speaker
 ---
 A long time ago, in a galaxy far, far away...
