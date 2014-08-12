@@ -1,5 +1,5 @@
 # Air Force Hackathon Website
-LabHack, the Air Force Hackathon main website. This site is Jekyll-based website and hosted as static files on Github.
+LabHack, the Air Force Hackathon main website. This is a Jekyll-based website hosted as static files on Github.
 
 ## Installation & Usage
     bundle install
