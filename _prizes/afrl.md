@@ -1,7 +1,7 @@
 ---
 layout: prize 
 
-title: $600, $300 and $150 for Top Solutions to Air Force Problems
+title: Create Your Own Air Force Challenge
 
 sponsor:
   name: The Air Force Research Laboratory
