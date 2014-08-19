@@ -212,10 +212,8 @@ namespace :site do
       sh "git add ."
       message = "Site updated at #{Time.now.utc} to #{USERNAME}/#{REPO}@#{sha}."
       sh "git commit -m #{message.inspect}"
-      sh "git remote add origin https://#{ENV['GIT_NAME']}:#{ENV['GH_TOKEN']}@github.com/#{USERNAME}/#{REPO}.git"
-      sh "git push origin master:gh-pages --force"
-      puts "Pushed updated branch #{DESTINATION_BRANCH} to GitHub Pages"
+      sh "git remote add origin https://#{ENV['GH_TOKEN']}@github.com/#{USERNAME}/#{REPO}.git"
+      sh "git push origin master:gh-pages --force --quiet"
     end
-
   end
 end
