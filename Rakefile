@@ -208,12 +208,12 @@ namespace :site do
     Dir.mktmpdir do |tmp|
       cp_r CONFIG["destination"]+"/.", tmp
       Dir.chdir tmp
-      system "git init"
-      system "git add ."
+      sh "git init"
+      sh "git add ."
       message = "Site updated at #{Time.now.utc} to #{USERNAME}/#{REPO}@#{sha}."
-      system "git commit -m #{message.inspect}"
-      system "git remote add origin https://#{ENV['GIT_NAME']}:#{ENV['GH_TOKEN']}@github.com/#{USERNAME}/#{REPO}.git"
-      system "git push origin master:gh-pages --force"
+      sh "git commit -m #{message.inspect}"
+      sh "git remote add origin https://#{ENV['GIT_NAME']}:#{ENV['GH_TOKEN']}@github.com/#{USERNAME}/#{REPO}.git"
+      sh "git push origin master:gh-pages --force"
       puts "Pushed updated branch #{DESTINATION_BRANCH} to GitHub Pages"
     end
 
