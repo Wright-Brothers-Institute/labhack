@@ -69,7 +69,6 @@ repo: labhack
 branch: master 
 
 relative_source: ../labhack/
-destination: ../labhack/
 
 timezone:    nil
 

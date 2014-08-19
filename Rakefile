@@ -86,12 +86,6 @@ def parameterize(string, sep = '-')
   parameterized_string.downcase
 end
 
-def check_destination
-  unless Dir.exist? CONFIG["destination"]
-    sh "git clone https://#{ENV['GIT_NAME']}:#{ENV['GH_TOKEN']}@github.com/#{USERNAME}/#{REPO}.git #{CONFIG["destination"]}"
-  end
-end
-
 #############################################################################
 #
 # Post and page tasks
@@ -204,24 +198,23 @@ namespace :site do
       sh "git config --global push.default simple"
     end
 
-    # Make sure destination folder exists as git repo
-    check_destination
-
-    # Fetch the sourch branch
-    sh "git fetch"
-    sh "git checkout #{SOURCE_BRANCH}"
-    Dir.chdir(CONFIG["destination"]) { sh "git checkout #{DESTINATION_BRANCH}" }
-
     # Generate the site
     sh "bundle exec jekyll build"
 
-    # Commit and push to github
     sha = `git log`.match(/[a-z0-9]{40}/)[0]
-    Dir.chdir(CONFIG["destination"]) do
-      sh "git add --all ."
-      sh "git commit -m 'Updating to #{USERNAME}/#{REPO}@#{sha}.'"
-      sh "git push --quiet origin #{DESTINATION_BRANCH}"
+
+    # Commit and push to github
+    Dir.mktmpdir do |tmp|
+      cp_r CONFIG["destination"]+"/.", tmp
+      Dir.chdir tmp
+      system "git init"
+      system "git add ."
+      message = "Site updated at #{Time.now.utc} to #{USERNAME}/#{REPO}@#{sha}."
+      system "git commit -m #{message.inspect}"
+      system "git remote add origin https://#{ENV['GIT_NAME']}:#{ENV['GH_TOKEN']}@github.com/#{USERNAME}/#{REPO}.git"
+      system "git push origin master:gh-pages --force"
       puts "Pushed updated branch #{DESTINATION_BRANCH} to GitHub Pages"
     end
+
   end
 end
