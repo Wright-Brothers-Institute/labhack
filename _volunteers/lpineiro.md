@@ -1,10 +1,10 @@
 ---
 layout: biography
 
-name: Luis Eckold
+name: Luis Pineiro
 tagline: Lethal with a Keyboard
 avatar: http://placepic.me/fatcats/200-200-bw-9 
-email:
+email: luis.e.pineiro@gmail.com
 twitter: 
 roles: organizer
 ---
