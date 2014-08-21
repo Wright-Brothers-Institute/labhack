@@ -4,7 +4,6 @@ layout: biography
 name: David Wirth
 tagline: The Mad Scientist
 avatar: dwirth.jpg 
-email:
 twitter: 
 roles: organizer
 ---
