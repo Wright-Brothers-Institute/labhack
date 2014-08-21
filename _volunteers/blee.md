@@ -4,7 +4,6 @@ layout: biography
 name: Bob Lee 
 tagline: Not-So-Angry Birdman 
 avatar: boblee.jpg
-email: bob.lee@wbi-icc.com 
 twitter: 
 roles: organizer
 ---

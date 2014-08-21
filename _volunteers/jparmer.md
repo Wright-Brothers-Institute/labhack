@@ -4,7 +4,6 @@ layout: biography
 name: Jack Parmer
 tagline: The Visualizer
 avatar: jparmer_small.jpg
-email: "jack@plot.ly"
 twitter: "plotlygraphs"
 roles: speaker
 ---

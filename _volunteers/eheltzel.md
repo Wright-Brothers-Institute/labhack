@@ -4,7 +4,6 @@ layout: biography
 name: Ed Heltzel
 tagline: Let It Rain!
 avatar: ed.jpg
-email:
 twitter: 
 roles: judge
 ---

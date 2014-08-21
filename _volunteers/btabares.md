@@ -4,7 +4,6 @@ layout: biography
 name: Brian Tabares
 tagline: Mr. Yum Yum
 avatar: btabares.png
-email:
 twitter: 
 roles: organizer
 ---

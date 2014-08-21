@@ -4,7 +4,6 @@ layout: biography
 name: John Rosenstengel 
 tagline: The Miner 
 avatar: jrosenstengel.jpg
-email: 
 twitter: 
 roles: speaker
 ---

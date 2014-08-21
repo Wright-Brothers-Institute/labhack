@@ -1,10 +1,9 @@
 ---
 layout: biography
 
-name: Andrea Paulson-Metzger
+name: Andrea P.M.
 tagline: Lady X
 avatar: apm.png
-email:
 twitter: 
 roles: organizer
 ---

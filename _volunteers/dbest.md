@@ -3,9 +3,8 @@ layout: biography
 
 name: David Best
 tagline: The Best Dave
-avatar: http://placepic.me/fatcats/200-200-bw-4 
-email:
-twitter: 
+avatar: dbest.jpeg 
+twitter: davidebest
 roles: organizer
 ---
 A long time ago, in a galaxy far, far away...
