@@ -33,129 +33,8 @@ For more questions and answers, see our <a href="/faq">FAQ</a>.
     </div>
 </section>
 
-
-
-<section id="schedule">
-    <div class="container">
-        <h2>Hackathon Schedule <span style="color: red">(This Will Definitely Change!)</span></h2>
-        <h3>Saturday, 25 October 2014</h3>
-        <table>
-            <tbody>
-                <tr>
-                    <th>Time</th>
-                    <th>Event</th>
-                </tr>
-                <tr>
-                    <td>8:00 AM</td>
-                    <td>Doors Open / Breakfast Served</td>
-                </tr>
-                <tr>
-                    <td>8:30 AM</td>
-                    <td>Air Force Background Presentation</td>
-                </tr>
-
-                <tr>
-                    <td>9:00 AM</td>
-                    <td>Kickoff/Pitching/Team Formation</td>
-                </tr>
-                <tr>
-                    <td>10:00 AM</td>
-                    <td>Hacking Begins</td>
-                </tr>
-                <tr>
-                    <td>12:00 PM</td>
-                    <td>Lunch Served</td>
-                </tr>
-                <tr>
-                    <td>6:00 PM</td>
-                    <td>Dinner Served</td>
-                </tr>
-                <tr>
-                    <td>11:00 PM</td>
-                    <td>Late Night Snack Served</td>
-                </tr>
-                <tr>
-                    <td>#HACK-THROUGH-THE-NIGHT</td>
-                </tr>
-            </tbody>
-        </table>
-        <h3>Sunday, 26 October 2014</h3>
-        <table>
-            <tbody>
-                <tr>
-                    <th>Time</th>
-                    <th>Event</th>
-                </tr>
-                <tr>
-                    <td>8:00 AM</td>
-                    <td>Breakfast</td>
-                </tr>
-                <tr>
-                    <td>9:00 AM</td>
-                    <td>Team Registration</td>
-                </tr>
-                <tr>
-                    <td>12:00 PM</td>
-                    <td>Lunch Served</td>
-                </tr>
-                <tr>
-                    <td>1:30 PM</td>
-                    <td>Coding Ends, Project Submission Deadline</td>
-                </tr>
-                <tr>
-                    <td>2:00 PM</td>
-                    <td>Team Presentations (2-3 minutes each)</td>
-                </tr>
-                <tr>
-                    <td>3:00 PM</td>
-                    <td>Judging</td>
-                </tr>
-                <tr>
-                    <td>3:30 PM</td>
-                    <td>Prizes and Awards</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-</section>
 <hr/>
-<section id="explain-hacking">
-    <div class="container">
-        <iframe width="560" height="315" src="//www.youtube.com/embed/SCyFxcMsjnA?rel=0" frameborder="0" allowfullscreen></iframe>
-    </div>
-</section>
-
-<hr/>
-
-<section id="volunteers">
-<div class="container pure-g">
-
-<div class="pure-u-1"><h2>Volunteers</h2></div>
-
-    {% for volunteer in site.volunteers %}
-    <div class="volunteer pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
-        <a href="{{ volunteer.url }}">
-        <h2 style="margin-bottom:0px;">{{ volunteer.name }}</h2>
-        <div class="tagline">{{ volunteer.tagline }}</div>
-        <img src="
-        {% if volunteer.avatar %}
-            {% if volunteer.avatar contains "http" %}
-                {{ volunteer.avatar }}         
-            {% else %}
-                /images/{{ volunteer.avatar}}
-            {% endif %}
-        {% else %}
-            http://placepic.me/fatcats/200-200-bw
-        {% endif %}
-            "  class="pure-img" style="max-height:200px"/>  
-        </a>
-        </div>
-    {% endfor %}
-</div>
-</section>
-
-<hr/>
-
+<h2>Sponsors</h2>
 <section id="sponsor" class="container">
     <div class="pure-g">
         <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
@@ -208,4 +87,35 @@ For more questions and answers, see our <a href="/faq">FAQ</a>.
         </div>
     </div>
 </section>
+
+
+<hr />
+
+<section id="volunteers">
+<div class="container pure-g">
+
+<div class="pure-u-1"><h2>Volunteers</h2></div>
+
+    {% for volunteer in site.volunteers %}
+    <div class="volunteer pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
+        <a href="{{ volunteer.url }}">
+        <h2 style="margin-bottom:0px;">{{ volunteer.name }}</h2>
+        <div class="tagline">{{ volunteer.tagline }}</div>
+        <img src="
+        {% if volunteer.avatar %}
+            {% if volunteer.avatar contains "http" %}
+                {{ volunteer.avatar }}         
+            {% else %}
+                /images/{{ volunteer.avatar}}
+            {% endif %}
+        {% else %}
+            http://placepic.me/fatcats/200-200-bw
+        {% endif %}
+            "  class="pure-img" style="max-height:200px"/>  
+        </a>
+        </div>
+    {% endfor %}
+</div>
+</section>
+
 </div>
