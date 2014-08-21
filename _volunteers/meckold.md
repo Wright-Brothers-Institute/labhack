@@ -3,7 +3,7 @@ layout: biography
 
 name: Monika Eckold
 tagline: Queen of Hackers
-avatar: http://placepic.me/fatcats/200-200-bw-10 
+avatar: meckold.png
 twitter: 
 roles: organizer
 ---

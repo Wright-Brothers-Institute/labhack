@@ -3,7 +3,7 @@ layout: biography
 
 name: Andrea Paulson-Metzger
 tagline: Lady X
-avatar: http://placepic.me/fatcats/200-200-bw-1
+avatar: apm.png
 email:
 twitter: 
 roles: organizer

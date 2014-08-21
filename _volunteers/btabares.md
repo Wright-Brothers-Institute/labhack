@@ -3,7 +3,7 @@ layout: biography
 
 name: Brian Tabares
 tagline: Mr. Yum Yum
-avatar: http://placepic.me/fatcats/200-200-bw-3
+avatar: btabares.png
 email:
 twitter: 
 roles: organizer
