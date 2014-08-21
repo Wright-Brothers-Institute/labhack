@@ -3,7 +3,7 @@ layout: biography
 
 name: Luis Pineiro
 tagline: Lethal with a Keyboard
-avatar: Pineiro_Pic.JPG 
+avatar: images/lpineiro.jpg 
 email: luis.e.pineiro@gmail.com
 twitter: 
 roles: organizer
