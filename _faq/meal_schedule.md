@@ -31,6 +31,7 @@ Franco's Lasagna, salad, bread sticks
 
 ### Late Night Snack
 Waffles with the fixins
+
 * Chocolate Syrup
 * Strawberries
 * Nutella
