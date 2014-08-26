@@ -16,6 +16,9 @@ Develop an innovative solution to a current Air Force problem using data-driven 
 * Second Place: $300/team
 * Third Place: $150/team
 
+#Example Air Force Problems
+* [Information Overload for Remote Aircraft Operators](/2014/08/26/human-lab/)
+
 #Judging Criteria
 The following are subjective guidelines intended for use by the Hackathon judges to guide their selection of winning entries. Categories are scored on a subjective scale from Poor to Outstanding. These categories in no way represent an objective weighting and are merely suggestions. Place highest emphasis on innovation/creativity in the event of a tie.  Otherwise, all categories are equally important.
 
