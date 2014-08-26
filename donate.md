@@ -1,5 +1,5 @@
 ---
-layout: donate 
+layout: donor 
 ---
 #Support your community. Get Exposure. Donate.
 
