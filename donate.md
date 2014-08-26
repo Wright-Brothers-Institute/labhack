@@ -1,5 +1,5 @@
 ---
-layout: sponsor 
+layout: donate 
 ---
 #Support your community. Get Exposure. Donate.
 
@@ -8,7 +8,7 @@ layout: sponsor
 
 We are organized by Code for Dayton, a Code for America brigade. Code for America is a 501(c)3 non-profit that helps residents and governments harness technology to solve community problems. By donating to the Code for Dayton Brigade, you’ll be supporting our activities and operating costs such as hack nights, hackathons, write-a-thons, or other community events planned by Code for Dayton.
 
-<a class="btn btn-lg btn-info" href="https://secure.codeforamerica.org/page/contribute/default?custom1=Please%20send%20to%20Code%20for%20Dayton">Sponsor Now</a>
+<a class="btn btn-lg btn-info" href="https://secure.codeforamerica.org/page/contribute/default?custom1=Please%20send%20to%20Code%20for%20Dayton">Donate Now</a>
 
 <a href="https://docs.google.com/document/d/1GGCt2uhz2C4kJhxL69wfp6naPVnKugxb0USnoA_A8HQ/edit?usp=sharing">View the prospectus!</a>
 
