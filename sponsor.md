@@ -1,38 +1,41 @@
 ---
 layout: sponsor 
 ---
-#Support your community. Get Exposure. Sponsor Us.
+#Support your community. Get Exposure. Donate.
+
+<div id="cfa_video" style="padding: 30px;">
+<iframe src="https://embed-ssl.ted.com/talks/jennifer_pahlka_coding_a_better_government.html" width="560" height="315" frameborder="0" scrolling="no" webkitAllowFullScreen mozallowfullscreen allowFullScreen>Loading Code for America video</iframe></div>
+
+We are organized by Code for Dayton, a Code for America brigade. Code for America is a 501(c)3 non-profit that helps residents and governments harness technology to solve community problems. By donating to the Code for Dayton Brigade, you’ll be supporting our activities and operating costs such as hack nights, hackathons, write-a-thons, or other community events planned by Code for Dayton.
 
 <a class="btn btn-lg btn-info" href="https://secure.codeforamerica.org/page/contribute/default?custom1=Please%20send%20to%20Code%20for%20Dayton">Sponsor Now</a>
 
 <a href="https://docs.google.com/document/d/1GGCt2uhz2C4kJhxL69wfp6naPVnKugxb0USnoA_A8HQ/edit?usp=sharing">View the prospectus!</a>
 
-##Event Level Partnership Opportunities
+##Code for Dayton Donations
 
-###Silver $500
-* Company name/logo listed on labhack.org site
-* Thank you & recognition during the meal you sponsor
-* Opportunity to display a sign or banner on the food table
-* Hand out materials, swag, other relevant materials
-* Two tickets to the event
+We thank the donors who support our events by:
 
-###Gold $1000
-* Identified in all media materials for LabHack
-* Company name/logo listed on labhack.org
-* Thank you & recognition during LabHack event
-* Opportunity to hang banners at the event
-* Hand out materials, swag, other relevant materials
-* Two tickets to the event
+* Including your logo on the event registration webpage
+* Thanking you in an email to the registered attendees both before and after the event. We also thank our event donors on Twitter the day of the event
+* As a donor, we’d love to have you participate, send a representative, and put up a poster or share other swag at the events. There is also the opportunity to provide prizes and fun giveaways.
 
-###Platinum $2,500
-* Invitation for a guest blog post on labhack.org site
-* Offer a team challenge
-* All benefits of the Gold Sponsorship
-* Three tickets to the event
+##In-Kind Support
+In addition to direct financial support, brigades need:
 
-###In-Kind Contribution (Price Varies)<sup>*</sup> 
-* Company name/logo listed on labhack.org
-* Opportunity to present Saturday lightning talk and workshop
-* One Ticket to the Event
+* Event Venues, Meeting facilities
+* Catering
+* Printing, Audio/video production, Photography
+* Books & Subscriptions
+* Prizes for contests
 
-<small>*Limited availability, must be an Ohio-based startup, open-source or open-data company. Volunteer board approval required. <a href="/contact">Contact Us</a></small>
+In return for in-kind support your organization will be thanked in communications, Web presence and event displays for the event:
+
+* Logo on event’s registration page
+* Logo on the event’s home page
+* Logo on at least one (1) email update to registered attendees, pre-event
+* Posters and other marketing materials placed at the event
+* Logo on at least one (1) email follow-up to registered attendees, post-event
+* Public mentions on social media
+
+If you are able to offer any of these services, please <a href="/contact">contact us</a>.
