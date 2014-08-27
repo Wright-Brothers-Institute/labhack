@@ -28,7 +28,8 @@
   {% include _google-analytics.html %}
 {% endif %}
 {% if page.is_search %}
-<script src="/js/search.min.js" type="text/javascript" charset="utf-8"></script>
+{% javascript search.min %}
+{% javascript mustache %}
 <script type="text/javascript">
   $(function() {
     $('#search-query').lunrSearch({

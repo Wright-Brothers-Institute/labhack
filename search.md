@@ -2,6 +2,8 @@
 layout: base
 is_search: true
 ---
+<div class="container">
+
 <div id="search">
   <form action="/search" method="get">
     <input type="text" id="search-query" name="q" placeholder="Search" autocomplete="off">
@@ -26,3 +28,4 @@ is_search: true
 
   </div>
 </section>
+</div>
