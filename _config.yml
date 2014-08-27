@@ -158,3 +158,5 @@ collections:
     output: true
   volunteers:
     output: true
+
+gems: ['jekyll-lunr-js-search']
