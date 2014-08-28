@@ -41,31 +41,26 @@
 </head>
 <body>
     
-<section class="site-nav">
     <header>
         <nav id="navigation">
-            <a class="brand" href="/">
-                <img src="/images/{{ site.inc.logo }}" alt="Inc">
-            </a>
-            <a href="/prizes" class="home">Challenges</a>
-            <!-- <a href="http://www.hackathon.io/afrl/projects" class="home">Projects</a> -->
-            <a href="/faq" class="home">FAQ</a>
-            <a href="/schedule" class="home">Schedule</a>
-            <a href="/faq/what_is_a_hackathon.html" class="home">What is a hackathon?</a>
-            <a href="/blog" class="home">Blog</a>
-            <a href="/donate" class="home">Become a Donor</a>
+                <div class="pure-menu pure-menu-open pure-menu-horizontal" >
+                    <a href="#" class="pure-menu-heading">LabHack</a>
+                    <ul>
+                        <li><a href="/prizes">Challenges</a>
+                        </li>
+                        <li><a href="/faq">FAQ</a>
+                        </li>
+                        <li><a href="/schedule">Schedule</a>
+                        </li>
+                        <li><a href="/faq/what_is_a_hackathon.html">What is a Hackathon?</a>
+                        </li>
+                        <li><a href="/blog">Blog</a>
+                        </li>
+                        <li><a href="/donate">Donate</a>
+                        </li>
+                    </ul>
+                </div>
         </nav>
-
-    <nav class="tagline">
-        <div class="container">
-            {% if site.inc.twitter %}
-            <a href="https://twitter.com/{{ site.inc.twitter }}" title="Follow on Twitter" target="_blank"><i class="icon icon-twitter"></i></a>
-            {% endif %}
-            {% if site.inc.facebook %}
-            <a href="http://facebook.com/{{ site.inc.facebook }}" title="Like on Facebook" target="_blank"><i class="icon icon-facebook"></i></a>
-            {% endif %}
-        </div>
-    </nav>
 
 {% if false %}
 <div id="social-box">
@@ -87,14 +82,15 @@
 
 </div> {% endif %}
 
-{% if page.is_front  %}
+{% if page.is_front %}
 <div class="mobile-hide">
-<a href="https://github.com/codefordayton/labhack"><img style="position: absolute; top: 0; right: 0; border: 0; width: 120px; height: 120px;" src="http://aral.github.com/fork-me-on-github-retina-ribbons/right-cerulean@2x.png" alt="Fork me on GitHub"></a>
+    <a href="https://github.com/codefordayton/labhack">
+        <img style="position: absolute; top: 0; right: 0; border: 0; width: 120px; height: 120px;" src="http://aral.github.com/fork-me-on-github-retina-ribbons/right-cerulean@2x.png" alt="Fork me on GitHub">
+    </a>
 </div>
 {% endif %}
 
     </header>
-</section>
 
 {{ content }}
 
