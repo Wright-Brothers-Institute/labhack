@@ -58,7 +58,7 @@ layout: base
                     <td>(talk) Redwall: Mobile Security</td>
                 </tr>
                 <tr>
-                    <td>6:00 PM</td>
+                    <td>5:30 PM</td>
                     <td>Dinner Served</td>
                 </tr>
                 <tr>
@@ -79,7 +79,7 @@ layout: base
                 </tr>
                 <tr>
                     <td>8:00 AM</td>
-                    <td>Breakfast</td>
+                    <td>Breakfast served</td>
                 </tr>
                 <tr>
                     <td>9:00 AM</td>
