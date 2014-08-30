@@ -98,11 +98,11 @@ layout: base
                     <td>Team Presentations (2-3 minutes, code/wireframes: no slides please!)</td>
                 </tr>
                 <tr>
-                    <td>3:15 PM</td>
+                    <td>3:45 PM</td>
                     <td>Judging</td>
                 </tr>
                 <tr>
-                    <td>3:30 PM</td>
+                    <td>4:00 PM</td>
                     <td>Prizes and Awards</td>
                 </tr>
             </tbody>
