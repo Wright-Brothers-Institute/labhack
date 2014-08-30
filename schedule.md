@@ -3,7 +3,7 @@ layout: base
 ---
 <section id="schedule">
     <div class="container">
-        <h2>Hackathon Schedule <span style="color: red">(This Will Definitely Change!)</span></h2>
+        <h2>Hackathon Schedule <span style="color: red">(Subject to Change!)</span></h2>
         <h3>Saturday, 25 October 2014</h3>
         <table>
             <tbody>
@@ -51,22 +51,26 @@ layout: base
                 </tr>
                 <tr>
                     <td>4:00 PM</td>
-                    <td>(talk) Tenet3: D3.js and Data Visualization</td>
+                    <td>(talk) Redwall: Mobile Device Security</td>
                 </tr>
                 <tr>
                     <td>5:00 PM</td>
-                    <td>(talk) Redwall: Mobile Security</td>
+                    <td>(talk) Tenet3: Web-based Visualizations with D3.js</td>
                 </tr>
                 <tr>
-                    <td>5:30 PM</td>
+                    <td>5:00 PM</td>
                     <td>Dinner Served</td>
+                </tr>
+                <tr>
+                    <td>6:00 PM</td>
+                <td>(talk) Compay / Topic TBD</td>
                 </tr>
                 <tr>
                     <td>11:00 PM</td>
                     <td>Late Night Snack Served</td>
                 </tr>
                 <tr>
-                    <td>#HACK-THROUGH-THE-NIGHT</td>
+                    <td style="color: red;">HACK-THROUGH-THE-NIGHT</td>
                 </tr>
             </tbody>
         </table>
@@ -82,23 +86,19 @@ layout: base
                     <td>Breakfast served</td>
                 </tr>
                 <tr>
-                    <td>9:00 AM</td>
-                    <td>Team Registration</td>
-                </tr>
-                <tr>
                     <td>12:00 PM</td>
                     <td>Lunch Served</td>
                 </tr>
                 <tr>
                     <td>1:30 PM</td>
-                    <td>Coding Ends, Project Submission Deadline</td>
+                    <td>Project Submission Deadline</td>
                 </tr>
                 <tr>
-                    <td>2:00 PM</td>
-                    <td>Team Presentations (2-3 minutes each)</td>
+                    <td>1:30 PM</td>
+                    <td>Team Presentations (2-3 minutes, code/wireframes: no slides please!)</td>
                 </tr>
                 <tr>
-                    <td>3:00 PM</td>
+                    <td>3:15 PM</td>
                     <td>Judging</td>
                 </tr>
                 <tr>
