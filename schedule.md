@@ -94,7 +94,7 @@ layout: base
                     <td>Project Submission Deadline</td>
                 </tr>
                 <tr>
-                    <td>1:30 PM</td>
+                    <td>1:45 PM</td>
                     <td>Team Presentations (2-3 minutes, code/wireframes: no slides please!)</td>
                 </tr>
                 <tr>
