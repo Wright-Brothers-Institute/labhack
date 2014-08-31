@@ -3,7 +3,7 @@ inc:
   title:        "LabHack"
   subtitle:     "October 25 - 26, 2014"
   cover_image:  blog-cover.jpg
-  logo:        afrl_logo.png 
+  logo:        afrl_logo_sm.png 
 
   # Company information
   company:     Air Force Research Laboratory
@@ -159,4 +159,4 @@ collections:
   volunteers:
     output: true
 
-gems: ['jekyll-lunr-js-search']
+#gems: ['jekyll-lunr-js-search']
