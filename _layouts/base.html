@@ -2,23 +2,29 @@
 <html>
 <head>
 <!--
-  _____  _  _          ____                                                  
-  / ____|(_)| |        |  _ \                                                 
- | (___   _ | |_  ___  | |_) | _   _                                          
-  \___ \ | || __|/ _ \ |  _ < | | | |                                         
-  ____) || || |_|  __/ | |_) || |_| |                                         
- |_____/ |_| \__|\___| |____/  \__, |                                         
-                                __/ |                                         
-                               |___/                                          
-  _____                        _____                                          
- |  __ \                      / ____|                                         
- | |  | |  __ _ __   __ ___  | |      __ _  _ __  __ _ __      __ __ _  _   _ 
- | |  | | / _` |\ \ / // _ \ | |     / _` || '__|/ _` |\ \ /\ / // _` || | | |
- | |__| || (_| | \ V /|  __/ | |____| (_| || |  | (_| | \ V  V /| (_| || |_| |
- |_____/  \__,_|  \_/  \___|  \_____|\__,_||_|   \__,_|  \_/\_/  \__,_| \__, |
-                                                                         __/ |
-                                                                        |___/ 
--->
+
+ /$$      /$$           /$$                                                   /$$$$$$$$       
+| $$  /$ | $$          | $$                                                  |__  $$__/       
+| $$ /$$$| $$  /$$$$$$ | $$  /$$$$$$$  /$$$$$$  /$$$$$$/$$$$   /$$$$$$          | $$  /$$$$$$ 
+| $$/$$ $$ $$ /$$__  $$| $$ /$$_____/ /$$__  $$| $$_  $$_  $$ /$$__  $$         | $$ /$$__  $$
+| $$$$_  $$$$| $$$$$$$$| $$| $$      | $$  \ $$| $$ \ $$ \ $$| $$$$$$$$         | $$| $$  \ $$
+| $$$/ \  $$$| $$_____/| $$| $$      | $$  | $$| $$ | $$ | $$| $$_____/         | $$| $$  | $$
+| $$/   \  $$|  $$$$$$$| $$|  $$$$$$$|  $$$$$$/| $$ | $$ | $$|  $$$$$$$         | $$|  $$$$$$/
+|__/     \__/ \_______/|__/ \_______/ \______/ |__/ |__/ |__/ \_______/         |__/ \______/ 
+                                                                                              
+                                                                                              
+                                                                                              
+ /$$                 /$$       /$$   /$$                     /$$                              
+| $$                | $$      | $$  | $$                    | $$                              
+| $$        /$$$$$$ | $$$$$$$ | $$  | $$  /$$$$$$   /$$$$$$$| $$   /$$                        
+| $$       |____  $$| $$__  $$| $$$$$$$$ |____  $$ /$$_____/| $$  /$$/                        
+| $$        /$$$$$$$| $$  \ $$| $$__  $$  /$$$$$$$| $$      | $$$$$$/                         
+| $$       /$$__  $$| $$  | $$| $$  | $$ /$$__  $$| $$      | $$_  $$                         
+| $$$$$$$$|  $$$$$$$| $$$$$$$/| $$  | $$|  $$$$$$$|  $$$$$$$| $$ \  $$                        
+|________/ \_______/|_______/ |__/  |__/ \_______/ \_______/|__/  \__/                        
+                                                                                              
+ 
+ -->
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% if page.title %}{{ page.title }} &mdash; {{ site.inc.title }}{% else %}{{ site.inc.title }} &mdash; {{ site.inc.subtitle }}{% endif %}</title>
@@ -61,36 +67,36 @@
     
     <header>
         <nav id="navigation">
-                <div class="pure-menu pure-menu-open pure-menu-horizontal" >
-                    <a href="/" class="pure-menu-heading">LabHack</a>
-                    <ul>
-                        <li><a href="/prizes">Challenges</a>
-                        </li>
-                        <li><a href="/faq">FAQ</a>
-                        </li>
-                        <li><a href="/schedule">Schedule</a>
-                        </li>
-                        <li><a href="/faq/what_is_a_hackathon.html">What is a Hackathon?</a>
-                        </li>
-                        <li><a href="/blog">Blog</a>
-                        </li>
-                        <li><a href="/donate">Donate</a>
-                        </li>
-                    </ul>
-                </div>
+            <div class="pure-menu pure-menu-open pure-menu-horizontal">
+                <a href="/" class="pure-menu-heading" style="font-size: 2em;">LabHack <i class="fa fa-fighter-jet" style="vertical-align: middle;"></i></a>
+                <ul>
+                    <li><a href="/prizes">Challenges</a>
+                    </li>
+                    <li><a href="/faq">FAQ</a>
+                    </li>
+                    <li><a href="/schedule">Schedule</a>
+                    </li>
+                    <li><a href="/faq/what_is_a_hackathon.html">What is a Hackathon?</a>
+                    </li>
+                    <li><a href="/blog">Blog</a>
+                    </li>
+                    <li><a href="/donate">Donate</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
 
 {% if false %}
 <div id="social-box">
     <ul>
-        <li class="phone"><a href="tel://937-985-0867"><i class="icon-phone"></i> <span>937-985-0867</span></a>
+        <li class="phone"><a href="tel://937-985-0867"><i class="fa fa-phone"></i> <span>937-985-0867</span></a>
         </li>
 
-        <li class="email"><a href="mailto:labhack@googlegroups.com"><i class="icon-envelope"></i></a>
+        <li class="email"><a href="/contact"><i class="fa fa-envelope"></i></a>
         </li>
 
         <li class="search">
-            <a href="#"><i class="icon-search"></i></a>
+            <a href="#"><i class="fa fa-search"></i></a>
             <form action="http://labhack.org/">
                 <input type="text" name="s">
             </form>
@@ -103,7 +109,7 @@
 {% if page.is_front %}
 <div class="mobile-hide">
     <a href="https://github.com/codefordayton/labhack">
-        <img style="position: absolute; top: 0; right: 0; border: 0; width: 120px; height: 120px;" src="http://aral.github.com/fork-me-on-github-retina-ribbons/right-red@2x.png" alt="Fork me on GitHub">
+        <img style="position: absolute; top: 0; right: 0; border: 0; width: 120px; height: 120px; z-index: 10;" src="http://aral.github.com/fork-me-on-github-retina-ribbons/right-red@2x.png" alt="Fork me on GitHub">
     </a>
 </div>
 {% endif %}
@@ -123,13 +129,13 @@
         
         <nav class="social">
             {% if site.inc.twitter %}
-            <a href="https://twitter.com/{{ site.inc.twitter }}" title="Follow on Twitter" target="_blank"><i class="icon icon-twitter black"></i></a>
+            <a href="https://twitter.com/{{ site.inc.twitter }}" title="Follow on Twitter" target="_blank"><i class="fa fa-twitter black"></i></a>
             {% endif %}
             {% if site.inc.facebook %}
-            <a href="http://facebook.com/{{ site.inc.facebook }}" title="Follow on Facebook" target="_blank"><i class="icon icon-facebook black"></i></a>
+            <a href="http://facebook.com/{{ site.inc.facebook }}" title="Follow on Facebook" target="_blank"><i class="fa fa-facebook black"></i></a>
             {% endif %}    
             <a href="/feed.xml" title="RSS Feed">
-                <i class="icon icon-rss black"></i>
+                <i class="fa fa-rss black"></i>
             </a>
         </nav>
     </div>
