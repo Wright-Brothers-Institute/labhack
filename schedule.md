@@ -69,11 +69,13 @@ layout: base
                     <td>11:00 PM</td>
                     <td>Late Night Snack Served</td>
                 </tr>
-                <tr>
-                    <td style="color: red;">HACK-THROUGH-THE-NIGHT</td>
-                </tr>
             </tbody>
         </table>
+
+       <p> 
+        <div style="color: blue;">HACK-THROUGH-THE-NIGHT</div>
+        </p>
+
         <h3>Sunday, 26 October 2014</h3>
         <table>
             <tbody>
