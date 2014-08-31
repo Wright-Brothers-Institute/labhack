@@ -34,21 +34,21 @@ layout: base
                 </tr>
                 <tr>
                     <td>12:00 PM</td>
-                    <td>(talk) Plot.ly: Sensor Data Visulization</td>
-                </tr>
-
+                <td>(talk) Compay / Topic TBD</td>
+                </tr>   
                 <tr>
                     <td>1:00 PM</td>
-                    <td>(talk) MongoDB: Topic TBD</td>
+                    <td>(talk) Plot.ly: Sensor Data Visualization</td>
                 </tr>
                 <tr>
                     <td>2:00 PM</td>
-                    <td>(talk) Github: Topic TBD</td>
+                    <td>(talk) MongoDB: Topic TBD</td>
                 </tr>
                 <tr>
                     <td>3:00 PM</td>
-                    <td>(talk) Strap: Mobile Device Analytics</td>
+                    <td>(talk) Github: Topic TBD</td>
                 </tr>
+ 
                 <tr>
                     <td>4:00 PM</td>
                     <td>(talk) Redwall: Mobile Device Security</td>
@@ -63,7 +63,7 @@ layout: base
                 </tr>
                 <tr>
                     <td>6:00 PM</td>
-                <td>(talk) Compay / Topic TBD</td>
+                    <td>(talk) Strap: Mobile Device Analytics</td>
                 </tr>
                 <tr>
                     <td>11:00 PM</td>
