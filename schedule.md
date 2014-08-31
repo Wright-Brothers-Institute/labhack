@@ -34,7 +34,7 @@ layout: base
                 </tr>
                 <tr>
                     <td>12:00 PM</td>
-                <td>(talk) Compay / Topic TBD</td>
+                <td>(talk) Company / Topic TBD</td>
                 </tr>   
                 <tr>
                     <td>1:00 PM</td>
