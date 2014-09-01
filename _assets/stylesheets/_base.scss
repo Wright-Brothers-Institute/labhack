@@ -262,14 +262,14 @@ div.prize-icon img {
 
     margin-top: 35px;
 
-   button, input {
-        background: transparent;
-        color: white;
+   input, i {
         border-color: white;
    }
+
+   i {
+    color: white;
+    margin-right: 10px;
+    vertical-align: middle;
+   }
    
-   button {
-        border: 1px;
-        margin-left: 0.5em;
-   } 
 }
