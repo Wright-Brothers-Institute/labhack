@@ -1,25 +1,7 @@
 ---
 layout: base
 ---
-<article class="container">
-	<div id="wufoo-zejgkty1sxb1xv">
-Fill out my <a href="https://labhack.wufoo.com/forms/zejgkty1sxb1xv">online form</a>.
-</div>
-<script type="text/javascript">var zejgkty1sxb1xv;(function(d, t) {
-var s = d.createElement(t), options = {
-'userName':'labhack',
-'formHash':'zejgkty1sxb1xv',
-'autoResize':true,
-'height':'517',
-'async':true,
-'host':'wufoo.com',
-'header':'show',
-'ssl':true};
-s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
-s.onload = s.onreadystatechange = function() {
-var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
-try { zejgkty1sxb1xv = new WufooForm();zejgkty1sxb1xv.initialize(options);zejgkty1sxb1xv.display(); } catch (e) {}};
-var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
-})(document, 'script');</script>
+<div class="container">
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3066.144692022284!2d-84.11793430592968!3d39.781308134814935!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8840833cae32824f%3A0xa1533e40fb2c4ff9!2sWright+Brothers+Institute%3A+Tec%5EEdge+Innovation+%26+Collaboration+Center!5e0!3m2!1sen!2sus!4v1409541769038" width="600" height="450" frameborder="0" style="border:0"></iframe>
 
-</article>
+</div>
