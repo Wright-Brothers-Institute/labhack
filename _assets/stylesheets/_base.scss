@@ -100,7 +100,6 @@ a {
     background-color:#111;
     background-size:cover;
     background-position:center center;
-    z-index:1;
 
     section {
         text-align: center;
@@ -123,7 +122,7 @@ a {
         	color-stop(0, rgba(0,0,0,0.15)),
         	color-stop(1, rgba(0,0,0,0))
         );
-        padding: 100px 0;
+        padding: 40px 0;
         z-index:10;
 
         a:last-child {
@@ -143,23 +142,8 @@ a {
             line-height:0;
             text-align:center;
         
-            &:hover {
-                transition:0.2s all ease;
-                background:#fff;
-                
-                .icon-rss {
-                    background-position:1px -11px;
-                }
-                
-                .icon-twitter {
-                    background-position:0px -15px;
-                }
-                
-                .icon-facebook {
-                     background-position:0px -14px;
-                 }
-            }
-        }
+           }
+        
     }
     
     h1 {
@@ -175,6 +159,14 @@ a {
         color:#fff;
         margin:0;
         font-weight:600;
+    }
+
+    .countdown {
+        color: #ffffff;
+    }
+
+    .countdown h4 {
+        color: #ffffff;
     }
     
 }
@@ -239,59 +231,6 @@ a {
 
 .muted {
     color:$textmuted;
-}
-
-.btn {
-    color:#fff;
-    font-weight:bold;
-    background-color:#54b89d;
-    font-size:1em;
-    padding: 0.6em 1.2em;
-    display: inline-block;
-    position: relative;
-    border: 0;
-    text-align: center;
-    text-decoration: none;
-    font-style: normal;
-    font-weight:600;
-    cursor: pointer;
-    border-bottom: 1px solid rgba(0,0,0,0.1);
-    vertical-align: bottom;
-    text-rendering: optimizeLegibility;
-    border-radius: 2px;
-    vertical-align:middle;
-    font-family:"proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    border-radius:2px;
-    background:#4dab7d;
-    border:2px solid #4dab7d;
-    text-transform: uppercase;
-    white-space:nowrap;
-
-    &:hover {
-        background:darken(#4dab7d, 10%);
-        border-color:darken(#4dab7d, 10%);
-        color:#fff;
-    }
-    
-    &:active {
-        box-shadow:none;
-    }
-}
-
-.btn-outline {
-    background: none;
-    border-radius: 4px;
-    font-size: 0.8em;
-    border:2px solid $accent;
-    border-radius: 3px;
-    color:darken($accent, 5%);
-    transition:none;
-
-    &:hover {
-        border:2px solid darken($accent, 5%);
-        color:darken($accent, 10%);
-        background:none;
-    }
 }
 
 div.prize-icon {
