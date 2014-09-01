@@ -2,16 +2,25 @@
 layout: base
 is_front: true
 ---
-<div id="blog-cover" class="blog-cover" style="background-image: url(images/default_bg.svg);" onerror="this.onerror=null; this.style='background-image: url(images/default_bg.png);'"> 
-    
+<div id="blog-cover" class="blog-cover" style="background-image: url(images/default_bg.svg);" onerror="this.onerror=null; this.style='background-image: url(images/default_bg.png);'">
+
     <section>
-        <div class="container"> 
+        <div class="container">
             <h1>{{ site.inc.title }}</h1>
             <h2>{{ site.inc.tagline }}</h2>
             <h3>Dayton, Ohio</h3>
             <div class="countdown" data-date="2014-10-25 08:00:00"></div>
+
+            <div class="mailing-list">
+                <form class="pure-form" action="http://labhack.createsend.com/t/t/s/ijyhki/" method="post">
+                    <input type="email" placeholder="Email" required>
+                    <button class="pure-button button-transparent" name="cm-ijyhki-ijyhki" type="submit">Get Updates!</button>
+            </div>
+        
         </div>
-</section>
+
+
+    </section>
 </div>
 <div class="container">
 <section id="registration">
