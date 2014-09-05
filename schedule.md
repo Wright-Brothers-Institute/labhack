@@ -63,7 +63,7 @@ layout: base
                 </tr>
                 <tr>
                     <td>6:00 PM</td>
-                    <td>(talk) Strap: Mobile Device Analytics</td>
+                    <td>(talk) Strap: Why Analytics Matter</td>
                 </tr>
                 <tr>
                     <td>11:00 PM</td>
