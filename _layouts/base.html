@@ -118,13 +118,34 @@
 
 <footer class="site-footer">
     <div class="container">
+        <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=367387766748148&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+        <div class="pure-g">        
+            <div class="pure-u-2-5">
+                <a class="twitter-timeline" data-chrome="nofooter transparent" href="https://twitter.com/AFlabhack" data-widget-id="508089784976175105">@AFlabhack</a>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+            </div>
+            <div class="pure-u-1-5"></div>
+            <div class="pure-u-2-5">
+                <div class="fb-like-box" data-href="https://www.facebook.com/airforcehackathon" data-height="250" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="true" data-show-border="true"></div>
+            </div>
+        </div>
+        
+        <br/>
+
         &copy; {{ site.time | date: "%Y" }} 
         
         <nav>
             <a href="{{ site.inc.url }}">{{ site.inc.company }}</a> &middot;
             <a href="/contact">Contact Us</a>
         </nav>
-        
+
         <nav class="social">
             {% if site.inc.twitter %}
             <a href="https://twitter.com/{{ site.inc.twitter }}" title="Follow on Twitter" target="_blank"><i class="fa fa-twitter black"></i></a>
