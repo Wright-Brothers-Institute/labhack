@@ -29,6 +29,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% if page.title %}{{ page.title }} &mdash; {{ site.inc.title }}{% else %}{{ site.inc.title }} &mdash; {{ site.inc.subtitle }}{% endif %}</title>
     {% if site.inc.google_font %}<link href="https://fonts.googleapis.com/css?family={{ site.inc.google_font }}" rel="stylesheet" type="text/css">{% endif %}
+    {% stylesheet font-awesome %}
+    {% stylesheet bootstrap %}
     {% stylesheet main %}
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
     <link rel="apple-touch-icon" href="/images/{{ site.inc.logo }}"/>
@@ -51,14 +53,11 @@
     <meta name="description" content="{{ page.excerpt }}"/>
     {% endif %}
     <meta property="og:site_name" content="{{ site.inc.title }}">     
-
-    {% stylesheet font-awesome %}
-    {% stylesheet bootstrap %}
 </head>
 <body>
     
     <header>
-<nav id="navigation" class="navbar navbar-default" role="navigation">
+<nav id="navigation" class="navbar flush navbar-default" role="navigation">
     <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-top">
             <span class="sr-only">Toggle navigation</span>
@@ -81,7 +80,7 @@
             </li>
             <li><a href="/blog">Blog</a>
             </li>
-            <li><a href="/donate"><i class="fa fa-heart"></i> Donate</a>
+            <li><a href="/donate"><i class="fa fa-heart" style="color: red;"></i> Donate</a>
             </li>
         </ul>
     </div>
@@ -107,7 +106,7 @@
 
 </div> {% endif %}
 
-<div class="mobile-hide">
+<div class="visible-lg">
     <a href="https://github.com/codefordayton/labhack">
         <img style="position: absolute; top: 0; right: 0; border: 0; width: 120px; height: 120px; z-index: 10;" src="http://aral.github.com/fork-me-on-github-retina-ribbons/right-cerulean@2x.png" alt="Fork me on GitHub">
     </a>
@@ -120,14 +119,8 @@
 <footer class="site-footer">
     <div class="container">
         <div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=367387766748148&version=v2.0";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-        <div class="pure-g">        
+
+        <div class="row">        
             <div class="pure-u-2-5">
                 <a class="twitter-timeline" data-chrome="nofooter transparent" href="https://twitter.com/AFlabhack" data-widget-id="508089784976175105">@AFlabhack</a>
                 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
