@@ -1,10 +1,11 @@
 ---
 layout: base
 ---
-<article class="container">
+<div class="container">
+<article>
 {% for post in site.posts %}
   {% unless post.draft %}
-    <section class="index">
+    <section>
         <!-- {% if post.author.image %}<img src="/images/{{ post.author.image }}" class="avatar">{% endif %}-->
         <div>
             <h2 class="title"><a href="{{ post.url }}" rel="prefetch">{{ post.title }}</a></h2>
@@ -31,3 +32,4 @@ layout: base
       {% endif %}
     </section>
 </article>
+</div>
