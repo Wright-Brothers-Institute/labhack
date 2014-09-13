@@ -171,6 +171,7 @@ a {
     }
 
     .countdown {
+        margin: 35px 0px 35px 0px;
         color: #ffffff;
     }
 
@@ -272,4 +273,22 @@ div.prize-icon img {
     vertical-align: middle;
    }
    
+}
+
+.logos {
+    img {
+    max-height:200px;
+    margin: 20px;
+    }
+}
+
+.volunteer {
+
+    img {
+        height: 200px;
+    }
+
+    .h2 {
+        margin-bottom:0px;
+    }
 }
