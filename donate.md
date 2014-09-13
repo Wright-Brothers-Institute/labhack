@@ -3,13 +3,13 @@ layout: donor
 ---
 #Support your community. Get Exposure. Donate.
 
-<div id="cfa_video" style="padding: 30px;">
+<div class="embed-responsive embed-responsive-16by9">
 <iframe src="https://embed-ssl.ted.com/talks/jennifer_pahlka_coding_a_better_government.html" width="560" height="315" frameborder="0" scrolling="no" webkitAllowFullScreen mozallowfullscreen allowFullScreen>Loading Code for America video</iframe></div>
 
 We are organized by Code for Dayton, a Code for America brigade. Code for America is a 501(c)3 non-profit that helps residents and governments harness technology to solve community problems. By donating to the Code for Dayton Brigade, you’ll be supporting our activities and operating costs such as hack nights, hackathons, write-a-thons, or other community events planned by Code for Dayton.
 
-<div style="width: 220px; margin-bottom: 1em; margin-left: auto; margin-right: auto;">
-<p><a class="button-secondary button-xlarge" href="https://secure.codeforamerica.org/page/contribute/default?custom1=Please%20send%20to%20Code%20for%20Dayton"><i class="fa fa-heart"></i> Donate Now</a>
+<div class="center-block">
+<p><a class="btn btn-info" href="https://secure.codeforamerica.org/page/contribute/default?custom1=Please%20send%20to%20Code%20for%20Dayton"><i class="fa fa-heart"></i> Donate Now</a>
 </p>
 <p>
 <a href="https://docs.google.com/document/d/1GGCt2uhz2C4kJhxL69wfp6naPVnKugxb0USnoA_A8HQ/edit?usp=sharing">View the prospectus!</a>
