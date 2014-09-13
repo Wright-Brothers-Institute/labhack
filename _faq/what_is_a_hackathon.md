@@ -7,7 +7,9 @@ answered:
   by: Dave Caraway
   on: August 20, 2014
 ---
-<iframe width="853" height="480" src="//www.youtube.com/embed/videoseries?list=PLlywScj9J1vElOnG-Yoz_wBt4Xh76aEyk&autoplay=1" frameborder="0" allowfullscreen></iframe>
+<div class="embed-responsive embed-responsive-16by9">
+<iframe src="//www.youtube.com/embed/videoseries?list=PLlywScj9J1vElOnG-Yoz_wBt4Xh76aEyk&autoplay=1" allowfullscreen></iframe>
+</div>
 
 
 To quote [Wikipedia](http://en.wikipedia.org/wiki/Hackathon)
