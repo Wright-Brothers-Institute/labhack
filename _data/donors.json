@@ -1,0 +1,93 @@
+[{
+    "name": "Air Force Research Laboratory",
+    "logo":"afrl_badge.jpg",
+    "url": "http://www.wpafb.af.mil/AFRL/",
+    "type": "in-kind",
+    "donation": "Organization for event, presentation and volunteers"
+},
+{
+    "name": "O'Reilly Books",
+    "logo":"orm_logo.png",
+    "url": "http://www.oreilly.com/",
+    "type": "in-kind",
+    "donation": "10 hardcopy books and a free e-book for all participants"
+},
+{
+    "name": "Code for Dayton",
+    "logo":"c4d_logo.png",
+    "url": "http://www.codefordayton.org",
+    "type": "in-kind",
+    "donation": "Organization for event; presentation and volunteers"
+},
+{
+    "name": "Wright Brothers Institute",
+    "logo":"wbi_logo.png",
+    "url": "http://www.wbi-icc.com",
+    "type": "in-kind",
+    "donation": "Tec^Edge Location and Angry Birds game"
+},
+{
+    "name": "Github",
+    "logo":"GitHub_Logo.png",
+    "url": "http://www.github.com",
+    "type": "in-kind",
+    "donation": "Temporary Gold account for the event; prize packages for Air Force 1st/2nd/3rd place winners: 1 year silver, 1 year bronze and 6 month bronze access to Github"
+},
+{
+    "name": "Strap",
+    "logo":"strap_logo.png",
+    "url": "https://www.straphq.com/",
+    "type": "in-kind",
+    "donation": "Presentation"
+},
+{
+    "name": "MongoDB Incorporated",
+    "logo":"mongodb_logo.png",
+    "url": "http://www.mongodb.com/",
+    "type": "in-kind",
+    "donation": "Presentation"
+},
+{
+    "name": "Plotly",
+    "logo":"plotly_logo.png",
+    "url": "http://plot.ly",
+    "type": "in-kind",
+    "donation": "Presentation"
+},
+{
+    "name": "Amazon Web Services",
+    "logo":"aws_logo.png",
+    "url": "http://aws.amazon.com/",
+    "type": "in-kind",
+    "donation": "$500 in AWS credits for participant use during the event. Donation made to Code for America and available to CfA Brigades."
+},
+{
+    "name": "Redwall Technologies",
+    "logo":"redwall.png",
+    "url": "http://redwall.us",
+    "type": "financial",
+    "donation": "Donated financially and presenting"
+},
+{
+    "name": "Tenet3",
+    "logo":"tenet3_logo.png",
+    "url": "http://tenet3.com/",
+    "type": "gold",
+    "donation": "Donated financially and presenting"
+},
+{
+    "name": "Code For America",
+    "logo":"cfa_logo.png",
+    "url": "http://www.codeforamerica.org",
+    "type": "silver",
+    "donation": "Donated financially and serving as Non-Profit Entity behind event"
+},
+{
+    "name": "Teradata",
+    "logo":"teradata_logo.png",
+    "url": "http://www.teradata.com/",
+    "type": "gold",
+    "donation": "Donated financially"
+}
+
+]

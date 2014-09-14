@@ -6,7 +6,7 @@ layout: base
     <section>
             <div class="prize-icon">
                 <a href="{{prize.url}}">
-                    <img src="/images/{{prize.sponsor.icon}}" alt="{{prize.sponsor.name}} Icon" />
+                    <img src="{{prize.sponsor.icon | asset_path }}" alt="{{prize.sponsor.name}} Icon" />
                 </a>
             </div>
             <h2 class="title"><a href="{{ prize.url }}" rel="prefetch">{{ prize.title }}</a>

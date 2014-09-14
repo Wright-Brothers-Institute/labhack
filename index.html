@@ -2,7 +2,7 @@
 layout: base
 is_front: true
 ---
-<div id="blog-cover" class="blog-cover" style="background-image: url(images/default_bg.svg);" onerror="this.onerror=null; this.style='background-image: url(images/default_bg.png);'">
+<div id="blog-cover" class="blog-cover" style="background-image: url({% asset_path default_bg.svg %});" onerror="this.onerror=null; this.style='background-image: url(images/default_bg.png);'">
 
     <section>
         <div class="container">
@@ -64,84 +64,29 @@ For more questions and answers, see our <a href="/faq">FAQ</a>.
 <hr/>
 <div id="funding-donors" class="row logos">
     <h2>Funding Donations</h2>
+    {% for donor in site.data.donors %}
+        {% if donor.type != "in-kind" %}
         <div class="col-xs-6 col-md-4">
-            <a href="http://www.teradata.com/">
-                <img src="images/teradata_logo.png" alt="Teradata: The Best Decision Possible" class="img-responsive" />
+            <a href="{{ donor.url }}">
+                <img src="{{ donor.logo | asset_path }}" alt="{{ donor.name }}" class="img-responsive" />
             </a>
         </div>
-
-        <div class="col-xs-6 col-md-4">
-            <a href="http://www.codeforamerica.org">
-                <img src="images/cfa_logo.png" alt="Code For America" class="img-responsive"/>
-            </a>
-        </div>
-
-        <div class="col-xs-6 col-md-4">
-            <a href="http://tenet3.com/">
-                <img src="images/tenet3_logo.png" alt="Tenet3 logo, a Dayton based cyber security analytics company" class="img-responsive" />
-            </a>
-        </div>
-
-
-
-        <div class="col-xs-6 col-md-6">
-            <a href="http://redwall.us">
-                <img src="images/redwall.png" alt="redwall technology logo" class="img-responsive" />
-            </a>
-        </div>
+        {% endif %}
+    {% endfor %}
 </div>
 <hr/>
 
 <div id="in-kind" class="row logos">
     <h2>In-Kind Donations</h2>
-        <div class="col-sm-4 col-md-4">
-            <a href="http://plot.ly">
-                <img src="images/plotly_logo.png" alt="Plot.ly" class="img-responsive"/>
-            </a>
-        </div>
-
-        <div class="col-sm-4 col-md-4">
-            <a href="http://www.mongodb.com/">
-                <img src="images/mongodb_logo.png" alt="MongoDB Incorporated" class="img-responsive" />
-            </a>
-        </div>
-
+    {% for donor in site.data.donors %}
+        {% if donor.type == "in-kind" %}
         <div class="col-xs-6 col-md-4">
-            <a href="https://www.straphq.com/">
-                <img src="images/strap_logo.png" alt="Strap" class="img-responsive"/>
+            <a href="{{ donor.url }}">
+                <img src="{{ donor.logo | asset_path }}" alt="{{ donor.name }}" class="img-responsive"/>
             </a>
         </div>
-
-        <div class="col-xs-6 col-md-4">
-            <a href="http://www.github.com">
-                <img src="images/GitHub_Logo.png" alt="github logo" class="img-responsive"/>
-            </a>
-        </div>
-
-        <div class="col-xs-6 col-md-4">
-            <a href="http://www.wbi-icc.com">
-                <img src="images/wbi_logo.png" alt="Wright Brothers Institute" class="img-responsive" />
-            </a>
-        </div>
-
-        <div class="col-xs-6 col-md-4">
-                <a href="http://www.codefordayton.org">
-                    <img src="images/c4d_logo.png" alt="Code for Dayton, a Code for America brigade" class="img-responsive"/>
-                </a>
-        </div>
-
-        <div class="col-xs-6 col-md-4">
-            <a href="http://www.oreilly.com/">
-                <img src="images/orm_logo.png" alt="O'Reilly Books" class="img-responsive"/>
-            </a>
-        </div>
-
-        <div class="col-xs-6 col-md-4">
-            <a href="http://www.wpafb.af.mil/AFRL/">
-                <img src="images/afrl_badge.jpg" alt="Air Force Research Laboratory" class="img-responsive" />
-            </a>
-        </div>
-        
+        {% endif %}
+    {% endfor %}
 
     </div>
 </section>
@@ -163,7 +108,7 @@ For more questions and answers, see our <a href="/faq">FAQ</a>.
             {% if volunteer.avatar contains "http" %}
                 {{ volunteer.avatar }}         
             {% else %}
-                /images/{{ volunteer.avatar}}
+                {{ volunteer.avatar | asset_path }}
             {% endif %}
         {% else %}
             http://placepic.me/fatcats/200-200-bw
