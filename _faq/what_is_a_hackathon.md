@@ -8,7 +8,7 @@ answered:
   on: August 20, 2014
 ---
 <div class="embed-responsive embed-responsive-16by9">
-<iframe src="//www.youtube.com/embed/videoseries?list=PLlywScj9J1vElOnG-Yoz_wBt4Xh76aEyk&autoplay=1" allowfullscreen></iframe>
+<iframe src="//www.youtube.com/embed/videoseries?list=PLlywScj9J1vElOnG-Yoz_wBt4Xh76aEyk" allowfullscreen></iframe>
 </div>
 
 
