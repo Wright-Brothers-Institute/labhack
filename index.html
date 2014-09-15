@@ -38,10 +38,14 @@ For more questions and answers, see our <a href="/faq">FAQ</a>.
 
 <hr/>
 
-<h2>Hackathon Registration <span style="color: red; font-size: 1.5em;">Day Pass Available!</span></h2>
-<div id="eventbrite" class="embed-responsive embed-responsive-4by3">
-    <iframe src="https://www.eventbrite.com/tickets-external?eid=11292755937&amp;ref=etckt" scrolling="false" allowtransparency="true">Loading ticket registration...</iframe>
+<h2 class="text-center">Hackathon Registration</h2>
+<h3 style="color: red; font-size: 1.5em;" class="text-center">Day Pass Now Available!</h3>
+<div id="tickets" style="width:100%; text-align:left;" class="visible-md visible-lg">
+    <iframe src="https://www.eventbrite.com/tickets-external?eid=11292755937&amp;ref=etckt" frameborder="0" height="270" max-height="100%" width="100%" vspace="0" hspace="0" scrolling="false" allowtransparency="true" style="margin-top: 0px; margin-bottom: 0px;">>Loading ticket registration...</iframe>
 </div>
+<div id="tickets-btn" class="hidden-md hidden-lg" style="margin-bottom: 0.5em;">
+    <a class="btn btn-success center-block" href="http://labhack.eventbrite.com">Order Now</a>
+    </div>
 <p>
     LabHack sold out of hackathon tickets 59 days in advance, but you still have a chance to attend. By popular demand, we're offering a <strong>Day Pass</strong> which provides access to:
     <ul>
@@ -65,10 +69,10 @@ For more questions and answers, see our <a href="/faq">FAQ</a>.
 
 <hr/>
 <div id="funding-donors" class="row logos">
-    <h2>Funding Donations</h2>
+    <h2 class="text-center">Donations</h2>
     {% for donor in site.data.donors %}
         {% if donor.type != "in-kind" %}
-        <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="col-xs-12 col-sm-6 col-md-4 display-block">
             <a href="{{ donor.url }}">
                 <img src="{{ donor.logo | asset_path }}" alt="{{ donor.name }}" class="img-responsive" />
             </a>
@@ -79,10 +83,10 @@ For more questions and answers, see our <a href="/faq">FAQ</a>.
 <hr/>
 
 <div id="in-kind" class="row logos">
-    <h2>In-Kind Donations</h2>
+    <h2 class="text-center">In-Kind Support</h2>
     {% for donor in site.data.donors %}
         {% if donor.type == "in-kind" %}
-        <div class="col-xs-12 col-sm-6 col-md-4">
+        <div class="col-xs-12 col-sm-6 col-md-4 display-block">
             <a href="{{ donor.url }}">
                 <img src="{{ donor.logo | asset_path }}" alt="{{ donor.name }}" class="img-responsive"/>
             </a>
@@ -98,10 +102,10 @@ For more questions and answers, see our <a href="/faq">FAQ</a>.
 
 <section id="volunteers">
 
-<h2>Volunteers</h2>
+<h2 class="text-center">Volunteers</h2>
 <div class="row">
     {% for volunteer in site.volunteers %}
-    <div class="col-xs-12 col-sm-6 col-md-4 volunteer">
+    <div class="col-xs-12 col-sm-6 col-md-4 volunteer display-block">
         <a href="{{ volunteer.url }}">
         <h4 >{{ volunteer.name }}</h4>
         <div class="tagline">{{ volunteer.tagline }}</div>

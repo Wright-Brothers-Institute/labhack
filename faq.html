@@ -5,8 +5,8 @@ layout: base
     <div class="container panel-group" id="accordion">
     {% for faq in site.data.faq %}
         <div class="panel panel-info">
-            <div class="panel-heading"><h2 class="title"><a data-toggle="collapse" data-parent="#accordion" 
-           href="#collapse{{ uid }}">{{faq.question}}</a></h2></div>
+            <div class="panel-heading"><a data-toggle="collapse" data-parent="#accordion" 
+           href="#collapse{{ uid }}">{{faq.question}}</a></div>
             <div id="collapse{{ uid }}" class="panel-body panel-collapse collapse">
                 {{ faq.answer | markdownify }}
             </div>
@@ -15,8 +15,8 @@ layout: base
     {% endfor %}
     {% for faq in site.faq %}
         <div class="panel panel-info">
-            <div class="panel-heading"><h2 class="title"><a data-toggle="collapse" data-parent="#accordion" 
-           href="#collapse{{ uid }}">{{faq.question}}</a></h2></div>
+            <div class="panel-heading"><a data-toggle="collapse" data-parent="#accordion" 
+           href="#collapse{{ uid }}">{{faq.question}}</a></div>
             <div id="collapse{{ uid }}" class="panel-body panel-collapse collapse">
                 {{ faq.content | markdownify }}
             </div>
