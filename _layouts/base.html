@@ -116,41 +116,37 @@
 
 {{ content }}
 
-<footer class="site-footer">
-    <div class="container">
-        {% if page.is_front %}
-        <div class="row">        
-            <div class="col-md-8">
-                <a class="twitter-timeline" data-chrome="nofooter transparent" href="https://twitter.com/AFlabhack" data-widget-id="508089784976175105">@AFlabhack</a>
-                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+<footer >
+    <nav class="navbar navbar-inverse" role="navigation">
+        <div class="container">
+            <div class="navbar-left">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="{{ site.inc.url }}">&copy; {{ site.time | date: "%Y" }} {{ site.inc.company }}</a></li>
+                    <li><a href="/contact">Contact Us</a>
+                    </li>
+                </ul>
             </div>
-            <div class="col-md-4">
-                <div class="fb-like-box" data-href="https://www.facebook.com/airforcehackathon" data-height="250" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="true" data-show-border="true"></div>
+            <div class="navbar-right">
+                <ul class="nav navbar-nav">
+                    {% if site.inc.twitter %}
+                    <li>
+                        <a href="https://twitter.com/{{ site.inc.twitter }}" title="Follow on Twitter" target="_blank"><i class="fa fa-twitter black"></i></a>
+                    </li>
+                    {% endif %} {% if site.inc.facebook %}
+                    <li>
+                        <a href="http://facebook.com/{{ site.inc.facebook }}" title="Follow on Facebook" target="_blank"><i class="fa fa-facebook black"></i></a>
+                    </li>
+                    {% endif %}
+                    <li>
+                        <a href="/feed.xml" title="RSS Feed">
+                            <i class="fa fa-rss black"></i>
+                        </a>
+                    </li>
+                </ul>
             </div>
         </div>
-        
-        <br/>
-        {% endif %}
-
-        &copy; {{ site.time | date: "%Y" }} 
-        
-        <nav>
-            <a href="{{ site.inc.url }}">{{ site.inc.company }}</a> &middot;
-            <a href="/contact">Contact Us</a>
-        </nav>
-
-        <nav class="social">
-            {% if site.inc.twitter %}
-            <a href="https://twitter.com/{{ site.inc.twitter }}" title="Follow on Twitter" target="_blank"><i class="fa fa-twitter black"></i></a>
-            {% endif %}
-            {% if site.inc.facebook %}
-            <a href="http://facebook.com/{{ site.inc.facebook }}" title="Follow on Facebook" target="_blank"><i class="fa fa-facebook black"></i></a>
-            {% endif %}    
-            <a href="/feed.xml" title="RSS Feed">
-                <i class="fa fa-rss black"></i>
-            </a>
-        </nav>
-    </div>
+    </nav>
 </footer>
 
 {% include _scripts.html %}
