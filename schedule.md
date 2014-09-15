@@ -4,8 +4,10 @@ layout: base
 
 <section id="schedule">
     <div class="container">
+        <div class="page-header">
         <h2>Hackathon Schedule <span style="color: red">(Subject to Change!)</span></h2>
         <h3>Saturday, 25 October 2014</h3>
+    </div>
 
 <table class="table">
     <tbody>
