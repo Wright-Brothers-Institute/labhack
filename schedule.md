@@ -7,7 +7,7 @@ layout: base
         <h2>Hackathon Schedule <span style="color: red">(Subject to Change!)</span></h2>
         <h3>Saturday, 25 October 2014</h3>
 
-<table>
+<table class="table table-striped">
     <tbody>
         <tr>
             <th>Time</th>
@@ -69,7 +69,7 @@ layout: base
         </tr>
         <tr>
             <td>11:00 PM</td>
-            <td>Late Night Snack Served</td>
+            <td>All Day Pass Holders Depart / Late Night Snack Served</td>
         </tr>
     </tbody>
 </table>
@@ -79,7 +79,7 @@ layout: base
 </p>
 
 <h3>Sunday, 26 October 2014</h3>
-<table>
+<table class="table table-striped">
     <tbody>
         <tr>
             <th>Time</th>

@@ -2,7 +2,8 @@
 layout: base
 ---
 <article id="faq">
-    <div class="container panel-group" id="accordion">
+    <div class="container">
+    <div class="panel-group" id="accordion">
     {% for faq in site.data.faq %}
         <div class="panel panel-info">
             <div class="panel-heading"><a data-toggle="collapse" data-parent="#accordion" 
@@ -24,4 +25,9 @@ layout: base
         {% capture uid %}{% increment uid %}{% endcapture %}
     {% endfor %}
 </div>
+        {% if site.inc.disqus.shortname %}
+            {% include _disqus.html %}
+        {% endif %}
+</div>
 </article>
+
