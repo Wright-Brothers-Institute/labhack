@@ -33,12 +33,12 @@ layout: base
             <td>Lunch Served / Day Pass Starts</td>
         </tr>
         <tr class="success">
-            <td>12:00 PM</td>
-        <td>Company / Topic TBD</td>
+            <td>12:30 PM</td>
+        <td>Short Topic (TBD)</td>
         </tr>   
         <tr class="success">
             <td>1:00 PM</td>
-            <td>Plot.ly: Sensor Data Visualization</td>
+            <td>Plot.ly: <a href="#plotly">Sensor Data Visualization</a></td>
         </tr>
         <tr class="success">
             <td>2:00 PM</td>
@@ -46,7 +46,7 @@ layout: base
         </tr>
         <tr class="success">
             <td>3:00 PM</td>
-            <td>Github: Topic TBD</td>
+            <td>Github: <a href="#github_flow">The Github Flow</a></td>
         </tr>
 
         <tr class="success">
@@ -115,3 +115,16 @@ layout: base
 </table>
 </div>
 </section>
+
+<div class="container">
+
+<h2>Presentations and Workshops</h2>
+
+<h3 id="plotly">Sensor Data Visualization</h3>
+
+We'll stream sensor data from a Rasberry Pi or Arduino Yun to Plotly, then download and analyze that data in an interesting way using another Plotly API (MATLAB, Python, R, Julia, etc). For examples of Plotly sensor and telemetry projects, see Plotly's workshop page: [https://plot.ly/workshop/](https://plot.ly/workshop/ "Plotly Workshop")
+
+<h3 id="github_flow">The Github Flow</h3>
+
+In this session we will introduce the concepts behind the workflow that GitHub uses in order to ship high-quality software on a continuous basis using GitHub.com, git and various other open source tools. We'll talk about the philosophy behind the workflow and see simple examples of how you too can integrate GitHub Flow into your own process workflows to help you collaborate and ship software faster with greater confidence.
+</div>

@@ -129,5 +129,21 @@ development, and signal processing.",
     "roles": [
       "speaker"
     ]
-  }
+  },
+    {
+    "name": "Leon Gersing",
+    "tagline": "The Zen Gardener",
+    "biography":"Leon tends binary zen gardens. He currently works with the wonderful folks at GitHub building tools to make collaboration even better for developers. An avid public speaker, Leon travels the region speaking on topic ranging from learning Ruby to humanity's quixotic reverence for time and it’s impact on the collective unconscious. Leon loves hats, being barefoot and talking for hours with friends old and new. His favorite languages currently are Ruby, JavaScript, Objective-C, and Go. You can find him online at leongersing.com.",
+    "roles": [
+      "speaker"
+    ]
+  },
+  {
+    "name": "Scott Roberts",
+    "tagline": "Director of Bad Guy Catching",
+    "biography":"Scott J Roberts works for GitHub and makes up his title every time he's asked, so we'll say he's the Director of Bad Guy Catching. He has worked for 900lbs security gorillas, government security giants & boutiques, and financial services security firms and done his best to track down bad guys at all these places. He's released and contributed to multiple tools for threat intelligence and malware analysis. Scott is also really good at speaking in the 3rd person.",
+    "roles": [
+      "speaker"
+    ]
+  },
 ]

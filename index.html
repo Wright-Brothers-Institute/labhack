@@ -135,7 +135,7 @@ is_front: true
                 {{ volunteer.avatar | asset_path }}
             {% endif %}
         {% else %}
-            http://placepic.me/fatcats/200-200-bw
+            http://placepic.me/fatcats/200-200-bw?foo={% increment variable %}
         {% endif %}
             "  class="img-responsive img-rounded" />
             <div class="caption text-center">
@@ -151,7 +151,7 @@ is_front: true
         {% if volunteer.photo %}
             {{ volunteer.photo | asset_path }}
         {% else %}
-            http://placepic.me/fatcats/200-200-bw
+            http://placepic.me/fatcats/200-200-bw?foo={% increment variable %}
         {% endif %}
             "  class="img-responsive img-rounded" />
             <div class="caption text-center">
