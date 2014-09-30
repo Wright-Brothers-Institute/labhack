@@ -207,14 +207,26 @@ div.prize-icon img {
     }
 }
 
+#intro {
+    margin-top:20px;
+}
+
 .volunteer {
 
     img {
         height: 200px;
     }
 
-    .h2 {
-        margin-bottom:0px;
+    div.caption {
+        h3 {
+            margin-top:10px;
+            margin-bottom:0px;
+        }
+
+        h4 {
+            margin-top: 0px;
+            margin-bottom: 30px;
+        }
     }
 }
 

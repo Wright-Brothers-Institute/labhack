@@ -145,6 +145,21 @@ is_front: true
         </a>
         </div>
     {% endfor %}
+    {% for volunteer in site.data.volunteers %}
+    <div class="col-xs-12 col-sm-6 col-md-3 display-block volunteer ">
+        <img src="
+        {% if volunteer.photo %}
+            {{ volunteer.photo | asset_path }}
+        {% else %}
+            http://placepic.me/fatcats/200-200-bw
+        {% endif %}
+            "  class="img-responsive img-rounded" />
+            <div class="caption text-center">
+                <h3>{{ volunteer.name }}</h3>
+                <h4>{{ volunteer.tagline }}</h4>
+            </div>
+        </div>
+    {% endfor %}
 </div>
 </section>
 
