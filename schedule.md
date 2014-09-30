@@ -34,35 +34,35 @@ layout: base
         </tr>
         <tr class="success">
             <td>12:30 PM</td>
-        <td>Short Topic (TBD)</td>
+        <td>OpenBCI: Topic (TBD)</td>
         </tr>   
         <tr class="success">
-            <td>1:00 PM</td>
+            <td>1:30 PM</td>
             <td>Plot.ly: <a href="#plotly">Sensor Data Visualization</a></td>
         </tr>
         <tr class="success">
-            <td>2:00 PM</td>
+            <td>2:30 PM</td>
             <td>MongoDB: Topic TBD</td>
         </tr>
         <tr class="success">
-            <td>3:00 PM</td>
+            <td>3:30 PM</td>
             <td>Github: <a href="#github_flow">The Github Flow</a></td>
         </tr>
 
         <tr class="success">
-            <td>4:00 PM</td>
-            <td>Redwall: Mobile Device Security</td>
-        </tr>
-        <tr class="success">
-            <td>5:00 PM</td>
+            <td>4:30 PM</td>
             <td>Tenet3: Visualizing Data with D3.js</td>
         </tr>
         <tr class="info">
-            <td>5:00 PM</td>
+            <td>5:30 PM</td>
             <td>Dinner Served</td>
         </tr>
         <tr class="success">
             <td>6:00 PM</td>
+            <td>Redwall: Mobile Device Security</td>
+        </tr>
+        <tr class="success">
+            <td>7:00 PM</td>
             <td>Strap: Why Analytics Matter</td>
         </tr>
         <tr class="info">
