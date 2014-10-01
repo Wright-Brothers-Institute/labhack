@@ -153,7 +153,7 @@ is_front: true
         {% if volunteer.photo %}
             {{ volunteer.photo | asset_path }}
         {% else %}
-            http://placepic.me/fatcats/200-200-bw?foo=
+            http://placepic.me/fatcats/200-200-bw?foo={{ uid }}
         {% endif %}
             "  class="img-responsive img-rounded" />
         </a>

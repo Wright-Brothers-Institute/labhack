@@ -137,5 +137,26 @@ development, and signal processing.",
     "roles": [
       "speaker"
     ]
+  },
+  {
+    "name": "Chip Audette",
+    "tagline": "EEG Hacker for OpenBCI",
+    "photo":"caudette.jpg",
+    "biography":"With an interest in bio-sensors fueled by his day job (R&D Engineer at Creare, Hanover, NH), Chip has developed a number of wearable sensor systems, mostly for real-time health monitoring for military and civilian applications.  Sitting cozily in his office one day, Chip stumbled upon an opportunity to develop a low-cost, open-source EEG system.  On that day “EEG Hacker” was born.  By partnering with Joel Murphy and Conor Russomanno, who went and started OpenBCI based on this opportunity, Chip now spends his free time making things move with his mind.",
+    "roles": [
+    "speaker"
+    ]
+  },
+  {
+    "name": "Conor Russomanno",
+    "tagline": "OpenBCI Mind Reader",
+    "roles":[ "speaker"
+    ]
+  },
+  {
+    "name": "Joel Murphy",
+    "tagline": "OpenBCI Mind Reader",
+    "roles":[ "speaker"
+    ]
   }
 ]
