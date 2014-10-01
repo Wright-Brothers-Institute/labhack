@@ -68,6 +68,10 @@ layout: base
             <td>8:00 PM</td>
             <td>Company / Topic TBD</td>
         </tr>
+        <tr class="success">
+            <td>9:00 PM</td>
+            <td>Socializing / Unconference </td>
+        </tr>
         <tr class="info">
             <td>10:30 PM</td>
             <td>Day Pass Ends</td>
