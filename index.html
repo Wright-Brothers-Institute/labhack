@@ -147,29 +147,29 @@ is_front: true
 
     {% endfor %}
     {% for volunteer in site.data.volunteers %}
-    <div class="col-xs-12 col-sm-6 col-md-3 display-block volunteer " data-toggle="modal" data-target="#myModal">
+    <div class="col-xs-12 col-sm-6 col-md-3 display-block volunteer ">
+        <a href="#vModal{{ uid }}" data-toggle="modal" data-target="#vModal{{ uid }}" role="dialog">
         <img src="
         {% if volunteer.photo %}
             {{ volunteer.photo | asset_path }}
         {% else %}
-            http://placepic.me/fatcats/200-200-bw?foo={% increment variable %}
+            http://placepic.me/fatcats/200-200-bw?foo=
         {% endif %}
             "  class="img-responsive img-rounded" />
+        </a>
             <div class="caption text-center">
                 <h3>{{ volunteer.name }}</h3>
                 <h4>{{ volunteer.tagline }}</h4>
             </div>
         </div>
 
-
-
         <!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal fade" id="vModal{{ uid }}" tabindex="-1" role="dialog" aria-labelledby="vModalLabel{{ uid }}" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-        <h4 class="modal-title" id="myModalLabel">{{ volunteer.name }}</h4>
+        <h4 class="modal-title" id="vModalLabel{{ uid }}">{{ volunteer.name }}</h4>
       </div>
       <div class="modal-body">
         {{ volunteer.biography }}
@@ -180,9 +180,34 @@ is_front: true
     </div>
   </div>
 </div>
+        {% capture uid %}{% increment uid %}{% endcapture %}
 
     {% endfor %}
 </div>
 </section>
+
+<!-- Button trigger modal -->
+<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 </div>
