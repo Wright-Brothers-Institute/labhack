@@ -23,7 +23,6 @@ layout: base
             <td>8:30 AM</td>
             <td>Air Force Background Presentation</td>
         </tr>
-
         <tr>
             <td>9:00 AM</td>
             <td>Team Formation</td>
@@ -59,15 +58,23 @@ layout: base
         </tr>
         <tr class="success">
             <td>6:00 PM</td>
-            <td>Redwall: Mobile Device Security</td>
+            <td>Redwall: <a href="#redwall_prez">Mobile device sensors - data mining and visualization implications</a></td>
         </tr>
         <tr class="success">
             <td>7:00 PM</td>
             <td>Strap: Why Analytics Matter</td>
         </tr>
+        <tr class="success">
+            <td>8:00 PM</td>
+            <td>Company / Topic TBD</td>
+        </tr>
+        <tr class="info">
+            <td>10:30 PM</td>
+            <td>Day Pass Ends</td>
+        </tr>
         <tr class="info">
             <td>11:00 PM</td>
-            <td>Day Pass Ends / Late Night Snack Served</td>
+            <td>Late Night Snack Served</td>
         </tr>
     </tbody>
 </table>
@@ -127,4 +134,8 @@ We'll stream sensor data from a Rasberry Pi or Arduino Yun to Plotly, then downl
 <h3 id="github_flow">The Github Flow</h3>
 
 In this session we will introduce the concepts behind the workflow that GitHub uses in order to ship high-quality software on a continuous basis using GitHub.com, git and various other open source tools. We'll talk about the philosophy behind the workflow and see simple examples of how you too can integrate GitHub Flow into your own process workflows to help you collaborate and ship software faster with greater confidence.
+
+<h3 id="redwall_prez"> RedWall: Mobile device sensors - data mining and visualization implications </h3>
+
+
 </div>
