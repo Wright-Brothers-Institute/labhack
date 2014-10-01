@@ -133,6 +133,7 @@ development, and signal processing.",
     {
     "name": "Leon Gersing",
     "tagline": "The Zen Gardener",
+    "photo" : "lgersing.png",
     "biography":"Leon tends binary zen gardens. He currently works with the wonderful folks at GitHub building tools to make collaboration even better for developers. An avid public speaker, Leon travels the region speaking on topic ranging from learning Ruby to humanity's quixotic reverence for time and it’s impact on the collective unconscious. Leon loves hats, being barefoot and talking for hours with friends old and new. His favorite languages currently are Ruby, JavaScript, Objective-C, and Go. You can find him online at leongersing.com.",
     "roles": [
       "speaker"
