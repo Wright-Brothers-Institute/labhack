@@ -33,7 +33,7 @@ layout: base
         </tr>
         <tr class="success">
             <td>12:30 PM</td>
-        <td>OpenBCI: Topic (TBD)</td>
+        <td>OpenBCI: Topic TBD</td>
         </tr>   
         <tr class="success">
             <td>1:30 PM</td>
@@ -72,7 +72,7 @@ layout: base
             <td>9:00 PM</td>
             <td>Socializing / Unconference </td>
         </tr>
-        <tr class="info">
+        <tr class="warning">
             <td>10:30 PM</td>
             <td>Day Pass Ends</td>
         </tr>

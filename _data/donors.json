@@ -88,6 +88,13 @@
     "url": "http://www.teradata.com/",
     "type": "gold",
     "donation": "Donated financially"
+},
+{
+    "name": "OpenBCI",
+    "logo":"openbci.jpg",
+    "url": "http://www.openbci.com/",
+    "type": "in-kind",
+    "donation": "Presentation"
 }
 
 ]
