@@ -19,7 +19,7 @@ layout: base
             <td>8:00 AM</td>
             <td>Doors Open / Breakfast Served</td>
         </tr>
-        <tr>
+        <tr class="success">
             <td>8:30 AM</td>
             <td>Air Force Background Presentation</td>
         </tr>
@@ -33,7 +33,7 @@ layout: base
         </tr>
         <tr class="info">
             <td>12:00 PM</td>
-            <td>Lunch Served / Day Pass Starts</td>
+            <td>Lunch Served</td>
         </tr>
         <tr class="success">
             <td>12:30 PM</td>
