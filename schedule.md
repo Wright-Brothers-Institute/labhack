@@ -15,9 +15,13 @@ layout: base
             <th>Time</th>
             <th>Event</th>
         </tr>
+        <tr >
+            <td>8:00 AM</td>
+            <td>Doors Open for Hackathon Participants and Volunteers</td>
+        </tr>
         <tr class="info">
             <td>8:00 AM</td>
-            <td>Doors Open / Breakfast Served</td>
+            <td>Breakfast Served</td>
         </tr>
         <tr class="success">
             <td>8:30 AM</td>
@@ -26,6 +30,10 @@ layout: base
         <tr>
             <td>9:00 AM</td>
             <td>Team Formation</td>
+        </tr>
+        <tr>
+            <td>10:00 AM</td>
+            <td>Let the Hacking Begin!</td>
         </tr>
         <tr class="warning">
             <td>12:00 PM</td>
@@ -70,10 +78,6 @@ layout: base
         </tr>
         <tr class="success">
             <td>8:00 PM</td>
-            <td>Company / Topic TBD</td>
-        </tr>
-        <tr class="success">
-            <td>9:00 PM</td>
             <td>Socializing / Unconference </td>
         </tr>
         <tr class="warning">
@@ -102,28 +106,28 @@ layout: base
             <td>8:00 AM</td>
             <td>Breakfast served</td>
         </tr>
+        <tr>
+            <td>10:00 AM</td>
+            <td>Presentation Tech Check / Practice</td>
+        </tr>
         <tr class="info">
             <td>12:00 PM</td>
             <td>Lunch Served</td>
         </tr>
         <tr>
-            <td>1:30 PM</td>
+            <td>1:45 PM</td>
             <td>Project Submission Deadline</td>
         </tr>
         <tr>
-            <td>1:45 PM</td>
-            <td>Team Presentations</td>
-        </tr>
-        <tr>
-            <td>3:45 PM</td>
-            <td>Judging</td>
+            <td>2:00 PM</td>
+            <td>Team Presentations and Judging</td>
         </tr>
         <tr class="info">
             <td>3:45 PM</td>
             <td>Appetizers Served</td>
         </tr>
         <tr>
-            <td>4:00 PM</td>
+            <td>4:30 PM</td>
             <td>Prizes and Awards</td>
         </tr>
     </tbody>
