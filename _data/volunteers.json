@@ -43,6 +43,7 @@
     "name": "David Best",
     "tagline": "The Best Dave",
     "photo": "dbest.jpeg",
+    "biography":"Dave is a software engineer and amateur community organizer. He has been a DBA, a firmware engineer, and an OS developer, but now enjoys slumming around with open source web development. He spends most of his free time with his wife and kids in Miamisburg, Ohio.",
     "twitter": "davidebest",
     "roles": [
       "organizer"
@@ -141,7 +142,7 @@ development, and signal processing.",
   },
   {
     "name": "Chip Audette",
-    "tagline": "EEG Hacker for OpenBCI",
+    "tagline": "The Mind Reader",
     "photo":"caudette.jpg",
     "biography":"With an interest in bio-sensors fueled by his day job (R&D Engineer at Creare, Hanover, NH), Chip has developed a number of wearable sensor systems, mostly for real-time health monitoring for military and civilian applications.  Sitting cozily in his office one day, Chip stumbled upon an opportunity to develop a low-cost, open-source EEG system.  On that day “EEG Hacker” was born.  By partnering with Joel Murphy and Conor Russomanno, who went and started OpenBCI based on this opportunity, Chip now spends his free time making things move with his mind.",
     "roles": [
@@ -150,13 +151,13 @@ development, and signal processing.",
   },
   {
     "name": "Conor Russomanno",
-    "tagline": "OpenBCI Mind Reader",
+    "tagline": "Share Your Thoughts",
     "roles":[ "speaker"
     ]
   },
   {
     "name": "Joel Murphy",
-    "tagline": "OpenBCI Mind Reader",
+    "tagline": "Makes Sense",
     "roles":[ "speaker"
     ]
   }

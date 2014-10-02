@@ -27,6 +27,10 @@ layout: base
             <td>9:00 AM</td>
             <td>Team Formation</td>
         </tr>
+        <tr class="warning">
+            <td>12:00 PM</td>
+            <td>Day Pass Starts</td>
+        </tr>
         <tr class="info">
             <td>12:00 PM</td>
             <td>Lunch Served / Day Pass Starts</td>
