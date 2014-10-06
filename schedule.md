@@ -45,7 +45,7 @@ layout: base
         </tr>
         <tr class="success">
             <td>12:30 PM</td>
-        <td>OpenBCI: Topic TBD</td>
+        <td>OpenBCI: <a href="#openbci">An Open-Source Brain-Computer Interface</a></td>
         </tr>   
         <tr class="success">
             <td>1:30 PM</td>
@@ -139,15 +139,21 @@ layout: base
 
 <h2>Presentations and Workshops</h2>
 
-<h3 id="plotly">Sensor Data Visualization</h3>
+<h3 id="openbci">OpenBCI: An Open-Source Brain-Computer Interface</h3>
+
+OpenBCI co-founders, Joel Murphy and Conor Russomanno, will be discussing the emergence of the real-world brain-computer interface (BCI). The presentation will address the state of the art with regards to low-cost electroencephalography (EEG) technology, current trends in BCI being transplanted from the laboratory and into the everyday life, and how the open-source community has a huge role to play in accelerating innovation in the field of brain science. The brain is one of the final frontiers of human discovery and expansion, and more people should be a part of the conversation. The presentation will be followed by a hands-on workshop on how to get up and running with the OpenBCI hardware.
+
+<h3 id="plotly">Plot.ly: Sensor Data Visualization</h3>
 
 We'll stream sensor data from a Rasberry Pi or Arduino Yun to Plotly, then download and analyze that data in an interesting way using another Plotly API (MATLAB, Python, R, Julia, etc). For examples of Plotly sensor and telemetry projects, see Plotly's workshop page: [https://plot.ly/workshop/](https://plot.ly/workshop/ "Plotly Workshop")
 
-<h3 id="github_flow">The Github Flow</h3>
+<h3 id="github_flow">Github: The Github Flow</h3>
 
 In this session we will introduce the concepts behind the workflow that GitHub uses in order to ship high-quality software on a continuous basis using GitHub.com, git and various other open source tools. We'll talk about the philosophy behind the workflow and see simple examples of how you too can integrate GitHub Flow into your own process workflows to help you collaborate and ship software faster with greater confidence.
 
-<h3 id="redwall_prez"> RedWall: Mobile device sensors - data mining and visualization implications </h3>
+<h3 id="redwall_prez">RedWall: Mobile device sensors - data mining and visualization implications </h3>
+
+TBD
 
 
 </div>

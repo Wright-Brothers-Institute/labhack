@@ -151,13 +151,15 @@ development, and signal processing.",
   },
   {
     "name": "Conor Russomanno",
-    "tagline": "Share Your Thoughts",
+    "tagline": "The Hat Maker",
+    "photo": "crussomanno.jpg",
     "roles":[ "speaker"
     ]
   },
   {
     "name": "Joel Murphy",
-    "tagline": "Makes Sense",
+    "photo": "jmurphy.jpg",
+    "tagline": "The Thought Leader",
     "roles":[ "speaker"
     ]
   }
