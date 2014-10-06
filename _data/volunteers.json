@@ -35,6 +35,9 @@
   {
     "name": "Dustin Armstrong",
     "tagline": "Awesome Designer",
+    "photo": "dustin_armstrong.jpg",
+    "biography": "Dustin is a designer and front-end devloper with a degree in advertising and graphic design from the School of Advertising Art in Kettering, Ohio. He is currently working for local Rails development firm Littlelines, and runs Posthuman LLC in his free time.", 
+    "twitter": "dustinarmstrong",
     "roles": [
       "judge"
     ]
