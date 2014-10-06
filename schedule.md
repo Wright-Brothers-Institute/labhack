@@ -48,8 +48,16 @@ layout: base
         <td>OpenBCI: <a href="#openbci">An Open-Source Brain-Computer Interface</a></td>
         </tr>   
         <tr class="success">
+            <td>12:45 PM</td>
+            <td>OpenBCI: Hands-On Workshop on OpenBCI hardware</td>
+        </tr>
+        <tr class="success">
             <td>1:30 PM</td>
             <td>Plot.ly: <a href="#plotly">Sensor Data Visualization</a></td>
+        </tr>
+        <tr class="success">
+            <td>1:45 PM</td>
+            <td>Plot.ly: <a href="https://plot.ly/workshop/">Hands-On Workshop using sensors and Plot.ly</a></td>
         </tr>
         <tr class="success">
             <td>2:30 PM</td>
@@ -64,6 +72,10 @@ layout: base
             <td>4:30 PM</td>
             <td>Tenet3: Visualizing Data with D3.js</td>
         </tr>
+        <tr class="success">
+            <td>4:45 PM</td>
+            <td>Tenet3: Q&A</td>
+        </tr>
         <tr class="info">
             <td>5:30 PM</td>
             <td>Dinner Served</td>
@@ -73,10 +85,14 @@ layout: base
             <td>Redwall: <a href="#redwall_prez">Mobile device sensors - data mining and visualization implications</a></td>
         </tr>
         <tr class="success">
+            <td>6:15 PM</td>
+            <td>Redwall: Q&A</td>
+        </tr>
+        <tr class="success">
             <td>7:00 PM</td>
             <td>Strap: Why Analytics Matter</td>
         </tr>
-        <tr class="success">
+        <tr>
             <td>8:00 PM</td>
             <td>Socializing / Unconference </td>
         </tr>
@@ -145,7 +161,7 @@ OpenBCI co-founders, Joel Murphy and Conor Russomanno, will be discussing the em
 
 <h3 id="plotly">Plot.ly: Sensor Data Visualization</h3>
 
-We'll stream sensor data from a Rasberry Pi or Arduino Yun to Plotly, then download and analyze that data in an interesting way using another Plotly API (MATLAB, Python, R, Julia, etc). For examples of Plotly sensor and telemetry projects, see Plotly's workshop page: [https://plot.ly/workshop/](https://plot.ly/workshop/ "Plotly Workshop")
+We'll stream sensor data from a Rasberry Pi or Arduino Yun to Plotly, then download and analyze that data in an interesting way using another Plotly API (MATLAB, Python, R, Julia, etc). For examples of Plotly sensor and telemetry projects, see <a href="https://plot.ly/workshop/">Plotly's workshop page</a>. 
 
 <h3 id="github_flow">Github: The Github Flow</h3>
 
