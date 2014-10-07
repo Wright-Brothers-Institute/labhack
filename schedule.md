@@ -70,7 +70,7 @@ layout: base
 
         <tr class="success">
             <td>4:30 PM</td>
-            <td>Tenet3: Visualizing Data with D3.js</td>
+            <td>Tenet3: <a href="#tenet3_prez">Visualizing Data with D3.js</a></td>
         </tr>
         <tr class="success">
             <td>4:45 PM</td>
@@ -171,5 +171,8 @@ In this session we will introduce the concepts behind the workflow that GitHub u
 
 TBD
 
+<h3 id="tenet3_prez">Tenet3: Visualization with D3.js</h3>
+
+TBD
 
 </div>

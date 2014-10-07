@@ -159,5 +159,14 @@ development, and signal processing.",
     "roles": [
       "speaker"
     ]
+  },
+  {
+    "name": "Michael Clark",
+    "tagline": "Crypto and Sliced Bread",
+    "photo": "mclark.jpg",
+    "biography": "I am a researcher at Tenet3, a cyber security company in Dayton, OH. I've been called a bit head (as opposed to a dB chaser). I love to learn how things work and try to get them to do things they shouldn’t. I think that cryptography is the coolest thing since sliced bread since, by design, you get to know everything about it yet (theoretically) can’t get it to do things it shouldn’t. In my spare time I like to teach my little girls how engines work and make delicious bar-b-que for the family to eat.",
+    "roles": [
+    "speaker"
+    ]
   }
 ]
