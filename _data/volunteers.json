@@ -39,6 +39,7 @@
         "name": "Conor Russomanno",
         "tagline": "The Hat Maker",
         "photo": "crussomanno.jpg",
+        "biography": "OpenBCI co-founder and CEO, Conor Russomanno, comes from a mixed background of art, engineering, and science. He has dedicated the first chapter of his career to interfacing the brain, rethinking business, and turning crazy ideas into reality.",
         "roles": ["speaker"]
     }, {
         "name": "Dustin Armstrong",
@@ -92,6 +93,7 @@
         "name": "Joel Murphy",
         "photo": "jmurphy.jpg",
         "tagline": "The Thought Leader",
+        "biography":"OpenBCI co-founder and President, Joel Murphy, has an extensive background in designing and teaching open-source bio-hardware. He was the co-creator of the Pulse Sensor, an optical heart rate monitor for Arduino, and now leads the technology development of open-source brain-computer interfaces.",
         "roles": ["speaker"]
     }
 
@@ -116,7 +118,7 @@
         "name": "Luke Burnett",
         "photo": "lburnett.jpg",
         "tagline": "0xDEADBEEF",
-        "biography":"Luke is a student at Wright State University and is a second year BSCS. He started programming in high school after his gaming addiction peaked his curiosity. Currently, Luke is working for the AFRL's Discovery Lab as a project consultant. Projects completed range from projects with the DISA organisation all the way to IoT home-automation. Luke attended his first hackathon last year(MHacks II) and has since been hooked on the late night drive to produce as fast as humanly possible. His interests are currently mobile phone security topics, OSINT data manipulation, and RoP concepts and application in phone-based environments. When Luke isn't reading, he is running around Dayton or find more ways to collaborate on his already thin schedule. ",
+        "biography": "Luke is a student at Wright State University and is a second year BSCS. He started programming in high school after his gaming addiction peaked his curiosity. Currently, Luke is working for the AFRL's Discovery Lab as a project consultant. Projects completed range from projects with the DISA organisation all the way to IoT home-automation. Luke attended his first hackathon last year(MHacks II) and has since been hooked on the late night drive to produce as fast as humanly possible. His interests are currently mobile phone security topics, OSINT data manipulation, and RoP concepts and application in phone-based environments. When Luke isn't reading, he is running around Dayton or find more ways to collaborate on his already thin schedule. ",
         "roles": [
             "organizer"
         ]
