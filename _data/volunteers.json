@@ -1,112 +1,137 @@
-[
-  {
-    "name": "Andrea P. M.",
-    "tagline": "Lady X",
-    "photo": "apm.png",
-    "roles": [
-      "organizer"
-    ]
-  },
-  {
-    "name": "Adam Renner",
-    "tagline": "Your Tech R Belonging to Me",
-    "photo": "arenner.png",
-    "roles": [
-      "organizer"
-    ]
-  },
-  {
-    "name": "Bob Lee",
-    "tagline": "Not-So-Angry Birdman",
-    "biograpy": "Mr. Bob Lee started work in the Aerospace Medical Research Laboratory as a research physicist in 1974. His team developed the noise and sonic boom models that are used DoD wide today. As a branch\nchief in the consolidated Armstrong Laboratory he led the efforts to quantify the effects of noise and sonic boom on people, animals, and structures. His work led to the developing definitive solutions that were critical in establishing the Valentine-Reserve Supersonic Military Operating Area after the AF was bogged down in an 8 year legal battle. In 2003 he led a team that responded to Dr. Roche’s, the Secretary of the Air Force, challenge to AFRL to improve targeting and reduce Fratricide for Air Force Combat Controllers by developing the BATMAN program for AFRL Human Effectiveness Directorate. This highly innovative program connected technologies from 4 directorates, laid the foundation for an order of magnitude improvement in targeting time, and cut out virtually all human introduced errors in the targeting process. During his 32 year career in AFRL, Bob, consistently innovated on technology and processes to leap the technology gap and field systems that are in use in the USAF and DoD today. Currently Bob is the Open Innovation Award Challenge manager for AFRL at the Wright Brothers Institute-IDEA lab assisting AFRL employees in this new process for reaching out to the world to solve their technical and functional problems.",
-    "photo": "boblee.jpg",
-    "roles": [
-      "organizer"
-    ]
-  },
-  {
-    "name": "Brian Tabares",
-    "tagline": "Mr. Yum Yum",
-    "photo": "btabares.png",
-    "roles": [
-      "organizer"
-    ]
-  },
-  {
-    "name": "Dustin Armstrong",
-    "tagline": "Awesome Designer",
-    "roles": [
-      "judge"
-    ]
-  },
-  {
-    "name": "David Best",
-    "tagline": "The Best Dave",
-    "photo": "dbest.jpeg",
-    "biography":"Dave is a software engineer and amateur community organizer. He has been a DBA, a firmware engineer, and an OS developer, but now enjoys slumming around with open source web development. He spends most of his free time with his wife and kids in Miamisburg, Ohio.",
-    "twitter": "davidebest",
-    "roles": [
-      "organizer"
-    ]
-  },
-  {
-    "name": "Dave Caraway",
-    "tagline": "Civic Hacker, Data Geek",
-    "biography": "Dave is a professional civic hacker with the General Services Administration. In his free time, he leads Code for Dayton, a civic technology non-profit, and the Collider Project, an economic development social group. Dave was a Round 2 Presidential Innovation Fellow with the White House and helped implement data transparency requirements across the federal government. In 2012, he founded Fogmine, a software company specializing in analytics and data-driven applications. He holds a BS in Electrical Engineering and an MS in Computer Science. Dave enjoys trail running near his home in Beavercreek, Ohio, where he lives with his wife and two energetic kids.",
-    "photo": "dcaraway.jpeg",
-    "roles": [
-      "speaker",
-      "organizer"
-    ]
-  },
-  {
-    "name": "David Wirth",
-    "tagline": "The Mad Scientist",
-    "biography": "My name is David Wirth and for the past 7 years I have been experimenting and discovering new and improved ways to scare my friends, family and neighbors with the wonders of science! Through the years I have created railguns, coilguns, high power LEDs, high voltage devices, freeze guns, high pressure squirt guns, cryogenic coolers, rocket engines, and much more. My thesis at UCLA was on the experimental study of photoreactive nanoparticles which heat up when exposed to light. This property was leveraged in order to create a novel re-startable solid rocket engine which was published with my MS thesis in 2012. Since then, I have worked with AFRL, the Discovery Channel, the USAF, and the National Air and Space Intelligence Center (NASIC), lending my skills in to those in need.",
-    "photo": "dwirth.jpg",
-    "roles": [
-      "organizer"
-    ]
-  },
-  {
-    "name": "Ed Heltzel",
-    "tagline": "Make It Rain!",
-    "biography":"Ed is the mind behind Rainy Day Media LLC (RDM), who’s an avid web developer and a closet logo designer.  Who's usually up to my eyeballs with front-end development and dipping my beak into NodeJS or hitting the gym.",
-    "photo": "ed.jpg",
-    "roles": [
-      "speaker"
-    ]
-  },
-  {
-    "name": "Jack Parmer",
-    "tagline": "The Visualizer",
-    "photo": "jparmer_small.jpg",
-    "twitter":"plotlygraphs",
-    "roles": [
-      "speaker", "judge"
-    ]
-  },
-  {
-    "name": "Luis Pineiro",
-    "tagline": "Lethal with a Keyboard",
-    "photo": "lpineiro.jpg",
-    "roles": [
-      "organizer"
-    ]
-  },
-  {
-    "name": "Monika Eckold",
-    "tagline": "Queen of Hackers",
-    "photo": "meckold.png",
-    "roles": [
-      "organizer"
-    ]
-  },
-  {
-    "name": "Martin Stieger",
-    "tagline": "Mr. Roboto",
-    "photo": "mstieger.jpg",
-    "biography":"Martin is a Research Engineer with the Wright State Research Institute and serves as 
+[{
+        "name": "Andrea P. M.",
+        "tagline": "Lady X",
+        "photo": "apm.png",
+        "roles": [
+            "organizer"
+        ]
+    }, {
+        "name": "Adam Renner",
+        "tagline": "Your Tech R Belonging to Me",
+        "photo": "arenner.png",
+        "roles": [
+            "organizer"
+        ]
+    }, {
+        "name": "Bob Lee",
+        "tagline": "Not-So-Angry Birdman",
+        "biograpy": "Mr. Bob Lee started work in the Aerospace Medical Research Laboratory as a research physicist in 1974. His team developed the noise and sonic boom models that are used DoD wide today. As a branch\nchief in the consolidated Armstrong Laboratory he led the efforts to quantify the effects of noise and sonic boom on people, animals, and structures. His work led to the developing definitive solutions that were critical in establishing the Valentine-Reserve Supersonic Military Operating Area after the AF was bogged down in an 8 year legal battle. In 2003 he led a team that responded to Dr. Roche’s, the Secretary of the Air Force, challenge to AFRL to improve targeting and reduce Fratricide for Air Force Combat Controllers by developing the BATMAN program for AFRL Human Effectiveness Directorate. This highly innovative program connected technologies from 4 directorates, laid the foundation for an order of magnitude improvement in targeting time, and cut out virtually all human introduced errors in the targeting process. During his 32 year career in AFRL, Bob, consistently innovated on technology and processes to leap the technology gap and field systems that are in use in the USAF and DoD today. Currently Bob is the Open Innovation Award Challenge manager for AFRL at the Wright Brothers Institute-IDEA lab assisting AFRL employees in this new process for reaching out to the world to solve their technical and functional problems.",
+        "photo": "boblee.jpg",
+        "roles": [
+            "organizer"
+        ]
+    }, {
+        "name": "Brian Tabares",
+        "tagline": "Mr. Yum Yum",
+        "photo": "btabares.png",
+        "roles": [
+            "organizer"
+        ]
+    }, {
+        "name": "Chip Audette",
+        "tagline": "The Mind Reader",
+        "photo": "caudette.jpg",
+        "biography": "With an interest in bio-sensors fueled by his day job (R&D Engineer at Creare, Hanover, NH), Chip has developed a number of wearable sensor systems, mostly for real-time health monitoring for military and civilian applications.  Sitting cozily in his office one day, Chip stumbled upon an opportunity to develop a low-cost, open-source EEG system.  On that day “EEG Hacker” was born.  By partnering with Joel Murphy and Conor Russomanno, who went and started OpenBCI based on this opportunity, Chip now spends his free time making things move with his mind.",
+        "roles": [
+            "speaker"
+        ]
+    }, {
+        "name": "Conor Russomanno",
+        "tagline": "The Hat Maker",
+        "photo": "crussomanno.jpg",
+        "roles": ["speaker"]
+    }, {
+        "name": "Dustin Armstrong",
+        "tagline": "Awesome Designer",
+        "roles": [
+            "judge"
+        ]
+    }, {
+        "name": "David Best",
+        "tagline": "The Best Dave",
+        "photo": "dbest.jpeg",
+        "biography": "Dave is a software engineer and amateur community organizer. He has been a DBA, a firmware engineer, and an OS developer, but now enjoys slumming around with open source web development. He spends most of his free time with his wife and kids in Miamisburg, Ohio.",
+        "twitter": "davidebest",
+        "roles": [
+            "organizer"
+        ]
+    }, {
+        "name": "Dave Caraway",
+        "tagline": "Civic Hacker, Data Geek",
+        "biography": "Dave is a professional civic hacker with the General Services Administration. In his free time, he leads Code for Dayton, a civic technology non-profit, and the Collider Project, an economic development social group. Dave was a Round 2 Presidential Innovation Fellow with the White House and helped implement data transparency requirements across the federal government. In 2012, he founded Fogmine, a software company specializing in analytics and data-driven applications. He holds a BS in Electrical Engineering and an MS in Computer Science. Dave enjoys trail running near his home in Beavercreek, Ohio, where he lives with his wife and two energetic kids.",
+        "photo": "dcaraway.jpeg",
+        "roles": [
+            "speaker",
+            "organizer"
+        ]
+    }, {
+        "name": "David Wirth",
+        "tagline": "The Mad Scientist",
+        "biography": "My name is David Wirth and for the past 7 years I have been experimenting and discovering new and improved ways to scare my friends, family and neighbors with the wonders of science! Through the years I have created railguns, coilguns, high power LEDs, high voltage devices, freeze guns, high pressure squirt guns, cryogenic coolers, rocket engines, and much more. My thesis at UCLA was on the experimental study of photoreactive nanoparticles which heat up when exposed to light. This property was leveraged in order to create a novel re-startable solid rocket engine which was published with my MS thesis in 2012. Since then, I have worked with AFRL, the Discovery Channel, the USAF, and the National Air and Space Intelligence Center (NASIC), lending my skills in to those in need.",
+        "photo": "dwirth.jpg",
+        "roles": [
+            "organizer"
+        ]
+    }, {
+        "name": "Ed Heltzel",
+        "tagline": "Make It Rain!",
+        "biography": "Ed is the mind behind Rainy Day Media LLC (RDM), who’s an avid web developer and a closet logo designer.  Who's usually up to my eyeballs with front-end development and dipping my beak into NodeJS or hitting the gym.",
+        "photo": "ed.jpg",
+        "roles": [
+            "speaker"
+        ]
+    }, {
+        "name": "Jack Parmer",
+        "tagline": "The Visualizer",
+        "photo": "jparmer_small.jpg",
+        "twitter": "plotlygraphs",
+        "roles": [
+            "speaker", "judge"
+        ]
+    }, {
+        "name": "Joel Murphy",
+        "photo": "jmurphy.jpg",
+        "tagline": "The Thought Leader",
+        "roles": ["speaker"]
+    }
+
+    , {
+        "name": "Leon Gersing",
+        "tagline": "The Zen Gardener",
+        "photo": "lgersing.png",
+        "biography": "Leon tends binary zen gardens. He currently works with the wonderful folks at GitHub building tools to make collaboration even better for developers. An avid public speaker, Leon travels the region speaking on topic ranging from learning Ruby to humanity's quixotic reverence for time and it’s impact on the collective unconscious. Leon loves hats, being barefoot and talking for hours with friends old and new. His favorite languages currently are Ruby, JavaScript, Objective-C, and Go. You can find him online at leongersing.com.",
+        "roles": [
+            "speaker"
+        ]
+    }
+
+    , {
+        "name": "Luis Pineiro",
+        "tagline": "Lethal with a Keyboard",
+        "photo": "lpineiro.jpg",
+        "roles": [
+            "organizer"
+        ]
+    }, {
+        "name": "Luke Burnett",
+        "photo": "lburnett.jpg",
+        "tagline": "0xDEADBEEF",
+        "biography":"Luke is a student at Wright State University and is a second year BSCS. He started programming in high school after his gaming addiction peaked his curiosity. Currently, Luke is working for the AFRL's Discovery Lab as a project consultant. Projects completed range from projects with the DISA organisation all the way to IoT home-automation. Luke attended his first hackathon last year(MHacks II) and has since been hooked on the late night drive to produce as fast as humanly possible. His interests are currently mobile phone security topics, OSINT data manipulation, and RoP concepts and application in phone-based environments. When Luke isn't reading, he is running around Dayton or find more ways to collaborate on his already thin schedule. ",
+        "roles": [
+            "organizer"
+        ]
+    }, {
+        "name": "Monika Eckold",
+        "tagline": "Queen of Hackers",
+        "photo": "meckold.png",
+        "roles": [
+            "organizer"
+        ]
+    }, {
+        "name": "Martin Stieger",
+        "tagline": "Mr. Roboto",
+        "photo": "mstieger.jpg",
+        "biography": "Martin is a Research Engineer with the Wright State Research Institute and serves as 
 Information Technology Manager for the Wright Brothers Institute. He holds a master’s 
 degree in Industrial and Human Factors Engineering from Wright State University. 
 He has conducted Air Force sponsored research in the area of network-centric 
@@ -114,53 +139,22 @@ operations/warfare and co-authored a book in the area of simulation modeling. As
 his responsibilities at Wright Brothers Institute, he has provided project support and 
 technology guidance to programs including Discovery Lab STEM initiatives and IDEA Lab open
 innovation initiatives.",
-    "roles": [
-      "organizer"
-    ]
-  },
-  {
-    "name": "Matt Middendorf",
-    "tagline": "The Real Deal",
-    "photo": "mmiddendorf.jpg",
-    "biography":"Mr. Middendorf is currently the project lead for the Human Universal Measurement and Analysis
+        "roles": [
+            "organizer"
+        ]
+    }, {
+        "name": "Matt Middendorf",
+        "tagline": "The Real Deal",
+        "photo": "mmiddendorf.jpg",
+        "biography": "Mr. Middendorf is currently the project lead for the Human Universal Measurement and Analysis
 Network (HUMAN) Laboratory located at Wright Patterson Air Force Base, Dayton Ohio. This laboratory 
 is in the Applied Neuroscience Branch (AFRL 711 HPW/RHCP). Mr. Middendorf has 34 years of 
 experience conducting experimental research with a focus on real-time programming, algorithm 
 development, and signal processing.",
-    "roles": [
-      "speaker"
-    ]
-  },
-    {
-    "name": "Leon Gersing",
-    "tagline": "The Zen Gardener",
-    "photo" : "lgersing.png",
-    "biography":"Leon tends binary zen gardens. He currently works with the wonderful folks at GitHub building tools to make collaboration even better for developers. An avid public speaker, Leon travels the region speaking on topic ranging from learning Ruby to humanity's quixotic reverence for time and it’s impact on the collective unconscious. Leon loves hats, being barefoot and talking for hours with friends old and new. His favorite languages currently are Ruby, JavaScript, Objective-C, and Go. You can find him online at leongersing.com.",
-    "roles": [
-      "speaker"
-    ]
-  },
-  {
-    "name": "Chip Audette",
-    "tagline": "The Mind Reader",
-    "photo":"caudette.jpg",
-    "biography":"With an interest in bio-sensors fueled by his day job (R&D Engineer at Creare, Hanover, NH), Chip has developed a number of wearable sensor systems, mostly for real-time health monitoring for military and civilian applications.  Sitting cozily in his office one day, Chip stumbled upon an opportunity to develop a low-cost, open-source EEG system.  On that day “EEG Hacker” was born.  By partnering with Joel Murphy and Conor Russomanno, who went and started OpenBCI based on this opportunity, Chip now spends his free time making things move with his mind.",
-    "roles": [
-    "speaker"
-    ]
-  },
-  {
-    "name": "Conor Russomanno",
-    "tagline": "The Hat Maker",
-    "photo": "crussomanno.jpg",
-    "roles":[ "speaker"
-    ]
-  },
-  {
-    "name": "Joel Murphy",
-    "photo": "jmurphy.jpg",
-    "tagline": "The Thought Leader",
-    "roles":[ "speaker"
-    ]
-  }
+        "roles": [
+            "speaker"
+        ]
+    }
+
+
 ]
