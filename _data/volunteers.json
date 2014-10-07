@@ -41,13 +41,16 @@
         "photo": "crussomanno.jpg",
         "biography": "OpenBCI co-founder and CEO, Conor Russomanno, comes from a mixed background of art, engineering, and science. He has dedicated the first chapter of his career to interfacing the brain, rethinking business, and turning crazy ideas into reality.",
         "roles": ["speaker"]
-    }, {
-        "name": "Dustin Armstrong",
-        "tagline": "Awesome Designer",
-        "roles": [
-            "judge"
-        ]
-    }, {
+    },  {
+    "name": "Dustin Armstrong",
+    "tagline": "Mr. Bojangles",
+    "photo": "dustin_armstrong.jpg",
+    "biography": "Dustin is a designer and front-end devloper with a degree in advertising and graphic design from the School of Advertising Art in Kettering, Ohio. He is currently working for local Rails development firm Littlelines, and runs Posthuman LLC in his free time.", 
+    "twitter": "dustinarmstrong",
+    "roles": [
+      "judge"
+    ]
+  }, {
         "name": "David Best",
         "tagline": "The Best Dave",
         "photo": "dbest.jpeg",
@@ -153,10 +156,8 @@ Network (HUMAN) Laboratory located at Wright Patterson Air Force Base, Dayton Oh
 is in the Applied Neuroscience Branch (AFRL 711 HPW/RHCP). Mr. Middendorf has 34 years of 
 experience conducting experimental research with a focus on real-time programming, algorithm 
 development, and signal processing.",
-        "roles": [
-            "speaker"
-        ]
-    }
-
-
+    "roles": [
+      "speaker"
+    ]
+  }
 ]
