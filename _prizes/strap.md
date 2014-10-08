@@ -9,7 +9,7 @@ sponsor:
   icon: strap_logo.png
 ---
 
-Participants in this challenge will use StrapKit, our wearable development framework, to create an awesome Pebble app that solves a unique Air Force application. Participants will also log events to Strap Metrics to paint a picture of how the application is used. StrapKit allows you to write apps in pure JavaScript and deploy them down to multiple wearable platforms.
+Participants in this challenge will use Strap Kit, our wearable development framework, to create an awesome Pebble app that solves a unique Air Force application. Participants will also log events to Strap Metrics to paint a picture of how the application is used. Strap Kit allows you to write apps in pure JavaScript and deploy them down to multiple wearable platforms.
 
 Entries will be judged based on uniqueness of their Pebble app and how it solves the challenge in a compelling way. 
 
