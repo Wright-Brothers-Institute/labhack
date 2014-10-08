@@ -72,16 +72,40 @@
         <ul class="nav navbar-nav">
             <li><a href="/prizes">Challenges</a>
             </li>
-            <li><a href="/faq">FAQ</a>
-            </li>
             <li><a href="/schedule">Schedule</a>
             </li>
-            <li><a href="/faq/what_is_a_hackathon.html">What is a Hackathon?</a>
+
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Tools <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="http://www.hackathon.io/afrl">Projects & Participants</a></li>
+            <li><a href="https://labhack.slack.com">Slack</a></li>
+            <li><a href="http://www.github.com/labhack">Github</a></li>
+            <li><a href="http://aws.amazon.com">AWS</a></li>
+          </ul>
+        </li>
+
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="/about">About</a>
+            </li>
+            <li><a href="/faq">FAQ</a>
             </li>
             <li><a href="/blog">Blog</a>
             </li>
-            <li><a href="/donate"><i class="fa fa-heart" style="color: red;"></i> Donate</a>
+            <li class="divider"></li>
+            <li><a href="/contact">Contact Us</a></li>
+          </ul>
+        </li>
+
+
+
+
+            <li><a href="/faq/what_is_a_hackathon.html">What is a Hackathon?</a>
             </li>
+
+
         </ul>
     </div>
 </nav>
@@ -125,6 +149,8 @@
                         <a href="{{ site.inc.url }}">&copy; {{ site.time | date: "%Y" }} {{ site.inc.company }}</a></li>
                     <li><a href="/contact">Contact Us</a>
                     </li>
+                    <li><a href="/donate"><i class="fa fa-heart" style="color: red;"></i> Donate</a>
+                a></li>
                 </ul>
             </div>
             <div class="navbar-right">

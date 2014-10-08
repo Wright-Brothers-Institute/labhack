@@ -7,7 +7,7 @@
         ]
     }, {
         "name": "Adam Renner",
-        "tagline": "Your Tech R Belonging to Me",
+        "tagline": "All Your Tech Are Belong to Us",
         "photo": "arenner.png",
         "roles": [
             "organizer"
@@ -43,7 +43,7 @@
         "roles": ["speaker"]
     },  {
     "name": "Dustin Armstrong",
-    "tagline": "Mr. Bojangles",
+    "tagline": "More Human Than Posthuman",
     "photo": "dustin_armstrong.jpg",
     "biography": "Dustin is a designer and front-end devloper with a degree in advertising and graphic design from the School of Advertising Art in Kettering, Ohio. He is currently working for local Rails development firm Littlelines, and runs Posthuman LLC in his free time.", 
     "twitter": "dustinarmstrong",
@@ -61,7 +61,7 @@
         ]
     }, {
         "name": "Dave Caraway",
-        "tagline": "Civic Hacker, Data Geek",
+        "tagline": "Knows What the Fox Said",
         "biography": "Dave is a professional civic hacker with the General Services Administration. In his free time, he leads Code for Dayton, a civic technology non-profit, and the Collider Project, an economic development social group. Dave was a Round 2 Presidential Innovation Fellow with the White House and helped implement data transparency requirements across the federal government. In 2012, he founded Fogmine, a software company specializing in analytics and data-driven applications. He holds a BS in Electrical Engineering and an MS in Computer Science. Dave enjoys trail running near his home in Beavercreek, Ohio, where he lives with his wife and two energetic kids.",
         "photo": "dcaraway.jpeg",
         "roles": [
@@ -92,7 +92,16 @@
         "roles": [
             "speaker", "judge"
         ]
-    }, {
+    }
+,{
+    "name": "Jeff Scott",
+    "photo": "jscott.jpg",
+    "biography": "Jeff works as Research Engineer and Product Lead at Tenet3, LLC where he is developing technologies and tools to analyze complex, cyber-physical systems. His previous research includes work in modular, open systems architectures for rapid satellite design, assembly, integration and test, and in automated analysis techniques for complex, closed-source binary programs. He has a breadth of experience in cyber-physical systems security, including reverse engineering and vulnerability analysis techniques, formal and stochastic methods, compilers, and anti-tamper and software protection technologies. Prior to joining Tenet3, Mr. Scott worked as a Research Engineer and Project Manager for the Air Force Research Lab Space Electronics branch, and as Chief of Research Operations for the Air Force Institute of Technology’s Center for Cyberspace Research. Mr. Scott received his B.S. degree in Electrical Engineering from the University of Portland and his M.S. in Cyber Operations from the Air Force Institute of Technology.",
+    "tagline":"The Security",
+    "roles":["speaker"]
+}
+
+    , {
         "name": "Joel Murphy",
         "photo": "jmurphy.jpg",
         "tagline": "The Thought Leader",
