@@ -27,7 +27,7 @@ is_front: true
                 Join us for LabHack, the first Air Force hackathon. This is a chance to show off your programming, design and data science skills by building solutions to real-world challenges that AFRL researchers encounter every day. We provide the food, location, big network pipelines and challenges. There's cash prizes, workshops, talks, swag and fun events along the way. This event is open to the public.
 
                 <ul>
-                    <li><a href="/faq/what_is_a_hackathon.html">What: A 26-hour hackathon around sensor data</a>
+                    <li><a href="/faq/what_is_a_hackathon.html">What: A hackathon on data and sensors</a>
                     </li>
                     <li><a href="/schedule">When: Saturday, 25 October 2014 - Sunday, 26 October 2014</a>
                     </li>
@@ -117,8 +117,7 @@ is_front: true
     </div>
 </section>
 
-
-<hr />
+<hr/>
 
 <section id="volunteers">
 
@@ -127,24 +126,13 @@ is_front: true
     {% for volunteer in site.volunteers %}
     <div class="col-xs-12 col-sm-6 col-md-3 display-block volunteer ">
         <a href="{{ volunteer.url }}">
-        <img src="
-        {% if volunteer.avatar %}
-            {% if volunteer.avatar contains "http" %}
-                {{ volunteer.avatar }}         
-            {% else %}
-                {{ volunteer.avatar | asset_path }}
-            {% endif %}
-        {% else %}
-            http://placepic.me/fatcats/200-200-bw?foo={% increment variable %}
-        {% endif %}
-            "  class="img-responsive img-rounded" />
+        <img src="{{ volunteer.avatar | asset_path }}"  class="img-responsive img-rounded" />
             <div class="caption text-center">
                 <h3>{{ volunteer.name }}</h3>
                 <h4>{{ volunteer.tagline }}</4>
             </div>
         </a>
         </div>
-
     {% endfor %}
     {% for volunteer in site.data.volunteers %}
     <div class="col-xs-12 col-sm-6 col-md-3 display-block volunteer ">
@@ -181,8 +169,9 @@ is_front: true
   </div>
 </div>
         {% capture uid %}{% increment uid %}{% endcapture %}
-
     {% endfor %}
 </div>
+
 </section>
+
 </div>

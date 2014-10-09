@@ -61,7 +61,11 @@ layout: base
         </tr>
         <tr class="success">
             <td>2:30 PM</td>
-            <td>MongoDB: Topic TBD</td>
+            <td>Strap: Why Analytics Matter</td>
+        </tr>
+        <tr class="success">
+            <td>2:45 PM</td>
+            <td>Strap: Hands-On Workshop with Pebble and Strap</td>
         </tr>
         <tr class="success">
             <td>3:30 PM</td>
@@ -90,7 +94,7 @@ layout: base
         </tr>
         <tr class="success">
             <td>7:00 PM</td>
-            <td>Strap: Why Analytics Matter</td>
+            <td>MongoDB: Topic TBD</td>
         </tr>
         <tr>
             <td>8:00 PM</td>

@@ -33,7 +33,7 @@
         "photo": "caudette.jpg",
         "biography": "With an interest in bio-sensors fueled by his day job (R&D Engineer at Creare, Hanover, NH), Chip has developed a number of wearable sensor systems, mostly for real-time health monitoring for military and civilian applications.  Sitting cozily in his office one day, Chip stumbled upon an opportunity to develop a low-cost, open-source EEG system.  On that day “EEG Hacker” was born.  By partnering with Joel Murphy and Conor Russomanno, who went and started OpenBCI based on this opportunity, Chip now spends his free time making things move with his mind.",
         "roles": [
-            "speaker"
+            "speaker", "judge"
         ]
     }, {
         "name": "Conor Russomanno",
@@ -65,7 +65,6 @@
         "biography": "Dave is a professional civic hacker with the General Services Administration. In his free time, he leads Code for Dayton, a civic technology non-profit, and the Collider Project, an economic development social group. Dave was a Round 2 Presidential Innovation Fellow with the White House and helped implement data transparency requirements across the federal government. In 2012, he founded Fogmine, a software company specializing in analytics and data-driven applications. He holds a BS in Electrical Engineering and an MS in Computer Science. Dave enjoys trail running near his home in Beavercreek, Ohio, where he lives with his wife and two energetic kids.",
         "photo": "dcaraway.jpeg",
         "roles": [
-            "speaker",
             "organizer"
         ]
     }, {
@@ -82,7 +81,7 @@
         "biography": "Ed is the mind behind Rainy Day Media LLC (RDM), who’s an avid web developer and a closet logo designer.  Who's usually up to my eyeballs with front-end development and dipping my beak into NodeJS or hitting the gym.",
         "photo": "ed.jpg",
         "roles": [
-            "speaker"
+            "judge"
         ]
     }, {
         "name": "Jack Parmer",
