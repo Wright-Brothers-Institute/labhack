@@ -173,7 +173,9 @@ In this session we will introduce the concepts behind the workflow that GitHub u
 
 <h3 id="redwall_prez">RedWall: Mobile device sensors - data mining and visualization implications </h3>
 
-TBD
+Your mobile phone already knows where it is, how you're holding it, what you're saying to it and how fast you're moving. Temperature, humidity, and barometer sensors provide 
+information about your environment. Future smart watch processors will add other sensors able to capture physiological signals like heart rate, temperature, perspiration, and skin conductance, making for a powerful technology to track your well-being. Now imagine storingmonths worth of this data on your phone. We could utilize data mining and visualization techniques for a seemingly endless number of useful applications. For example, we could track disease and health patterns more accurately across countries and continents. Air and water quality sensors could be used to give governments and health officials the opportunity to measure smog and dangerous chemicals across cities. We could take the collective stress pulse of the nation. Our presentation will discuss these topics as well as some of the security 
+implications.
 
 <h3 id="tenet3_prez">Tenet3: Visualization with D3.js</h3>
 
