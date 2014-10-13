@@ -92,12 +92,8 @@ layout: base
             <td>6:15 PM</td>
             <td>Redwall: Q&A</td>
         </tr>
-        <tr class="success">
-            <td>7:00 PM</td>
-            <td>MongoDB: Topic TBD</td>
-        </tr>
         <tr>
-            <td>8:00 PM</td>
+            <td>7:00 PM</td>
             <td>Socializing / Unconference </td>
         </tr>
         <tr class="warning">
