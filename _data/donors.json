@@ -41,13 +41,6 @@
     "donation": "Presentation"
 },
 {
-    "name": "MongoDB Incorporated",
-    "logo":"mongodb_logo.png",
-    "url": "http://www.mongodb.com/",
-    "type": "in-kind",
-    "donation": "Presentation"
-},
-{
     "name": "Plotly",
     "logo":"plotly_logo.png",
     "url": "http://plot.ly",
