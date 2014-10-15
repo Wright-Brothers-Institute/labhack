@@ -19,7 +19,8 @@ company representative.
 
 <ul>
 	<li><a href="#hotels">Hotels</a></li>
-	<li><a href="#restaurants">Restaurants</a></li>
+	<li><a href="https://docs.google.com/document/d/1DewcUdcBN6EcUHU5QzANV2jxXatUgek1EHUeJH-p1KA/edit?usp=sharings">Restaurants</a></li>
+	<li><a href="https://docs.google.com/document/d/1TnEBgtbCAD9c6p6EsxR_Gp8CEk0p-SRzxr7UmA1n0bY/edit?usp=sharing">Things to See</a></li>
 	<li><a href="#driving_directions">Driving Directions</a></li>
 </ul>
 </div>
@@ -58,9 +59,15 @@ company representative.
 
 <section>
 <h2 id="restaurants">Favorite eateries recommended by your Labhack team</h2>
-See this <a href="https://docs.google.com/document/d/1TnEBgtbCAD9c6p6EsxR_Gp8CEk0p-SRzxr7UmA1n0bY/edit?usp=sharing">Google doc</a>.
+See this <a href="https://docs.google.com/document/d/1DewcUdcBN6EcUHU5QzANV2jxXatUgek1EHUeJH-p1KA/edit?usp=sharings">Google doc on restaurants</a>.
 </section>
 
+<hr />
+
+<section>
+<h2 id="restaurants">Things to Do</h2>
+See this <a href="https://docs.google.com/document/d/1TnEBgtbCAD9c6p6EsxR_Gp8CEk0p-SRzxr7UmA1n0bY/edit?usp=sharing">Google doc on Great Places to go When Taking a Break from the LabHack</a>.
+</section>
 <hr/>
 
 <section>
