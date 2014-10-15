@@ -1,0 +1,43 @@
+[{
+"name":"Hilton Garden Inn"
+,"address1":"3520 Pentagon Blvd."
+, "city":"Beavercreek"
+, "state": "OH"
+, "zip": "45431"
+,"phone":"(937) 458-2650"
+,"offering":"1 King or 2 Queen Bed Suites"
+,"discounted_rate": "$110/night"
+}
+,{
+	"name":"Country Inn & Suites"
+	,"address1":"3971 Colonel Glenn Highway"
+	,"city":"Beavercreek"
+	, "state":"OH"
+	, "zip":"45324"
+	,"phone":"(937) 429-2222"
+	,"offering":"1 King or 2 Queen Bed Suites"
+	,"discounted_rate": "$89/night"
+}
+,{
+	"name":"Holiday Inn"
+	,"address1":"2800 Presidential Drive"
+	, "city":"Fairborn"
+	, "state":"OH"
+	, "zip":"45324"
+	,"phone":"(937) 426-7800"
+	,"offering":"1 King or 2 Queen Bed Suites"
+	,"discounted_rate": "$89/night"
+}
+
+,{
+	"name":"Comfort Suites"
+	,"address1":"5220 Huberville Ave."
+	,"city":"Dayton"
+	,"state":"OH"
+	,"zip":"45431"
+	,"phone":"(937) 425-6498"
+	,"offering":"1 King or 2 Queen Bed Suites"
+	,"discounted_rate": "$89/night"
+}
+
+]
