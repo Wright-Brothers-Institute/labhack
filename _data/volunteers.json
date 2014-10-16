@@ -84,9 +84,11 @@
             "judge"
         ]
     }, {
-        "name": "Alex Daniel",
+        "name": "Alex Vados",
         "tagline": "The Visualizer",
         "twitter": "plotlygraphs",
+        "photo":"avados.jpg",
+        "biography":"Alex is an Interactive Designer/Engineer, currently working for the Data Visualization startup Plotly. Heading up the Workshop at their Montreal office, Alex loves working with anything interactive. Observing and creating interactions between humans and machines; these are a few of his favourite things.",
         "roles": [
             "speaker", "judge"
         ]
