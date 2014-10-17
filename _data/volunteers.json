@@ -118,7 +118,20 @@
             "speaker"
         ]
     }
-
+    ,{
+        "name": "Patrick Henshaw",
+        "tagline": "Strappy",
+        "roles":[
+        "speaker", "judge"
+        ]
+    }
+,{
+        "name": "Marcelle",
+        "tagline": "Strappy Dev",
+        "roles":[
+        "speaker", "judge"
+        ]
+    }
     , {
         "name": "Luis Pineiro",
         "tagline": "Lethal with a Keyboard",
