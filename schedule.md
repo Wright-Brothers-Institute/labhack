@@ -5,7 +5,7 @@ layout: base
 <section id="schedule">
     <div class="container">
         <div class="page-header">
-        <h2>Hackathon Schedule <span style="color: red">(Subject to Change!)</span></h2>
+        <h2>Hackathon Schedule</h2>
         <h3>Saturday, 25 October 2014</h3>
     </div>
 
@@ -150,31 +150,33 @@ layout: base
 </table>
 </div>
 </section>
-
+<section id="presentations">
 <div class="container">
 
 <h2>Presentations and Workshops</h2>
 
-<h3 id="openbci">OpenBCI: An Open-Source Brain-Computer Interface</h3>
-
-OpenBCI co-founders, Joel Murphy and Conor Russomanno, will be discussing the emergence of the real-world brain-computer interface (BCI). The presentation will address the state of the art with regards to low-cost electroencephalography (EEG) technology, current trends in BCI being transplanted from the laboratory and into the everyday life, and how the open-source community has a huge role to play in accelerating innovation in the field of brain science. The brain is one of the final frontiers of human discovery and expansion, and more people should be a part of the conversation. The presentation will be followed by a hands-on workshop on how to get up and running with the OpenBCI hardware.
-
-<h3 id="plotly">Plot.ly: Sensor Data Visualization</h3>
-
-We'll stream sensor data from a Rasberry Pi or Arduino Yun to Plotly, then download and analyze that data in an interesting way using another Plotly API (MATLAB, Python, R, Julia, etc). For examples of Plotly sensor and telemetry projects, see <a href="https://plot.ly/workshop/">Plotly's workshop page</a>. 
-
-<h3 id="github_flow">Github: The Github Flow</h3>
-
-In this session we will introduce the concepts behind the workflow that GitHub uses in order to ship high-quality software on a continuous basis using GitHub.com, git and various other open source tools. We'll talk about the philosophy behind the workflow and see simple examples of how you too can integrate GitHub Flow into your own process workflows to help you collaborate and ship software faster with greater confidence.
-
-<h3 id="redwall_prez">RedWall: Mobile device sensors - data mining and visualization implications </h3>
-
-Your mobile phone already knows where it is, how you're holding it, what you're saying to it and how fast you're moving. Temperature, humidity, and barometer sensors provide 
-information about your environment. Future smart watch processors will add other sensors able to capture physiological signals like heart rate, temperature, perspiration, and skin conductance, making for a powerful technology to track your well-being. Now imagine storingmonths worth of this data on your phone. We could utilize data mining and visualization techniques for a seemingly endless number of useful applications. For example, we could track disease and health patterns more accurately across countries and continents. Air and water quality sensors could be used to give governments and health officials the opportunity to measure smog and dangerous chemicals across cities. We could take the collective stress pulse of the nation. Our presentation will discuss these topics as well as some of the security 
-implications.
-
-<h3 id="tenet3_prez">Tenet3: Visualization with D3.js</h3>
-
-TBD
+{% for presentation in site.data.presentations %}
+<div class="presentation">
+<h3 id="{{presentation.id}}">{{presentation.title}}</h3>
+<div class="row">
+<div class="col-xs-12 col-sm-9">
+{{presentation.summary}}
+</p>
+</div>
+<div class="col-sm-3">
+{% for presenter in presentation.presenters %}
+    <div class="display-block volunteer pull-right">
+        <img src="{{ presenter.photo | asset_path }}"  class="img-responsive img-rounded" />
+            <div class="caption text-center">
+                <h3>{{ presenter.name }}</h3>
+            </div>
+        </div>
+{% endfor %}
+</div><!-- end presenters -->
+</div><!--end row -->
 
 </div>
+{% endfor %}
+
+</div>
+</section>
