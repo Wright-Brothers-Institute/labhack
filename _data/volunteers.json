@@ -121,13 +121,17 @@
     ,{
         "name": "Patrick Henshaw",
         "tagline": "Strappy",
+        "photo":"phenshaw.png",
+        "biography": "Airborne Ranger turned Entrepreneur. Prior to Strap Patrick lead troops through the company level in Afghanistan with roles in managing teams/programs with budgets of $36 Billion. Patrick is a West Point Graduate who also has a Master’s in Engineering. He is in charge of the day-to-day operations and the execution of the overall Strap vision and direction.",
         "roles":[
         "speaker", "judge"
         ]
     }
 ,{
-        "name": "Marcelle",
+        "name": "Marcelle Bonterre",
         "tagline": "Strappy Dev",
+        "photo":"mbo",
+        "biography":"When not writing software, Marcelle enjoys rock climbing and backpacking, a vocation that spans the past 8 years. When time allows, he likes writing classical music, and most recently, he's taken to learning how to draw and paint. Above all else, he enjoys the various opportunities for fun problem-solving his hobbies and career afford him. Marcelle also enjoys his trips back to his homeland of Trinidad & Tobago whenever they can happen.",
         "roles":[
         "speaker", "judge"
         ]
