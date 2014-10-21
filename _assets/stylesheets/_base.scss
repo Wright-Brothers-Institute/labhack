@@ -231,8 +231,11 @@ div.prize-icon img {
 }
 
 .presenter {
+    margin: 5px 5px 5px 5px;
+    padding: 0px 0px 0px 0px;
     img {
-        height: 75px;
+        max-height: 80px;
+        max-width:80px;
     }
 }
 

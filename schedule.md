@@ -157,13 +157,13 @@ layout: base
 
 {% for presentation in site.data.presentations %}
 <div class="presentation-title row">
-<div class="col-xs-9">
+<div class="col-xs-12 col-sm-8">
 <h3 id="{{presentation.id}}">{{presentation.title}}</h3>
 </div>
-<div class="col-xs-3">
+<div class="col-xs-12 col-sm-4">
 {% for presenter in presentation.presenters %}
-<div class="presenter col-xs-4 pull-right">
-    <img src="{{ presenter.photo | asset_path }}"  class="img-responsive img-rounded" title="{{presenter.name}}" alt="{{presenter.name}}" />
+<div class="presenter pull-right">
+    <img src="{{ presenter.photo | asset_path }}"  class="img-rounded" title="{{presenter.name}}" alt="{{presenter.name}}" />
 </div>
 {% endfor %}
 </div>
