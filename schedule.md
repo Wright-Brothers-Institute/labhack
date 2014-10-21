@@ -156,27 +156,23 @@ layout: base
 <h2>Presentations and Workshops</h2>
 
 {% for presentation in site.data.presentations %}
-<div class="presentation">
+<div class="presentation-title row">
+<div class="col-xs-9">
 <h3 id="{{presentation.id}}">{{presentation.title}}</h3>
-<div class="row">
-<div class="col-xs-12 col-sm-9">
+</div>
+<div class="col-xs-3">
+{% for presenter in presentation.presenters %}
+<div class="presenter col-xs-4 pull-right">
+    <img src="{{ presenter.photo | asset_path }}"  class="img-responsive img-rounded" title="{{presenter.name}}" alt="{{presenter.name}}" />
+</div>
+{% endfor %}
+</div>
+</div><!-- End Presentation Title Row -->
+<div class="presentation-content row">
+<p>
 {{presentation.summary}}
 </p>
-</div>
-<div class="col-sm-3">
-{% for presenter in presentation.presenters %}
-    <div class="display-block volunteer pull-right">
-        <img src="{{ presenter.photo | asset_path }}"  class="img-responsive img-rounded" />
-            <div class="caption text-center">
-                <h3>{{ presenter.name }}</h3>
-            </div>
-        </div>
-{% endfor %}
-</div><!-- end presenters -->
-</div><!--end row -->
-
-</div>
+</div><!-- End Row -->
 {% endfor %}
 
-</div>
 </section>
