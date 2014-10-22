@@ -1,5 +1,15 @@
 [
 {
+	"id":"af_prez"
+,"title":"Air Force: Introduction and Background"
+, "presenters":[
+{"name":"Monika Eckold", "photo":"meckold.png"}
+,{"name":"Bob Lee", "photo":"boblee.jpg"}
+,{"name":"Matt Middendorf", "photo":"mmiddendorf.jpg"}
+]
+, "summary":"Air Force members will give the welcome and introduction with background on major issues facing today's Air Force, problems that the Air Force Research Laboratory works on every day and where the Air Force and American people could benefit from your help!"
+}
+,{
 	"id":"openbci"
 ,"title":"OpenBCI: An Open-Source Brain-Computer Interface"
 ,"summary": "OpenBCI co-founders, Joel Murphy and Conor Russomanno, will be discussing the emergence of the real-world brain-computer interface (BCI). The presentation will address the state of the art with regards to low-cost electroencephalography (EEG) technology, current trends in BCI being transplanted from the laboratory and into the everyday life, and how the open-source community has a huge role to play in accelerating innovation in the field of brain science. The brain is one of the final frontiers of human discovery and expansion, and more people should be a part of the conversation. The presentation will be followed by a hands-on workshop on how to get up and running with the OpenBCI hardware."

@@ -25,7 +25,7 @@ layout: base
         </tr>
         <tr class="success">
             <td>8:30 AM</td>
-            <td>Air Force Background Presentation</td>
+            <td>Air Force: <a href="#af_prez">Welcome and Background</a></td>
         </tr>
         <tr>
             <td>9:00 AM</td>
