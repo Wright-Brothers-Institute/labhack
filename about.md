@@ -9,7 +9,7 @@ layout: base
 <div class="col-sm-6">
 <p>
 Here you will find directions, a map, a list of local restaurants
-and hotels for those who do not wish to hack though the night or take
+and hotels for those who do not wish to hack through the night or take
 advantage of complimentary meals. For those wishing to stay at one of the local
 hotels listed here, please mention to the hotel staff that you
 will be participating/observing the AFRL Labhack event. You will be given a

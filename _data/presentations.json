@@ -60,4 +60,11 @@ implications."
 }
 ]
 }
+
+,{
+	"id":"strap_prez"
+,"title":"Strap: Why Analytics Matter"
+,"summary":"TBD"
+, "presenters":[{"name":"Patrick Henshaw", "photo":"phenshaw.png"}, {"name":"Marcelle Bonterre", "photo":"mbonterre.png"}]
+}
 ]

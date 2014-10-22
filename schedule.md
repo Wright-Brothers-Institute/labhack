@@ -61,7 +61,7 @@ layout: base
         </tr>
         <tr class="success">
             <td>2:30 PM</td>
-            <td>Strap: Why Analytics Matter</td>
+            <td>Strap: <a href="#strap_prez">Why Analytics Matter</a></td>
         </tr>
         <tr class="success">
             <td>2:45 PM</td>
@@ -128,7 +128,7 @@ layout: base
         </tr>
         <tr class="info">
             <td>12:00 PM</td>
-            <td>Lunch Served: <a href="https://www.jimmyjohns.com/">Jimmy John's</a> Sandwiches</td>
+            <td>Lunch Served: <a href="https://www.jimmyjohns.com/">Jimmy John's Sandwiches</a></td>
         </tr>
         <tr>
             <td>1:45 PM</td>
