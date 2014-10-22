@@ -8,9 +8,11 @@ sponsor:
   icon: community_chest.png
 ---
 
-<a href="http://www.milb.com/index.jsp?sid=t459"><img class="img-responsive pull-right" src="{{ 'dragons_heater_gem.jpg' | asset_path }}" title="Dayton Dragons" style="max-height: 300px; display: inline-block; margin-left: 5px;"/></a>
+
 
 Participants and volunteers can vote and give feedback on projects using [hackathon.io](http://www.hackathon.io/afrl/submissions/judge) during the presentations just like the official judges. Scores are anonymous and comments will go back to the team under review.
+
+<a href="http://www.milb.com/index.jsp?sid=t459"><img class="img-responsive pull-right" src="{{ 'dragons_heater_gem.jpg' | asset_path }}" title="Dayton Dragons" style="max-height: 300px; display: inline-block; margin-left: 5px;"/></a>
 
 As prizes, we'll be giving away some goodies donated by the Dayton Dragons and O'Reilly Media.
 
