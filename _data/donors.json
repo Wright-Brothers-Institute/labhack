@@ -39,8 +39,15 @@
     "url": "https://www.straphq.com/",
     "type": "in-kind",
     "donation": "Presentation"
-},
-{
+}
+,{
+    "name":"Dayton Dragons"
+    ,"logo":"dragons_logo.png"
+    ,"url":"http://www.milb.com/index.jsp?sid=t459"
+    ,"type":"in-kind"
+    ,"donation":"Dragons t-shirts, caps, bags and other gear for the community chest"
+}
+,{
     "name": "Plotly",
     "logo":"plotly_logo.png",
     "url": "http://plot.ly",
