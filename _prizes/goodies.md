@@ -8,6 +8,6 @@ sponsor:
   url: http://www.wpafb.af.mil/AFRL/
   icon: t_shirt.png
 ---
-Yes, you heard it right, folks. Everyone's a winner at LabHack. Thanks to our sponsors, we'll have plenty of great stuff to hand out.
+Yes, you heard it right, folks. Everyone's a winner at LabHack. Thanks to our sponsors, all participants get a LabHack t-shirt. O'Reilly Media is also providing all participants with a free O'Reilly E-book of your choosing.
 
-From the oh-so-awesome LabHack tees to the stylish swag, you'll be the envy of all your nerdy compadres and comadres.
+With the oh-so-awesome LabHack tee and your new-found book learnin', you'll be the envy of all your nerdy compadres and comadres.
