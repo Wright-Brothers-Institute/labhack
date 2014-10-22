@@ -21,7 +21,7 @@ layout: base
         </tr>
         <tr class="info">
             <td>8:00 AM</td>
-            <td>Breakfast Served</td>
+            <td>Continental Breakfast Served</td>
         </tr>
         <tr class="success">
             <td>8:30 AM</td>
@@ -41,7 +41,7 @@ layout: base
         </tr>
         <tr class="info">
             <td>12:00 PM</td>
-            <td>Lunch Served</td>
+            <td>Lunch Served: <a href="http://www.papajohns.com/index.html">Papa John's Pizza</a></td>
         </tr>
         <tr class="success">
             <td>12:30 PM</td>
@@ -82,7 +82,7 @@ layout: base
         </tr>
         <tr class="info">
             <td>5:30 PM</td>
-            <td>Dinner Served</td>
+            <td>Dinner Served: <a href="http://www.citybbq.com/">City BBQ</a></td>
         </tr>
         <tr class="success">
             <td>6:00 PM</td>
@@ -102,7 +102,7 @@ layout: base
         </tr>
         <tr class="info">
             <td>11:00 PM</td>
-            <td>Late Night Snack Served</td>
+            <td>Late Night Snack Served: Waffles!</td>
         </tr>
     </tbody>
 </table>
@@ -120,7 +120,7 @@ layout: base
         </tr>
         <tr class="info">
             <td>8:00 AM</td>
-            <td>Breakfast served</td>
+            <td>Continental Breakfast served</td>
         </tr>
         <tr>
             <td>10:00 AM</td>
@@ -128,7 +128,7 @@ layout: base
         </tr>
         <tr class="info">
             <td>12:00 PM</td>
-            <td>Lunch Served</td>
+            <td>Lunch Served: <a href="https://www.jimmyjohns.com/">Jimmy John's</a> Sandwiches</td>
         </tr>
         <tr>
             <td>1:45 PM</td>
@@ -140,7 +140,7 @@ layout: base
         </tr>
         <tr class="info">
             <td>3:45 PM</td>
-            <td>Appetizers Served</td>
+            <td><a href="https://www.facebook.com/FronanaForLife">Fronana</a> Served</td>
         </tr>
         <tr>
             <td>4:30 PM</td>
