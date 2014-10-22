@@ -74,7 +74,7 @@ implications."
 ,{
 	"id":"strap_prez"
 ,"title":"Strap: Why Analytics Matter"
-,"summary":"TBD"
+,"summary":"We’ll discuss why Big Data combined with Analytics actually matters in the world we live in today. We’ll preview some of the key players and producers of big data in the world today as well as dive into how and what big data can be used for. This will then tie in to how organizations today use predictive analytics to make more informed decisions about the way that their application or businesses as a whole optimize and operate. We will close out the talk with a quick demo that will assist with the wearable hack challenge on how to use Strap Kit to build your next wearable application with the power of Strap Metrics built in. "
 , "presenters":[{"name":"Patrick Henshaw", "photo":"phenshaw.png"}, {"name":"Marcelle Bonterre", "photo":"mbonterre.png"}]
 }
 ]
