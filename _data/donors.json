@@ -81,8 +81,16 @@
     "url": "http://www.teradata.com/",
     "type": "gold",
     "donation": "Donated financially"
-},
-{
+}
+,{
+    "name": "MongoDB Incorporated",
+    "logo":"mongodb_logo.png",
+    "url": "http://www.mongodb.com/",
+    "type": "in-kind",
+    "donation": "Presentation by Community Member"
+}
+
+,{
     "name": "OpenBCI",
     "logo":"openbci_logo.png",
     "url": "http://www.openbci.com/",
