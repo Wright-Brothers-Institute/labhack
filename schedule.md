@@ -92,8 +92,12 @@ layout: base
             <td>6:15 PM</td>
             <td>Redwall: Q&A</td>
         </tr>
-        <tr>
+        <tr class="success">
             <td>7:00 PM</td>
+            <td>MongoDB Community: <a href="#mongodb_prez">Building Your First App: Introduction to MongoDB</a> </td>
+        </tr>
+        <tr>
+            <td>7:15 PM</td>
             <td>Socializing / Unconference </td>
         </tr>
         <tr class="warning">

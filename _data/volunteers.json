@@ -205,4 +205,13 @@ development, and signal processing.",
     "speaker"
     ]
   }
+  , {
+    "name": "John Santiago",
+    "tagline": "Such Mongo. Wow.",
+    "photo": "jsantiago.jpg",
+    "biography": "I am full time web developer for Command Alkon in Columbus, OH. I have a background in Animation and Illustration and got into programming about six years ago. I’m currently working with MongoDB and a bulk of other web technologies to help build real time web applications.",
+    "roles": [
+    "speaker"
+    ]
+  }
 ]
