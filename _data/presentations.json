@@ -57,8 +57,8 @@ implications."
 
 ,{
 	"id":"tenet3_prez"
-,"title":"Tenet3: Visualization with D3.js"
-,"summary":"TBD"
+,"title":"Tenet3: Conceptualizing Complexity with D3.js"
+,"summary":"In this age, the complexity of our cyber-physical-social networks can overwhelm us.  So we gather data to try to understand our world.  There is no lack of interesting data available but we struggle making sense of it all.  In this session, researchers at Tenet3 will help you understand your data using the open source JavaScript library D3.js.  We'll describe our mission, then the philosophy behind D3, then we'll describe some of the core concepts D3 uses to produce elegant, interactive visualizations of your data.  We'll end by walking through several visualizations we've found useful in our own work."
 , "presenters":[
 {
 "name":"Michael Clark"
