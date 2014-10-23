@@ -74,7 +74,7 @@ layout: base
 
         <tr class="success">
             <td>4:30 PM</td>
-            <td>Tenet3: <a href="#tenet3_prez">Visualizing Data with D3.js</a></td>
+            <td>Tenet3: <a href="#tenet3_prez">Conceptualizing Complexity with D3.js</a></td>
         </tr>
         <tr class="success">
             <td>4:45 PM</td>
