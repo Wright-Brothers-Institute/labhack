@@ -44,7 +44,7 @@
 	"id":"github_flow"
 ,"title":"Github: The Github Flow"
 ,"summary":"In this session we will introduce the concepts behind the workflow that GitHub uses in order to ship high-quality software on a continuous basis using GitHub.com, git and various other open source tools. We'll talk about the philosophy behind the workflow and see simple examples of how you too can integrate GitHub Flow into your own process workflows to help you collaborate and ship software faster with greater confidence."
-, "presenters":[{"name":"Leon Gersing", "photo":"lgersing.png"}]
+, "presenters":[{"name":"Ben Balter", "photo":"bbalter.jpeg"}]
 }
 
 ,{
