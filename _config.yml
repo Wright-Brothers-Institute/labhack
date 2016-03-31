@@ -41,7 +41,7 @@ inc:
 
   # Setup your fonts, colors etc at _assets/stylesheets/main.scss
 
-url:             http://www.labhack.org 
+url:             http://2014.labhack.org 
 source:          .
 destination:     ./_site
 plugins_dir:     ./_plugins
