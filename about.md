@@ -10,11 +10,7 @@ layout: base
 <p>
 Here you will find directions, a map, a list of local restaurants
 and hotels for those who do not wish to hack through the night or take
-advantage of complimentary meals. For those wishing to stay at one of the local
-hotels listed here, please mention to the hotel staff that you
-will be participating/observing the AFRL Labhack event. You will be given a
-military rate regardless if you are active duty military, a student, or a
-company representative.
+advantage of complimentary meals.
 </p>
 
 <ul>
@@ -30,30 +26,6 @@ company representative.
 	<iframe class="embed-responsive-item" src="https://mapsengine.google.com/map/u/0/embed?mid=zBQRgyLFcISg.kWLNRVdo-dkE"></iframe>
 </div>
 </div>
-
-<section>
-<h2 id="hotels">Hotels</h2>
-<table class="table">
-
-<table class="table">
-  <tr>
-    <th >Hotel</th>
-    <th >Availability</th>
-    <th >Price</th>
-  </tr>
- 
- {% for hotel in site.data.hotels %}
- 
-  <tr>
-    <td > {{ hotel.name }} <br> {{ hotel.address1 }} <br> {{ hotel.city }}, {{ hotel.state }} {{ hotel.zip }} <br>(p) {{ hotel.phone }}</td>
-    <td > {{ hotel.offering }} </td>
-    <td >Mention AFRL Labhack- <br>this will provide you a military affiliated discount of {{ hotel.discounted_rate }}</td>
-  </tr>
- 
-{% endfor %}
-
-</table>
-</section>
 
 <hr/>
 

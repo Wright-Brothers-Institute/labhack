@@ -1,6 +1,6 @@
 [{
 "question": "Can high school students attend?",
-"answer":"Yes! We'd love to have younger students involved with the event. Attendees under the age of 18 need to be accompanied by an adult guardian and are not allowed to stay over night (between 11PM and 6AM) on site."
+"answer":"Attendees under the age of 18 need to be accompanied by an adult guardian."
 }
 ,{
 "question":"What programming languages will be used? (MATLAB, C/C++, Python, etc.)?",
@@ -8,15 +8,7 @@
 }
 ,{
 "question": "Will computers and other equipment be provided?",
-"answer": "Participants should bring their own computers and other equipment. Some demonstration tools may be available during workshops."
-}
-,{
-	"question":"Will the hackathon sponsor travel arrangements at all for out of town participants?",
-	"answer":"We provide male and female designated sleeping quarters for participants 18 years or older. Minors will not be allowed to stay on premise during the night, but there are a number of inexpensive hotels nearby.
-
-Participants staying on-site should bring their own sleeping supplies and toiletries (sleeping bag, pillow, PJs, Spider Man toothbrush, etc). We do not have shower facilities on site.
-
-We have plenty of snacks and drinks and a midnight meal to keep participants from getting hungry."
+"answer": "Participants should bring their own computers and other equipment. Some specialized tools may be available in small quantities."
 }
 ,{
 	"question":"I don't see any way to register as a team, so we should all just register individually then get together at the start of the hackathon?"
@@ -24,11 +16,11 @@ We have plenty of snacks and drinks and a midnight meal to keep participants fro
 }
 ,{
 	"question":"How big is the competition expected to be? How many participants are there?"
-	,"answer":"We have 65 registered hackathon participants. Additionally, we're providing Day Passes so that people may attend workshops on Saturday and experience LabHack without participating in the hackathon. Total attendance will exceed 100 people."
+	,"answer":"We aim to have 60 - 70 hackathon participants."
 },
 {
-	"question":"Do I have to stay overnight?"
-	,"answer":"Absolutely not. You're free to come and go as you please. Doors will be locked and controlled for security and only authorized attendees will be allowed to enter the Tec^Edge facility."
+	"question":"Can I stay overnight?"
+	,"answer":"Not this time. At LabHack 2014, we allowed hackers to work through the night. This time, we will close up the building at 9:00 PM on Saturday."
 }
 ,{
 	"question":"Is there a floor plan for Tec^Edge?"
