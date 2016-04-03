@@ -2,7 +2,7 @@
 layout: base
 is_front: true
 ---
-<div id="blog-cover" class="blog-cover" style="background-image: url({% asset_path default_bg.svg %});" onerror="this.onerror=null; this.style='background-image: url(images/default_bg.png);'">
+<div id="blog-cover" class="blog-cover" style="background-image: url(assets/default_bg.svg);" onerror="this.onerror=null; this.style='background-image: url(images/default_bg.png);'">
 
     <section>
         <div class="container">
@@ -159,7 +159,7 @@ Gave two Dayton Dragons hats to Health Monitoring, <a href="http://www.hackathon
     {% for donor in site.data.donors %} {% if donor.type != "in-kind" %}
     <div class="col-xs-12 col-sm-6 col-md-4 display-block">
         <a href="{{ donor.url }}">
-            <img src="{{ donor.logo | asset_path }}" alt="{{ donor.name }}" class="img-responsive" />
+            <img src="/assets/{{ donor.logo }}" alt="{{ donor.name }}" class="img-responsive" />
         </a>
     </div>
     {% endif %} {% endfor %}
@@ -171,7 +171,7 @@ Gave two Dayton Dragons hats to Health Monitoring, <a href="http://www.hackathon
     {% for donor in site.data.donors %} {% if donor.type == "in-kind" %}
     <div class="col-xs-12 col-sm-6 col-md-4 display-block">
         <a href="{{ donor.url }}">
-            <img src="{{ donor.logo | asset_path }}" alt="{{ donor.name }}" class="img-responsive" />
+            <img src="/assets/{{ donor.logo }}" alt="{{ donor.name }}" class="img-responsive" />
         </a>
     </div>
     {% endif %} {% endfor %}
@@ -188,7 +188,7 @@ Gave two Dayton Dragons hats to Health Monitoring, <a href="http://www.hackathon
         {% for volunteer in site.volunteers %}
         <div class="col-xs-12 col-sm-6 col-md-3 display-block volunteer ">
             <a href="{{ volunteer.url }}">
-                <img src="{{ volunteer.avatar | asset_path }}" class="img-responsive img-rounded" />
+                <img src="/assets/{{ volunteer.avatar }}" class="img-responsive img-rounded" />
                 <div class="caption text-center">
                     <h3>{{ volunteer.name }}</h3>
                     <h4>{{ volunteer.tagline }}</4>
@@ -200,7 +200,7 @@ Gave two Dayton Dragons hats to Health Monitoring, <a href="http://www.hackathon
             <a href="#vModal{{ uid }}" data-toggle="modal" data-target="#vModal{{ uid }}" role="dialog">
                 <img src="
         {% if volunteer.photo %}
-            {{ volunteer.photo | asset_path }}
+            /assets/{{ volunteer.photo }}
         {% else %}
             http://placepic.me/fatcats/200-200-bw?foo={{ uid }}
         {% endif %}

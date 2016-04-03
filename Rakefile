@@ -212,7 +212,7 @@ namespace :site do
       sh "git add ."
       message = "Site updated at #{Time.now.utc} to #{USERNAME}/#{REPO}@#{sha}."
       sh "git commit -m #{message.inspect}"
-      sh "git push --force --quiet 'https://#{ENV['GH_TOKEN']}@github.com/#{USERNAME}/#{REPO}.git' master:gh-pages > /dev/null 2>&1"
+      sh "git push --force --quiet 'https://#{ENV['GH_TOKEN']}@github.com/#{USERNAME}/#{REPO}.git' master:gh-pages"
     end
   end
 end
