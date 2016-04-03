@@ -132,21 +132,21 @@ redcloth:
 #
 # jekyll-assets: see more at https://github.com/ixti/jekyll-assets
 #
-assets:
+#assets:
 
-  dirname: assets
-  baseurl: /assets/
-  sources:
-    - _assets/javascripts
-    - _assets/stylesheets
-    - _assets/images
-    - _assets/fonts
-  js_compressor: uglifier
-  css_compressor: sass
-  cachebust: hard
-  cache: false
-  gzip: [ text/css, application/javascript ]
-  debug: false
+#  dirname: assets
+#  baseurl: /assets/
+#  sources:
+#    - _assets/javascripts
+#    - _assets/stylesheets
+#    - _assets/images
+#    - _assets/fonts
+#  js_compressor: uglifier
+#  css_compressor: sass
+#  cachebust: hard
+#  cache: false
+#  gzip: [ text/css, application/javascript ]
+#  debug: false
 
 #
 # Collections
@@ -163,4 +163,3 @@ collections:
 gems:
   - jekyll-paginate
   - kramdown
-  - jekyll-assets
