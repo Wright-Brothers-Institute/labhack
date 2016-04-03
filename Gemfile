@@ -1,10 +1,10 @@
 source 'https://rubygems.org'
 
-gem 'jekyll', '~> 2.2.0'
+gem 'jekyll', '~> 3.0.3'
 gem 'jekyll-assets'
 gem 'maruku'
 gem 'rake'
 gem 'sass'
 gem 'uglifier'
-gem 'github-pages', '~> 22'
+gem 'github-pages', '~> 68'
 gem 'jekyll-lunr-js-search'
