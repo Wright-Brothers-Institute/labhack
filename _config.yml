@@ -41,12 +41,13 @@ inc:
 
   # Setup your fonts, colors etc at _assets/stylesheets/main.scss
 
-url:        http://www.labhack.org 
-source:      .
-destination: ./_site
+url:             http://2014.labhack.org 
+source:          .
+destination:     ./_site
 plugins_dir:     ./_plugins
 layouts_dir:     ./_layouts
-include:     ['.htaccess']
+include:         ['.htaccess']
+
 exclude:
  - README.md
   - Rakefile
@@ -159,4 +160,7 @@ collections:
     output: true
 
 #gems: ['jekyll-lunr-js-search']
-gems: ['jekyll-paginate']
+gems:
+  - jekyll-paginate
+  - kramdown
+  - jekyll-assets
