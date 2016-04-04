@@ -18,6 +18,12 @@
     "url": "http://www.wbi-icc.com",
     "type": "in-kind",
     "donation": "Tec^Edge Location and Angry Birds game"
+},
+{
+    "name": "DiDacTex",
+    "logo":"didactex.png",
+    "url": "http://www.didactex.com",
+    "type": "community",
+    "donation": "Tec^Edge Location and Angry Birds game"
 }
-
 ]
