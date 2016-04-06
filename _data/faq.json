@@ -1,6 +1,6 @@
 [{
 "question": "Can high school students attend?",
-"answer":"Attendees under the age of 18 need to be accompanied by an adult guardian."
+"answer":"See <a href=\"../prizes/highschool/\">High School Team Challenge</a>. High School students will only be able to attend the presentation and award ceremonies on Sunday."
 }
 ,{
 "question":"What programming languages will be used? (MATLAB, C/C++, Python, etc.)?",
@@ -8,7 +8,7 @@
 }
 ,{
 "question": "Will computers and other equipment be provided?",
-"answer": "Participants should bring their own computers and other equipment. Some specialized tools may be available in small quantities."
+"answer": "Participants should bring their own computers and other equipment. We will have 2 <a href=\"http://boxbotix.com/\">BoxBotix</a> systems available for the best team pitch to use. Concepts will be evaluated by a judging team for use during the hackathon and can be used in the demo."
 }
 ,{
 	"question":"I don't see any way to register as a team, so we should all just register individually then get together at the start of the hackathon?"
