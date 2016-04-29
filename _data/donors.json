@@ -20,10 +20,52 @@
     "donation": "Tec^Edge Location and Angry Birds game"
 },
 {
+    "name": "Amazon",
+    "logo":"amazon.png",
+    "url": "http://amazon.com",
+    "type": "in-kind",
+    "donation": "AWS credit for teams"
+},
+{
+    "name": "Applied Information Sciences",
+    "logo":"ais.svg",
+    "url": "http://www.appliedis.com/careers",
+    "type": "community",
+    "donation": "Money"
+},
+{
+    "name": "Caesar Creek Software",
+    "logo":"ccsw.png",
+    "url": "http://www.cc-sw.com/",
+    "type": "community",
+    "donation": "Money"
+},
+{
+    "name": "Casamatic",
+    "logo":"casamatic.png",
+    "url": "https://casamatic.com/",
+    "type": "community",
+    "donation": "Money"
+},
+{
+    "name": "Clark State Community College",
+    "logo":"clarkstate.png",
+    "url": "http://www.clarkstate.edu/",
+    "type": "community",
+    "donation": "Money"
+},
+{
     "name": "DiDacTex",
     "logo":"didactex.png",
     "url": "http://www.didactex.com",
     "type": "community",
-    "donation": "Tec^Edge Location and Angry Birds game"
+    "donation": "Money"
+},
+{
+    "name": "Mile Two LLC",
+    "logo":"mile2.png",
+    "url": "http://www.miletwo.us/",
+    "type": "community",
+    "donation": "Money"
 }
 ]
