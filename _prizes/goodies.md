@@ -9,3 +9,5 @@ sponsor:
   icon: t_shirt.png
 ---
 Yes, you heard it right, folks. Everyone's a winner at LabHack. Thanks to our sponsors, all participants get a LabHack t-shirt.
+
+We will also have a pile of Raspberry Pi's to give out as door prizes.
