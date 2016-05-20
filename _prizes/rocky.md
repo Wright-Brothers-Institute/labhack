@@ -9,3 +9,7 @@ sponsor:
   icon: afrl_prize_icon.png
 ---
 Rocky is a good, old-fashioned capture the flag event. Don't hack anything yet,  we'll be providing target information on Saturday!
+
+#See the presentation [here](https://s3.amazonaws.com/labhack-resources/Rocky/Rocky-Hackathon_Slides.pdf)!
+
+#See the task list [here](https://s3.amazonaws.com/labhack-resources/Rocky/Rocky-Hackathon_Checklist.pdf)!

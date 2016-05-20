@@ -14,3 +14,5 @@ Upshot is the SOCOM codename for a project around field translation of handwritt
 To be announced
 
 #See the presentation [here](../../assets/files/Upshot.pdf)!
+
+#Grab some sample documents [here](https://s3.amazonaws.com/labhack-resources/Upshot/TranslationFiles.zip)!

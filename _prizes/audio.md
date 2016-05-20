@@ -18,3 +18,5 @@ This is more of a grab bag challenge, teams can choose to work as few or as many
 * Second Place: $300/team
 
 #See the presentation [here](../../assets/files/AudioProcessingChallenge.pdf)!
+
+#Grab the audio files [here](https://s3.amazonaws.com/labhack-resources/Audio/Initial_Audio_Files.zip)!
