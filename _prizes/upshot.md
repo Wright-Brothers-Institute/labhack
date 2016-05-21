@@ -11,7 +11,9 @@ sponsor:
 Upshot is the SOCOM codename for a project around field translation of handwritten documents.
 
 #Awards
-To be announced
+
+* First Place: $400/team
+* Second Place: $200/team
 
 #See the presentation [here](../../assets/files/Upshot.pdf)!
 

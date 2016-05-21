@@ -14,8 +14,8 @@ This is more of a grab bag challenge, teams can choose to work as few or as many
 
 #Awards
 
-* First Place: $600/team
-* Second Place: $300/team
+* First Place: $400/team
+* Second Place: $200/team
 
 #See the presentation [here](../../assets/files/AudioProcessingChallenge.pdf)!
 
