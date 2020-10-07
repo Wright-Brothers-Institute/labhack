@@ -1,9 +1,9 @@
 language: ruby
 rvm:
- - "2.2.3"
+ - "2.7.2"
 install:
 - bundle install
 script: bundle exec rake site:deploy --quiet
 env:
   global:
-  - secure: nZkSocluiCFCVB6tvQh9Lyu+tptpPnmwC6oW6JEmiXNqF/7oAoy3gVotFM40NggZivnW5dayB5Qr5VWFXTqBkr8T5UvmZPm+D8DGvgVVKqpIQ6CFS7HxEx6UpFwhC+XYamWo4lybbX8R5wHxvdMWcUARDSCdJ4cUnjVeUE/jcsQ=
+  - secure: jT6Gfa1xYEQ1aBEC8qe6Uizkvz+9hy2Go1YvaGrVKy9vP0ej+l5g17G743gmrOxliM6Lt99ghMZP8VoDW7xiTwcQDSdU9wV2GWf36anyLbyUHs60snlraHnjs66KhFOEkVAmN5u5b3BoaC2BW9sXO0h3Y/1fEQKMcrGHCyL5h+c=
