@@ -25,7 +25,7 @@ layout: base
         </tr>
         <tr class="success">
             <td>8:30 AM</td>
-            <td>Team Building and Speed Introductions</a></td>
+            <td>Team Building and Speed Introductions</td>
         </tr>
         <tr>
             <td>9:00 AM</td>
