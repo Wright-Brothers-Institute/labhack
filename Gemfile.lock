@@ -257,6 +257,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bundler (~> 1.10.6)
   github-pages (~> 209)
   jekyll (~> 3.9.0)
   kramdown
