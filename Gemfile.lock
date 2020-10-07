@@ -257,7 +257,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bundler (~> 1.10.6)
   github-pages (~> 209)
   jekyll (~> 3.9.0)
   kramdown
@@ -267,4 +266,4 @@ DEPENDENCIES
   uglifier
 
 BUNDLED WITH
-   1.10.6
+   2.1.4
