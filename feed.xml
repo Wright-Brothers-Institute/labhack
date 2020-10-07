@@ -1,56 +1,29 @@
+---
+layout: none
+---
 <?xml version="1.0"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title></title>
-    <link>http://2014.labhack.org</link>
-    <atom:link href="http://2014.labhack.org/feed.xml" rel="self" type="application/rss+xml" />
-    <description></description>
+    <title>{{ site.blog_title }}</title>
+    <link>{{ site.url }}</link>
+    <atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
+    <description>{{ site.blog_subtitle }}</description>
     <language>en-us</language>
-    <pubDate>Wed, 07 Oct 2020 19:31:29 +0000</pubDate>
-    <lastBuildDate>Wed, 07 Oct 2020 19:31:29 +0000</lastBuildDate>
+    <pubDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+    <lastBuildDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</lastBuildDate>
 
-    
-    
+    {% for post in site.posts %}
+    {% unless post.draft %}
     <item>
-      <title>The Tec^Edge Campus</title>
-      <link>http://2014.labhack.org/2014/08/27/tecedge/</link>
-      <pubDate>Wed, 27 Aug 2014 00:00:00 +0000</pubDate>
-      <author></author>
-      <guid>http://2014.labhack.org/2014/08/27/tecedge</guid>
-      <description>&lt;div id=&quot;tecedge_video&quot; class=&quot;embed-responsive embed-responsive-16by9&quot;&gt;
-
-&lt;iframe src=&quot;//player.vimeo.com/video/104447437?title=0&amp;amp;byline=0&amp;amp;portrait=0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt; 
-&lt;/div&gt;
-</description>
+      <title>{{ post.title }}</title>
+      <link>{{ site.url }}{{ post.url }}</link>
+      <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+      <author>{{ post.author_name }}</author>
+      <guid>{{ site.url }}{{ post.id }}</guid>
+      <description>{{ post.content | xml_escape }}</description>
     </item>
-    
-    
-    
-    <item>
-      <title>The HUMAN Lab</title>
-      <link>http://2014.labhack.org/2014/08/26/human-lab/</link>
-      <pubDate>Tue, 26 Aug 2014 00:00:00 +0000</pubDate>
-      <author></author>
-      <guid>http://2014.labhack.org/2014/08/26/human-lab</guid>
-      <description>&lt;div class=&quot;embed-responsive embed-responsive-16by9&quot;&gt;
-&lt;iframe src=&quot;//www.youtube.com/embed/T3g9-apSDH0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;div style=&quot;margin-top: 1em; margin-bottom: 1em; margin-left: auto; margin-right: auto;&quot;&gt;
-&lt;a href=&quot;https://drive.google.com/a/fogmine.com/?ddrp=1#folders/0B_GGwHmyCMrId1l6VVZmTjJKUGc&quot; class=&quot;btn btn-success&quot;&gt;&lt;i class=&quot;fa fa-shopping-cart fa-lg&quot;&gt;&lt;/i&gt; Get the Data&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;p&gt;The Air Force has many critical systems that depend on the ability for humans and technology to effectively work together. These systems must be able to accommodate rapid changes, changing task demands, and different fluctuations in operator states.  The HUMAN Lab provides the framework for how to augment the human operator in their work environment.  It focuses on psychophysiological assessments and computational modeling to provide data and analytic capabilities in a timely and reliable assessment.&lt;/p&gt;
-
-&lt;p&gt;The Lab addresses these needs with a sense, assess, and augment framework.  It uses a wide variety of physiological sensors such as eye-tracking devices, respiration rates, ECG, EEG, electrodermal activity, and voice stress analysis to improve the ability of systems to measure human operator states, in real time settings.  Once obtained, this data is then integrated into a common source for a real time assessment.&lt;/p&gt;
-
-&lt;p&gt;Once all of the data is successfully collected, the information can then be assessed in order to augment system users.  The main difficulty with this is translating large multi-modal data sets into meaningful assessments.  The HUMAN Lab uses machine learning technology in order to measure and forecast operator states in real time.  These measures are then calculated to monitor trends for augmentation strategies.&lt;/p&gt;
-
-&lt;p&gt;The Lab is designed to accommodate a broad range of augmentation strategies in order to implement the final stage of the framework; the augmentation portion. Augmentation leads to higher performing teams of operators, in more desirable states, which will lead to a higher likelihood of mission success.&lt;/p&gt;
-</description>
-    </item>
-    
-    
+    {% endunless %}
+    {% endfor %}
 
   </channel> 
 </rss>

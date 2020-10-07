@@ -1,0 +1,43 @@
+[{
+"question": "Can high school students attend?",
+"answer":"See <a href=\"../prizes/highschool/\">High School Team Challenge</a>. High School students will only be able to attend the presentation and award ceremonies on Sunday."
+}
+,{
+"question":"What programming languages will be used? (MATLAB, C/C++, Python, etc.)?",
+"answer":"Programming languages are at the discretion of the participants. Our only requirement is that the language tools (compiler, linker, etc) are free and open-source, available to all participants."
+}
+,{
+"question": "Will computers and other equipment be provided?",
+"answer": "Participants should bring their own computers and other equipment. We will have 2 <a href=\"http://boxbotix.com/\">BoxBotix</a> systems available for the best team pitch to use. Concepts will be evaluated by a judging team for use during the hackathon and can be used in the demo."
+}
+,{
+	"question":"I don't see any way to register as a team, so we should all just register individually then get together at the start of the hackathon?"
+	,"answer":"Yes, each team member will need to get a ticket on [Eventbrite](http://labhack.eventbrite.com/). We use this to plan food/drink and other resources."
+}
+,{
+	"question":"How big is the competition expected to be? How many participants are there?"
+	,"answer":"We aim to have 60 - 70 hackathon participants."
+},
+{
+	"question":"Can I stay overnight?"
+	,"answer":"Not this time. At LabHack 2014, we allowed hackers to work through the night. This time, we will close up the building at 9:00 PM on Saturday."
+}
+,{
+	"question":"Is there a floor plan for Tec^Edge?"
+	,"answer":"Yes, see <a href='https://drive.google.com/file/d/0B0U6iWSagff4MktaRWQ5S3Z2VG8/view?usp=sharing'>here</a>"
+}
+,{
+	"question":"Is there a uniform-of-the-day for military or may we all just come in comfy civvies?"
+	,"answer":"Uniform of the Day is super hero or internet meme t-shirt of your choice. Comfy clothing required. BDUs permitted only if they allow you to blend in with the office furniture."
+}
+,{
+	"question":"What room will presentations be made in?"
+	,"answer":"The presentations will be in the Einstein Room with screencast / spillover into the Founders Room. See <a href='https://drive.google.com/file/d/0B0U6iWSagff4MktaRWQ5S3Z2VG8/view'>map</a>"
+
+}
+,{
+	"question":"What kinds of connectors and gear do we need for presentations"
+	,"answer":"
+There are VGA and HDMI cables as well as standard 3.5mm audio mini jacks for the A/V system. Plan on bringing your own adapters (e.g. for macbook)."
+}
+]

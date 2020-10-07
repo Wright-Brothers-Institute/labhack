@@ -1,0 +1,164 @@
+inc:
+  # Blog Information
+  title:        "LabHack"
+  subtitle:     "May 21 - 22, 2016"
+  cover_image:  blog-cover.jpg
+  logo:        afrl_logo_sm.png 
+
+  # Company information
+  company:     LabHack
+  url:         http://www.wpafb.af.mil/AFRL/ 
+  facebook:    airforcehackathon 
+  twitter:     aflabhack
+  gplus:        ''
+  about_link:   about
+
+  # Product Information
+  product_link: http://www.eventbrite.com/e/labhack-tickets-11292755937 
+  tagline:      "The Air Force Hackathon and Mini-Conference"
+
+  # Comments
+  disqus:
+    # Eg. "exampleblog" Set to false to disable comments
+    shortname: false 
+
+  # Sharing settings
+  sharing:
+    twitter:   false 
+    facebook:  false 
+    gplus:     false 
+    hn:        false
+
+
+ # Analytics     
+  analytics:
+    google: true # Add tracking code in _includes/_google-analytics.html
+
+
+  # Google Fonts
+  # eg. 'Droid+Sans:400,700|Droid+Serif:400,700'
+  google_font: 'Droid+Sans:400,700'
+
+  # Setup your fonts, colors etc at _assets/stylesheets/main.scss
+
+url:             http://2014.labhack.org 
+source:          .
+destination:     ./_site
+plugins_dir:     ./_plugins
+layouts_dir:     ./_layouts
+include:         ['.htaccess']
+
+exclude:
+ - README.md
+  - Rakefile
+  - Gemfile
+  - Gemfile.lock
+  - changelog.md
+  - "*.Rmd"
+  - vendor
+  - .travis.yml
+
+# Settings for deploy rake task
+# Username and repo of Github repo, e.g.
+# https://github.com/USERNAME/REPO.git
+# username defaults to ENV['GIT_NAME'] used by Travis
+# repo defaults to USERNAME.github.io
+# Branch defaults to "source" for USERNAME.github.io
+# or "master" otherwise
+username: codefordayton
+repo: labhack 
+branch: master 
+
+relative_source: ../labhack/
+
+timezone:    nil
+
+# Show future posts
+future:      false
+show_drafts: nil
+limit_posts: 0
+highlighter:    true
+future:      true
+unpublished: false
+
+permalink:     pretty
+paginate_path: 'page:num'
+paginate: 10
+
+markdown:      kramdown 
+markdown_ext:  markdown,mkd,mkdn,md
+textile_ext:   textile
+
+excerpt_separator: "<!-- more -->"
+
+safe:        false
+host:        0.0.0.0
+port:        4000
+baseurl:     /
+lsi:         false
+
+maruku:
+  use_tex:    false
+  use_divs:   false
+  png_engine: blahtex
+  png_dir:    images/latex
+  png_url:    /images/latex
+
+rdiscount:
+  extensions: []
+
+redcarpet:
+  extensions: []
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+  syntax_highlighter_opts:
+    wrap: div
+    line_numbers: inline
+    line_numbers_start: 1
+    tab_width: 4
+    bold_every: 10
+    css: style
+
+redcloth:
+  hard_breaks: true
+
+#
+# jekyll-assets: see more at https://github.com/ixti/jekyll-assets
+#
+#assets:
+
+#  dirname: assets
+#  baseurl: /assets/
+#  sources:
+#    - _assets/javascripts
+#    - _assets/stylesheets
+#    - _assets/images
+#    - _assets/fonts
+#  js_compressor: uglifier
+#  css_compressor: sass
+#  cachebust: hard
+#  cache: false
+#  gzip: [ text/css, application/javascript ]
+#  debug: false
+
+#
+# Collections
+#
+collections:
+  prizes:
+    output: true
+  faq:
+    output: true
+  volunteers:
+    output: true
+
+plugins:
+  - jekyll-paginate
+  - kramdown

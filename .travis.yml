@@ -1,0 +1,17 @@
+language: ruby
+rvm:
+- 2.7.2
+install:
+- bundle install
+script: bundle exec jekyll build
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  keep_history: true
+  on:
+  branch: master
+env:
+  global:
+  - secure: jT6Gfa1xYEQ1aBEC8qe6Uizkvz+9hy2Go1YvaGrVKy9vP0ej+l5g17G743gmrOxliM6Lt99ghMZP8VoDW7xiTwcQDSdU9wV2GWf36anyLbyUHs60snlraHnjs66KhFOEkVAmN5u5b3BoaC2BW9sXO0h3Y/1fEQKMcrGHCyL5h+c=
+  - secure: SVhfOntgc1533dXhcUJf/BRkm7Qe74Bx5XoRt5K4TYqbHV2ggVdGuEF9ArA2QlAnmIfyEx27DELopqW3l3DbookapMpfVSL1I+PknFP6zJe9n3s30DvRbtA74XQuIjiYk7rz9n0LiF4I0C3NOVESIBeSvDZGlDM46pArinyWIsQ=

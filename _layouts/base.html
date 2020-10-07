@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--
+
+ /$$      /$$           /$$                                                   /$$$$$$$$       
+| $$  /$ | $$          | $$                                                  |__  $$__/       
+| $$ /$$$| $$  /$$$$$$ | $$  /$$$$$$$  /$$$$$$  /$$$$$$/$$$$   /$$$$$$          | $$  /$$$$$$ 
+| $$/$$ $$ $$ /$$__  $$| $$ /$$_____/ /$$__  $$| $$_  $$_  $$ /$$__  $$         | $$ /$$__  $$
+| $$$$_  $$$$| $$$$$$$$| $$| $$      | $$  \ $$| $$ \ $$ \ $$| $$$$$$$$         | $$| $$  \ $$
+| $$$/ \  $$$| $$_____/| $$| $$      | $$  | $$| $$ | $$ | $$| $$_____/         | $$| $$  | $$
+| $$/   \  $$|  $$$$$$$| $$|  $$$$$$$|  $$$$$$/| $$ | $$ | $$|  $$$$$$$         | $$|  $$$$$$/
+|__/     \__/ \_______/|__/ \_______/ \______/ |__/ |__/ |__/ \_______/         |__/ \______/ 
+                                                                                              
+                                                                                              
+                                                                                              
+ /$$                 /$$       /$$   /$$                     /$$                              
+| $$                | $$      | $$  | $$                    | $$                              
+| $$        /$$$$$$ | $$$$$$$ | $$  | $$  /$$$$$$   /$$$$$$$| $$   /$$                        
+| $$       |____  $$| $$__  $$| $$$$$$$$ |____  $$ /$$_____/| $$  /$$/                        
+| $$        /$$$$$$$| $$  \ $$| $$__  $$  /$$$$$$$| $$      | $$$$$$/                         
+| $$       /$$__  $$| $$  | $$| $$  | $$ /$$__  $$| $$      | $$_  $$                         
+| $$$$$$$$|  $$$$$$$| $$$$$$$/| $$  | $$|  $$$$$$$|  $$$$$$$| $$ \  $$                        
+|________/ \_______/|_______/ |__/  |__/ \_______/ \_______/|__/  \__/                        
+                                                                                              
+ 
+ -->
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% if page.title %}{{ page.title }} &mdash; {{ site.inc.title }}{% else %}{{ site.inc.title }} &mdash; {{ site.inc.subtitle }}{% endif %}</title>
+    {% if site.inc.google_font %}<link href="https://fonts.googleapis.com/css?family={{ site.inc.google_font }}" rel="stylesheet" type="text/css">{% endif %}
+    <link href="/assets/font-awesome.css" rel="stylesheet" type="text/css">
+    <link href="/assets/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="/assets/main.css" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="/images/{{ site.inc.logo }}"/>
+    <link href="{{ site_url }}/feed.xml" rel="alternate" type="application/rss+xml" title="{{ site.inc.title }}" />
+    <meta name="title" content="{% if page.title %}{{ page.title }} {% else %}{{ site.inc.title }}{% endif %}">
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+    {% if page.site.gplus %}<link rel="publisher" href="https://plus.google.com/{{ site.inc.gplus }}">{% endif %} 
+    {% if page.author.gplus %}<link rel="author" href="https://plus.google.com/{{ page.author.gplus }}">{% endif %}       
+    <meta property="og:title" content="{% if page.title %}{{ page.title }} {% else %}{{ site.inc.title }}{% endif %}"/>
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}"/>
+    {% if page.cover_image %}
+    <meta property="og:image" content="{{ site.url }}/images/{{ page.cover_image }}"/>
+    {% if page.main_image %}
+    <meta property="og:image" content="{{ site.url }}/images/{{ page.main_image }}"/>  
+    {% endif %}
+    <meta property="og:image" content="{{ site.url }}/images/{{ site.inc.logo }}"/>   
+    {% endif %}
+    <meta property="og:site_name" content="{{ site.inc.title }}">     
+</head>
+<body>
+    <header>
+<nav id="navigation" class="navbar flush navbar-default" role="navigation">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-top">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="/" style="font-size: 2em;">LabHack <i class="fa fa-fighter-jet" style="vertical-align: middle;"></i></a>
+    </div>
+    <div class="collapse navbar-collapse" id="navbar-collapse-top">
+
+        <ul class="nav navbar-nav">
+            <li><a href="/prizes">Challenges</a>
+            </li>
+            <li><a href="/schedule">Schedule</a>
+            </li>
+
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Tools <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="http://suncoast.io/">Event Slack</a></li>
+            <li><a href="http://www.github.com/labhack">Github</a></li>
+            <li><a href="http://opendayton.org">Dayton Community Slack</a></li>
+          </ul>
+        </li>
+
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="/about">Map, Hotels, Restaurants</a>
+            </li>
+            <li><a href="/faq">FAQ</a>
+            </li>
+            <li><a href="/blog">Blog</a>
+            </li>
+            <li class="divider"></li>
+            <li><a href="/contact">Contact Us</a></li>
+          </ul>
+        </li>
+
+
+
+
+            <li><a href="/faq/what_is_a_hackathon.html">What is a Hackathon?</a>
+            </li>
+
+
+        </ul>
+    </div>
+</nav>
+
+{% if false %}
+<div id="social-box">
+    <ul>
+        <li class="phone"><a href="tel://937-985-0867"><i class="fa fa-phone"></i> <span>937-985-0867</span></a>
+        </li>
+
+        <li class="email"><a href="/contact"><i class="fa fa-envelope"></i></a>
+        </li>
+
+        <li class="search">
+            <a href="#"><i class="fa fa-search"></i></a>
+            <form action="http://labhack.org/">
+                <input type="text" name="s">
+            </form>
+        </li>
+
+    </ul>
+
+</div> {% endif %}
+
+<div class="visible-lg">
+    <a href="https://github.com/codefordayton/labhack">
+        <img style="position: absolute; top: 0; right: 0; border: 0; width: 120px; height: 120px; z-index: 10;" src="/assets/github_ribbon.png" alt="Fork me on GitHub">
+    </a>
+</div>
+
+    </header>
+
+{{ content }}
+
+<footer >
+    <nav class="navbar navbar-inverse" role="navigation">
+        <div class="container">
+            <div class="navbar-left">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="{{ site.inc.url }}">&copy; {{ site.time | date: "%Y" }} {{ site.inc.company }}</a></li>
+                    <li><a href="/contact">Contact Us</a>
+                    </li>
+                    <li><a href="/donate"><i class="fa fa-heart" style="color: red;"></i> Donate</a>
+                a></li>
+                </ul>
+            </div>
+            <div class="navbar-right">
+                <ul class="nav navbar-nav">
+                    {% if site.inc.twitter %}
+                    <li>
+                        <a href="https://twitter.com/{{ site.inc.twitter }}" title="Follow on Twitter" target="_blank"><i class="fa fa-twitter black"></i></a>
+                    </li>
+                    {% endif %} {% if site.inc.facebook %}
+                    <li>
+                        <a href="http://facebook.com/{{ site.inc.facebook }}" title="Follow on Facebook" target="_blank"><i class="fa fa-facebook black"></i></a>
+                    </li>
+                    {% endif %}
+                    <li>
+                        <a href="/feed.xml" title="RSS Feed">
+                            <i class="fa fa-rss black"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</footer>
+
+{% include _scripts.html %}
+
+</body>
+</html>
