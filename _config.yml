@@ -63,7 +63,7 @@ exclude:
 # repo defaults to USERNAME.github.io
 # Branch defaults to "source" for USERNAME.github.io
 # or "master" otherwise
-username: codefordayton
+username: Wright-Brothers-Institute
 repo: labhack 
 branch: master 
 
