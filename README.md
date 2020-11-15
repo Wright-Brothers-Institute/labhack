@@ -1,4 +1,4 @@
-[![labhack build status](https://travis-ci.org/codefordayton/labhack.svg)](https://travis-ci.org/codefordayton/labhack)
+[![labhack build status](https://travis-ci.org/Wright-Brothers-Institute/labhack.svg)](https://travis-ci.org/Wright-Brothers-Institute/labhack)
 
 # Air Force Hackathon Website
 LabHack, the Air Force Hackathon main website. This is a Jekyll-based website hosted as static files on Github.
