@@ -35,9 +35,7 @@ inc:
     google: true # Add tracking code in _includes/_google-analytics.html
 
 
-  # Google Fonts
-  # eg. 'Droid+Sans:400,700|Droid+Serif:400,700'
-  google_font: 'Droid+Sans:400,700'
+  include_nav: false
 
   # Setup your fonts, colors etc at _assets/stylesheets/main.scss
 
