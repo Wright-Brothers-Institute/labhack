@@ -1,29 +1,5 @@
 <script type="text/javascript" src="/assets/jquery-1.11.1.min.js" />
 <script type="text/javascript" src="/assets/main.js" />
-{% if site.inc.sharing.twitter %}<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>{% endif %}
-{% if site.inc.sharing.facebook %}<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=253595308025739";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>{% endif %}
-{% if site.inc.sharing.gplus %}<script type="text/javascript">
-  (function() {
-    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-    po.src = 'https://apis.google.com/js/plusone.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-  })();
-</script>{% endif %}
-{% if site.inc.sharing.hn %}<script>
-    (function(d, t) {
-        var g = d.createElement(t),
-            s = d.getElementsByTagName(t)[0];
-        g.src = '//hnbutton.appspot.com/static/hn.min.js';
-        s.parentNode.insertBefore(g, s);
-    }(document, 'script'));
-</script>{% endif %}
 {% if site.inc.analytics.google %}
   {% include _google-analytics.html %}
 {% endif %}
@@ -42,46 +18,8 @@
 </script>
 {% endif %}
 
-{% if page.is_front %}
-<script type="text/javascript" src="/assets/timecircles.js" />
-<script type="text/javascript">
-$('.countdown').TimeCircles({circle_bg_color: "#FFFFFF", fg_width: 0.1, time: {
-    Days: { color: "#7D83B0" },
-    Hours: { color: "#535A92" },
-    Minutes: { color: "#182058" },
-    Seconds: { color: "#080E3B" }
-}});
-</script>
-
-{% endif %}
-
 <script src="/assets/bootstrap/transition.js"></script>
 <script src="/assets/bootstrap/collapse.js"></script>
 <script src="/assets/bootstrap/modal.js"></script>
 <script src="/assets/bootstrap/dropdown.js"></script>
-
-{% if page.is_front %}
-<script>
-(function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s);
-    js.id = id;
-    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=367387766748148&version=v2.0";
-    fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));
-</script>
-
-<script>
-! function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0],
-        p = /^http:/.test(d.location) ? 'http' : 'https';
-    if (!d.getElementById(id)) {
-        js = d.createElement(s);
-        js.id = id;
-        js.src = p + "://platform.twitter.com/widgets.js";
-        fjs.parentNode.insertBefore(js, fjs);
-    }
-}(document, "script", "twitter-wjs");
-</script>
-{% endif %}
+<script src="https://cdn.jsdelivr.net/gh/Wruczek/Bootstrap-Cookie-Alert@gh-pages/cookiealert.js"></script>
