@@ -144,6 +144,10 @@ footer .navbar li {
   font-size: 10pt;
 }
 
+footer .navbar li>a {
+  display: inline;
+}
+
 header .navbar-nav a{
   color: #fff;
   text-transform: uppercase;
