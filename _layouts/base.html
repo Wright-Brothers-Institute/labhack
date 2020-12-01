@@ -51,7 +51,7 @@
 </head>
 <body>
     <header>
-    {% if inc.include_nav %}
+   
         <nav id="navigation" class="navbar" role="navigation">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-top">
@@ -63,15 +63,21 @@
             </div>
             <div class="collapse navbar-collapse" id="navbar-collapse-top">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="/prizes">Challenge Info</a></li>
-                    <li><a href="/prizes">Mass Info</a></li>
-                    <li><a href="/schedule">Schedule</a>
+
+                    <!-- Commenting out the rest of the navigation bar
                     <li><a href="/sponsors">Sponsors</a></li>
+                    <li><a href="/prizes">Mass Info</a></li>
+                    <li class="active"><a href="/prizes">Challenge Info</a></li>
                     <li><a href="/prizes">About the Series</a></li>
+                    -->
+
+                    <li class="active"><a href="/index">Home</a></li>
+                    <li><a href="/schedule">Schedule</a>
+                    <li><a href="assets\One Pager.pdf">About</a></li>
                 </ul>
             </div>
         </nav>
-    {% endif %}
+
     </header>
 
 {{ content }}

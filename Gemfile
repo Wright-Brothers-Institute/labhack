@@ -7,3 +7,4 @@ gem 'sass'
 gem 'uglifier'
 gem 'github-pages', '~> 209'
 gem 'kramdown'
+gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
