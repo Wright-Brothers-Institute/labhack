@@ -35,7 +35,7 @@ inc:
     google: true # Add tracking code in _includes/_google-analytics.html
 
 
-  include_nav: false
+  include_nav: true
 
   # Setup your fonts, colors etc at _assets/stylesheets/main.scss
 
@@ -69,7 +69,7 @@ branch: master
 
 relative_source: ../labhack/
 
-timezone:    nil
+timezone:    America/New_York
 
 # Show future posts
 future:      false
