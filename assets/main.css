@@ -174,6 +174,11 @@ footer .navbar li>a {
   width: 33%;
 }
 
+.navbar-toggle .icon-bar {
+  border-style: solid;
+  border-width: thin;
+}
+
 
 @media (min-width: 1700px) {
   .background_image {
@@ -456,16 +461,5 @@ footer .navbar li>a {
   .logos img.last {
     padding-right: 1em;
   }
-
-  .navbar-nav ul li a {
-    font-size: 3pt;
-    color: #fff;
-    background-color: #fff;
-  }
-  header .navbar-nav a{
-    font-size: 3pt;
-    background-color: #fff;
-    color: #fff;
-  } 
 }
 
