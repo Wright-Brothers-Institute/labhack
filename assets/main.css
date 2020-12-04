@@ -17,7 +17,7 @@ header {
   height: 3em;
 }
 
-header .navbar-nav{
+.navbar-nav{
   float:none;
   margin: 0 auto;
   display: table;
@@ -148,7 +148,7 @@ footer .navbar li>a {
   display: inline;
 }
 
-header .navbar-nav a{
+.navbar-nav a{
   color: #fff;
   text-transform: uppercase;
   font-size: 11pt;
@@ -156,7 +156,15 @@ header .navbar-nav a{
   padding-right: 3em;
 }
 
-header ul li.active:after {
+.navbar ul li a:hover {
+  color: #fff;
+  font-weight:bold;
+  background-color: #000;
+  border-bottom: 1px solid #fff;
+  bottom: 0;
+}
+
+ ul li.active:after {
   border-bottom: 1px solid #fff;
   bottom: 0;
   left: 33%;
@@ -166,9 +174,6 @@ header ul li.active:after {
   width: 33%;
 }
 
-header ul li:hover {
-  background-color: #000;
-}
 
 @media (min-width: 1700px) {
   .background_image {
@@ -451,4 +456,16 @@ header ul li:hover {
   .logos img.last {
     padding-right: 1em;
   }
+
+  .navbar-nav ul li a {
+    font-size: 3pt;
+    color: #fff;
+    background-color: #fff;
+  }
+  header .navbar-nav a{
+    font-size: 3pt;
+    background-color: #fff;
+    color: #fff;
+  } 
 }
+
