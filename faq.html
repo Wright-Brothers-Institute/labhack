@@ -8,7 +8,7 @@ layout: base
         </div>
     <div class="panel-group" id="accordion">
     {% for faq in site.data.faq %}
-        <div class="panel panel-info">
+        <div class="panel panel-info"> 
             <div class="panel-heading"><a data-toggle="collapse" data-parent="#accordion" 
            href="#collapse{{ uid }}">{{faq.question}}</a></div>
             <div id="collapse{{ uid }}" class="panel-body panel-collapse collapse">
