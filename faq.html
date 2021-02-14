@@ -1,6 +1,36 @@
 ---
 layout: base
 ---
+
+    <div class="leftbar">
+        <div class="page-header text-center">
+            <h1>Frequently Asked Questions</h1>
+        </div>
+
+        {% for faq in site.data.faq %}
+        <div class="faq__content">
+            <div class="panel-heading"><a data-toggle="collapse" data-parent="#accordion" 
+                    href="#collapse{{ uid }}">{{faq.question}}</a></div>
+            <div id="collapse{{ uid }}" class="panel-body panel-collapse collapse">
+                {{ faq.answer | markdownify }}
+            </div>
+        </div>
+        {% capture uid %}{% increment uid %}{% endcapture %}
+        {% endfor %}
+
+        {% for faq in site.faq %}
+        <div class="faq__content">
+            <div class="panel-heading"><a data-toggle="collapse" data-parent="#accordion"
+                    href="#collapse{{ uid }}">{{faq.question}}</a></div>
+            <div id="collapse{{ uid }}" class="panel-body panel-collapse collapse">
+                {{ faq.content | markdownify }}
+            </div>
+        </div>
+        {% capture uid %}{% increment uid %}{% endcapture %}
+        {% endfor %}
+    </div>
+
+<!--
 <article id="faq">
     <div class="container">
         <div class="page-header text-center">
@@ -33,4 +63,4 @@ layout: base
         {% endif %}
 </div>
 </article>
-
+-->
