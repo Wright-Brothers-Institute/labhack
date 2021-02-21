@@ -1,36 +1,40 @@
 ---
 layout: base
 ---
+
 <article id="faq">
     <div class="container">
         <div class="page-header text-center">
             <h1>Frequently Asked Questions</h1>
         </div>
-    <div class="panel-group" id="accordion">
-    {% for faq in site.data.faq %}
-        <div class="panel panel-info"> 
-            <div class="panel-heading"><a data-toggle="collapse" data-parent="#accordion" 
-           href="#collapse{{ uid }}">{{faq.question}}</a></div>
-            <div id="collapse{{ uid }}" class="panel-body panel-collapse collapse">
-                {{ faq.answer | markdownify }}
-            </div>
-        </div>
-        {% capture uid %}{% increment uid %}{% endcapture %}
-    {% endfor %}
-    {% for faq in site.faq %}
-        <div class="panel panel-info">
-            <div class="panel-heading"><a data-toggle="collapse" data-parent="#accordion" 
-           href="#collapse{{ uid }}">{{faq.question}}</a></div>
-            <div id="collapse{{ uid }}" class="panel-body panel-collapse collapse">
-                {{ faq.content | markdownify }}
-            </div>
-        </div>
-        {% capture uid %}{% increment uid %}{% endcapture %}
-    {% endfor %}
-</div>
-        {% if site.inc.disqus.shortname %}
-            {% include _disqus.html %}
-        {% endif %}
-</div>
-</article>
+    </div>
+    <div class="leftbar">
+        <h1 class="pagetitle">Participation Questions</h1>
 
+        <p>Q: Who can participate in this competition?</p>
+        <p>A: the SSAI-Capture the Flag is open to any individual or group.  There is no limit on the size of the group but each group must have a single leader that is a resident of the US or UK that is the official entry point for the group and is responsible for the groups participation. </p>
+        <p></p>
+
+        <p>Q: Why do we need to declare what “League” we are in?</p>
+        <p>A: the SSAI-Capture the Flag competition is set up so that the top teams in each league (US Vrs UK) will participate in a showdown in early Summer 2021.  The top 16 teams in each league will face a single elimination playoff to define a “League” winner.   This showdown will occur hopefully in joint sessions held in the US and UK at a live-virtual event to be scheduled. These winners will then compete in the first “AI Superbowl” to determine the final SSAI-Capture the Flag winner.</p>
+        <p></p>
+
+        <p>Q: Can companies participate in the challenge?</p>
+        <p>A: Yes! Companies are encouraged to participate.  Although winning this competition is not a guarantee of a follow-on contract, the US and UK military are very interested in AI capabilities and will have representatives at the showdown to talk to the winning teams.</p>
+        <p></p>
+
+        <p>Q: How do I officially enter this competition?</p>
+        <p>A: Teams can register for information and submit questions to the steering committee through this Landing page.   You can enter your team as soon as the launch date is announced on this landing page.  This will include a link to the onboarding tool where the team leader will declare their League and be given access to the competition platform and onboarding instructions.</p>
+        <p></p>
+
+        <h1 class="pagetitle">Purpose of Hackathon</h1>
+
+        <p>Q: Is this SSAI intended to be a single competition?</p>
+        <p>A: the SSAI is intended to be a series of competitions that help to answer various aspects of Artificial Intelligence capability.  This Capture the Flag competition is the second of a series and is intended to find out how AI systems with multiple agents interact with other AI systems to accomplish a single task. </p>
+        <p></p>
+
+        <p>Q: What will the next competitions be focused on?</p>
+        <p>A: We have not specified what the future focus will be but seek inputs from the participants for future challenges.  We will be looking for the most challenging part of the competition for future challenges.</p>
+
+
+    </div>
