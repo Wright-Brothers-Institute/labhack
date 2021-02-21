@@ -115,6 +115,7 @@ header {
 
 .logos {
   margin-left: 13em;
+  display: inline-block;	
 }
 
 .logos img {
