@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 [{
 "question": "Can high school students attend???",
 "answer":"See <a href=\"../prizes/highschool/\">High School Team Challenge</a>. High School students will only be able to attend the presentation and award ceremonies on Sunday."
@@ -39,4 +40,31 @@
 	"question":"What kinds of connectors and gear do we need for presentations"
 	,"answer":"There are VGA and HDMI cables as well as standard 3.5mm audio mini jacks for the A/V system. Plan on bringing your own adapters (e.g. for macbook)."
 }
+=======
+[
+	{
+		"question": "Who can participate in this competition?",
+		"answer": "The SSAI-Capture the Flag is open to any individual or group. There is no limit on the size of the group but each group must have a single leader that is a resident of the US or UK that is the official entry point for the group and is responsible for the groups participation."
+	},
+	{
+		"question": "Why do we need to declare what “League” we are in?",
+		"answer": "The SSAI-Capture the Flag competition is set up so that the top teams in each league (US Vrs UK) will participate in a showdown in early Summer 2021.  The top 16 teams in each league will face a single elimination playoff to define a “League” winner.   This showdown will occur hopefully in joint sessions held in the US and UK at a live-virtual event to be scheduled. These winners will then compete in the first “AI Superbowl” to determine the final SSAI-Capture the Flag winner."
+	},
+	{
+		"question": "Can companies participate in the challenge?",
+		"answer": "Yes!  Companies are encouraged to participate.  Although winning this competition is not a guarantee of a follow-on contract, the US and UK military are very interested in AI capabilities and will have representatives at the showdown to talk to the winning teams."
+	},
+	{
+		"question": "How do I officially enter this competition?",
+		"answer": "Teams can register for information and submit questions to the steering committee through this Landing page.   You can enter your team as soon as the launch date is announced on this landing page.  This will include a link to the onboarding tool where the team leader will declare their leader and League and be given access to the competition platform and onboarding instructions."
+	},
+	{
+		"question": "Is this SSAI intended to be a single competition?",
+		"answer": "The SSAI is intended to be a series of competitions that help to answer various aspects of Artificial Intelligence capability. This Capture the Flag competition is the second of a series and is intended to find out how AI systems with multiple agents interact with other AI systems to accomplish a single task."
+	},
+	{
+		"question": "What will the next competitions be focused on?",
+		"answer": "We have not specified what the future focus will be but seek inputs from the participants for future challenges.  We will be looking for the most challenging part of the competition for future challenges."
+	}
+>>>>>>> Stashed changes
 ]
